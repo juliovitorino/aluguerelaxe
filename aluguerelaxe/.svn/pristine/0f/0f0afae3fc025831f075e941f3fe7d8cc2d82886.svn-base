@@ -1,0 +1,17 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgPromocao
+DESCRIPTION datagrama da promocao
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME promocao.dgf
+HTMLERROR /html/errodefault.html
+HOMEPAGE DEFAULT /html/hpDefaultPromocao.html
+DATAGRAM TYPE SAMPLE
+

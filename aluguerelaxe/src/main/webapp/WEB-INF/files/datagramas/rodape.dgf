@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgRodape
+DESCRIPTION datagrama de menu de 5 itens pagina principal
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME rodape.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/rodape.html
+HOMEPAGE DEFAULT /html/hpinclude.html
+DATAGRAM TYPE SAMPLE
+

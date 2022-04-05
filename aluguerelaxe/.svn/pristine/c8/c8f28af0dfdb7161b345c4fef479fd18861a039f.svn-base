@@ -1,0 +1,27 @@
+<div id="navbar" class="clearfloat">
+
+<ul id="page-bar" class="left clearfloat">
+
+<li><a href="/arweb/">Inicio</a></li>
+<!-- 
+<li class="page_item page-item-1960"><a href="/arweb/JXControllerSmartInterface?cmd=dtgMissao" title="Conhe&ccedil;a nossa miss&atilde;o">Miss&Atilde;o</a></li>
+ -->
+<li class="page_item page-item-1962"><a href="/arweb/JXControllerSmartInterface?cmd=dtgTermoUso" title="Termos">Termos de Uso</a></li>
+<li class="page_item page-item-1966"><a href="/arweb/JXControllerSmartInterface?cmd=dtgDepoimento" title="Envie-nos seu depoimento">Depoimento</a></li>
+<li class="page_item page-item-1967"><a href="/arweb/JXControllerSmartInterface?cmd=dtgFaleConosco" title="Contato">Contato</a></li>
+<li class="page_item page-item-1980"><a href="/arweb/JXControllerSmartInterface?cmd=dtgLogin" title="Acesso ao Console Administrativo">Login</a></li>
+<li class="page_item page-item-1980"><a href="/arweb/JXControllerSmartInterface?cmd=dtgPlanos" title="Veja nossos planos">Planos</a></li>
+<li class="page_item page-item-1980"><a href="/arweb/JXControllerSmartInterface?cmd=dtgReservas" title="Acesso a Central de Reservas">Reservas</a></li>
+<li class="page_item page-item-1980"><a href="/arweb/JXControllerSmartInterface?cmd=dtgPromocao" title="Promo&ccedil;&atilde;o AlugueRelaxe">Promo&ccedil;&atilde;o</a></li>
+</ul>
+
+<form method="get" id="searchform" action="/arweb/JXControllerSmartInterface">
+	<div>
+		<img src="/arweb/images/16x16/home.png" style="border:none;width:15px;height:14px;"/>
+		<input type="hidden" value="dtgFichaImovel" name="cmd" style="width:25px;" />
+		<input type="text" value="" name="id" style="width:50px;" />
+		<input type="hidden" value="LD" name="o" style="width:25px;" />
+	</div>
+</form>
+
+</div>

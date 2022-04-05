@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+
+
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+	${SECAO_HEAD}
+
+    <title>AlugueRelaxe::${TITULO_ANUNCIO}</title>
+</head>
+
+<body class="home page page-template">
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=587882287899883";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+${PROPERTA_HEADER_TOP}
+
+<div id="content" class="clearfix">
+<!-- /.map-wrapper -->
+<div class="container">
+<div class="row">
+
+<div id="main" class="span9 single-property">
+
+<h1 class="page-header fl">${TITULO_ANUNCIO}</h1><br>
+<span>${CIDADE}</span>
+
+<div class="property-detail">
+
+<div class="row">
+    <div class="span6 gallery">
+        <div class="preview">
+        <!-- 
+            <img src="${FOTO_PREVIEW}" alt="">
+        -->
+        	${FOTOS_CAROUSEL}
+        </div>
+        
+        <div class="content">
+			<!-- facebook like button -->
+	        <div class="fb-like" data-href="${LINK_IMOVEL}" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
+		</div>
+<!-- 		
+        <div class="content">
+            <ul>
+				${FOTOS_ITEM}
+            </ul>
+        </div>
+-->        
+        <!-- /.content -->
+    </div>
+
+    <div class="overview">
+        <div class="pull-right overview">
+            <div class="row">
+                <div class="span3">
+                    <!-- <h2>Overview</h2> -->
+
+                    <table>
+                        <tbody>
+                        <tr>
+                            <th>Di&aacute;ria a partir de:</th>
+                            <td class="price">
+                                ${VALOR_DIARIA}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>ID:</th>
+                            <td><strong>#${ID_IMOVEL}</strong></td>
+                        </tr>
+
+                        <tr>
+                            <th>Tipo de contrato:</th>
+                            <td>
+                        <span class="contract-type">
+                                                            Temporada
+                                                    </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Tipo:</th>
+                            <td>${PROPERTA_TIPOS}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Local:</th>
+                            <td>${CIDADE} - ${UF}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Quartos:</th>
+                            <td>${QUARTOS}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Banheiros:</th>
+                            <td>${BANHEIROS}</td>
+                        </tr>
+                        <tr>
+                            <th>Suites:</th>
+                            <td>${SUITES}</td>
+                        </tr>
+                        <tr>
+                            <th>Capacidade:</th>
+                            <td>At&eacute; ${CAPACIDADE_MAX} pessoa(s)</td>
+                        </tr>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <td>
+								<!-- facebook share button -->
+                            	<div class="fb-share-button" data-href="${LINK_IMOVEL}" data-type="button_count"></div>
+							</td>
+                        </tr>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <td>
+
+								<!-- Posicione esta tag onde você deseja que o botão +1 apareça. -->
+								<div class="g-plusone"></div>
+								
+								<!-- Posicione esta tag depois da última tag do botão +1. -->
+								<script type="text/javascript">
+								  window.___gcfg = {lang: 'pt-BR'};
+								
+								  (function() {
+								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+								    po.src = 'https://apis.google.com/js/platform.js';
+								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+								  })();
+								</script>
+							</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.span2 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.overview -->        </div>
+</div>
+
+<h2>Sobre a propriedade</h2>
+
+<p>${DESCRICAO_GERAL_IMOVEL}</p>
+
+<h2>Sobre os arredores</h2>
+
+<p>${DESC_ARREDORES}</p>
+
+<h2>Sobre os quartos</h2>
+
+<p>${DESCRICAO_QUARTOS}</p>
+
+<h2>Observa&ccedil;&otilde;es gerais</h2>
+
+<p>${OBSERVACAO}</p>
+
+<h2>Tabela de pre&ccedil;os</h2>
+
+<!-- TESTE COM TABELA JCV -->
+ <div class="bs-example">
+    <div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading">Valores praticados at&eacute; o momento</div>
+
+      <!-- Table -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Per&iacute;odo</th>
+            <th>Validade</th>
+            <th>Di&aacute;ria</th>
+            <th>M&iacute;nimo de</th>
+		<!--
+            <th>Observa&ccedil;&atilde;o</th>
+		-->
+          </tr>
+        </thead>
+        <tbody>
+			<!-- Apresenta todos os itens da tabela de preco-->
+			${TABELA_PRECO}
+		</tbody>
+      </table>
+    </div>
+  </div>
+<!-- ./TESTE COM TABELA JCV -->
+
+<hr/>
+
+<hr/>
+
+<!-- MAPA JCV -->
+        <h2>Mapa</h2>
+
+        <div id="property-map"
+             style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0);">
+        </div>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                function LoadMapProperty() {
+                    var locations = new Array(
+                      [ ${LATITUDE}, ${LONGITUDE} ]
+                    );
+                    var types = new Array(
+                      'family-house'
+                    );
+                    var markers = new Array();
+                    var plainMarkers = new Array();
+
+                    var mapOptions = {
+                        center: new google.maps.LatLng(${LATITUDE}, ${LONGITUDE}),
+                        zoom: 14,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        scrollwheel: false
+                    };
+
+                    var map = new google.maps.Map(document.getElementById('property-map'), mapOptions);
+
+                    $.each(locations, function (index, location) {
+                        var marker = new google.maps.Marker({
+                            position: new google.maps.LatLng(location[0], location[1]),
+                            map: map,
+                            icon: '${URL_HOME_PROPERTA}assets/img/marker-transparent.png'
+                        });
+
+                        var myOptions = {
+                            draggable: true,
+                            content: '<div class="marker ' + types[index] + '"><div class="marker-inner"></div></div>',
+                            disableAutoPan: true,
+                            pixelOffset: new google.maps.Size(-21, -58),
+                            position: new google.maps.LatLng(location[0], location[1]),
+                            closeBoxURL: "",
+                            isHidden: false,
+                            // pane: "mapPane",
+                            enableEventPropagation: true
+                        };
+                        marker.marker = new InfoBox(myOptions);
+                        marker.marker.isHidden = false;
+                        marker.marker.open(map, marker);
+                        markers.push(marker);
+                    });
+
+                    google.maps.event.addListener(map, 'zoom_changed', function () {
+                        $.each(markers, function (index, marker) {
+                            marker.infobox.close();
+                        });
+                    });
+                }
+
+                google.maps.event.addDomListener(window, 'load', LoadMapProperty);
+
+                var dragFlag = false;
+                var start = 0, end = 0;
+
+                function thisTouchStart(e) {
+                    dragFlag = true;
+                    start = e.touches[0].pageY;
+                }
+
+                function thisTouchEnd() {
+                    dragFlag = false;
+                }
+
+                function thisTouchMove(e) {
+                    if (!dragFlag) return;
+                    end = e.touches[0].pageY;
+                    window.scrollBy(0, ( start - end ));
+                }
+
+                document.getElementById("property-map").addEventListener("touchstart", thisTouchStart, true);
+                document.getElementById("property-map").addEventListener("touchend", thisTouchEnd, true);
+                document.getElementById("property-map").addEventListener("touchmove", thisTouchMove, true);
+            });
+
+        </script>
+ 
+<!-- /#MAPA JCV -->
+
+<div class="row">
+    <div class="span8">
+		${CARACTERISTICAS}
+    </div>
+
+    <div class="span1">
+
+
+	</div>
+
+</div>
+</div>
+
+</div>
+
+
+<div class="sidebar span3">
+	<div id="agencies_widget-2" class="widget agencies">
+	
+	    <h2>Anfitri&atilde;o</h2>
+	
+	    <div class="content">
+	        <div class="agency clearfix">
+	            <div class="header">
+	                <div class="image">
+	                    <a href="#">
+	                    
+	                        <img src="${URL_FOTO_CLIENTE}" alt="${NOME_CLIENTE}">
+	                        <!-- 
+	                        <img src="${URL_HOME_PROPERTA}assets/img/agency-small-tmp.png" alt="Beverly Hills Real Estate">
+	                         -->
+	                    </a>
+	                </div>
+	                <!-- /.image -->
+	
+	                <div class="info">
+	                    <h2>${NOME_CLIENTE}</h2>
+	
+	                    <div class="properties-count">
+	                        <span class="number">${NUMERO_PROPRIEDADES}</span> propriedades
+	                    </div>
+	                    <!-- /.properties-count -->
+	
+	                    <a href="${URL_PROPRIEDADES_CLIENTE}" class="btn">Ver todas</a>
+	                </div>
+	                <!-- /.info -->
+	            </div>
+	            <!-- /.header -->
+	
+	            <!--
+	            <div class="email">
+	                <a href="mailto:sample@example.com">sample@example.com</a>
+	            </div>
+				/.email -->
+	
+				${TELEFONES_CONTATO}
+
+                ${TAXA_RESPOSTA}
+				
+				${MEMBRO_VERIFICADO}
+
+	            <div class="calendarday">
+	                Membro desde ${DATA_CADASTRO}
+	            </div>
+	            <!-- /.calendarday -->
+
+	            <div class="address">
+	                ${ENDERECO_IMOVEL}
+	            </div>
+	            <!-- /.address -->
+	
+
+			</div>
+	        <!-- /.agency -->
+
+	    </div>
+	    <!-- /.content -->
+
+
+		<!-- JCV -->
+		<div id="enquireproperties_widget-2" class="widget enquire">
+
+			<h2>Entrar em contato</h2>
+
+			<div class="content">
+				<form method="post" action="javascript:void(0);">
+					<div class="control-group">
+						<label class="control-label" for="inputName">
+							Nome
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<input type="text" id="inputName" name="name" required="required">
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputEmail">
+							Email
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<input type="text" id="inputEmail" name="email" required="required">
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputPhone">
+							Telefone
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<input type="text" id="inputPhone" name="phone" required="required">
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputuf">
+							UF
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<select name="uf" id="inputuf">
+								<option value="--">Selecione</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amap&aacute;</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Cear&aacute;</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Esp&iacute;rito Santo</option>
+								<option value="GO">Goi&aacute;s</option>
+								<option value="MA">Maranh&atilde;o</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Par&aacute;</option>
+								<option value="PB">Para&iacute;ba</option>
+								<option value="PR">Paran&aacute;</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piau&iacute;</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RO">Rond&ocirc;nia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">S&atilde;o Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select>
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputcidade">
+							Cidade
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<select name="cidade" id="inputcidade">
+								<option value="--">Selecione</option>
+								<option value="7868">Rio de Janeiro</option>
+								<option value="8585">Volta Redonda</option>
+								<option value="RO">...</option>
+							</select>
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+
+					<div class="control-group">
+						<label class="control-label" for="inputDateCheckin">
+							Chegada
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<input type="date" id="inputDateCheckin" name="datecheckin" required="required">
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputDateCheckout">
+							Sa&iacute;da
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<input type="date" id="inputDateCheckout" name="datecheckout" required="required">
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputNumAdultos">
+							Qtde. Adultos
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<input type="number" id="inputNumAdultos" name="numadultos" required="required">
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputNumCrianca">
+							Qtde. Crian&ccedil;as
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<input type="number" id="inputNumCrianca" name="numcriancas" required="required">
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputmkt">
+							Como nos conheceu?
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<select name="mkt" id="inputmkt">
+								${MKT_LISTA_OPCOES}
+								<option value="bota">Radio</option>
+								<option value="fla">TV Globo</option>
+								<option value="flu">Banner</option>
+								<option value="${MKT_ID}">${MKT_DESCRICAO}</option>
+							</select>
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="control-group">
+						<label class="control-label" for="inputMessage">
+							Qual &eacute; sua d&uacute;vida?
+							<span class="form-required" title="This field is required.">*</span>
+						</label>
+
+						<div class="controls">
+							<textarea id="inputMessage" name="message" required="required"></textarea>
+						</div>
+						<!-- /.controls -->
+					</div><!-- /.control-group -->
+
+					<div class="form-actions">
+						<input type="hidden" name="post_id" value="358">
+						<button class="btn btn-primary arrow-right">Enviar</button>
+					</div>
+					<!-- /.form-actions -->
+				</form>
+			</div><!-- /.content -->
+
+		</div>    
+		<!-- JCV -->
+	
+		
+	
+		<h2>Search Properties</h2>
+
+		<div class="property-filter widget">
+			<div class="content">
+				<form method="get" action="javascript:void(0);">
+					<div class="location control-group">
+						<label class="control-label">
+							Location
+						</label>
+
+						<div class="controls">
+							<select name="filter_location">
+								<option>-</option>
+								<option>Barney Circle</option>
+								<option>Benning</option>
+								<option>Benning Heights</option>
+								<option>Benning Ridge</option>
+								<option>Burrville</option>
+								<option>Capitol Hill</option>
+								<option>Capitol View</option>
+								<option>Central Northeast</option>
+								<option>Civic Betterment</option>
+								<option>Judiciary Square</option>
+								<option>Kingman Park</option>
+								<option>Navy Yard</option>
+								<option>Near Northeast</option>
+								<option>Spring Valley</option>
+								<option>Sursum Corda</option>
+								<option>Swampoodle</option>
+							</select>
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+					<div class="type control-group">
+						<label class="control-label">
+							Type
+						</label>
+
+						<div class="controls">
+							<select name="filter_type">
+								<option>-</option>
+								<option>Apartment</option>
+								<option>Building Area</option>
+								<option>Condo</option>
+								<option>Cottage</option>
+								<option>Family House</option>
+								<option>Single Home</option>
+								<option>Villa</option>
+							</select>
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+
+					<div class="rent control-group">
+						<div class="controls">
+							<label class="checkbox">
+								<input type="checkbox" value="rent"> Rent
+							</label>
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+					<div class="sale control-group">
+						<div class="controls">
+							<label class="checkbox">
+								<input type="checkbox" value="sale"> Sale
+							</label>
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+					<div class="price-from control-group">
+						<label class="control-label">
+							Price From
+						</label>
+
+						<div class="controls">
+							<select name="filter_price_from">
+								<option value="">-</option>
+								<option value="1000">1,000 €</option>
+								<option value="20000">20,000 €</option>
+								<option value="50000">50,000 €</option>
+								<option value="100000">100,000 €</option>
+							</select>
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+					<div class="price-to control-group">
+						<label class="control-label">
+							Price To
+						</label>
+
+						<div class="controls">
+							<select name="filter_price_to">
+								<option value="">-</option>
+								<option value="1000">1,000 €</option>
+								<option value="20000">20,000 €</option>
+								<option value="50000">50,000 €</option>
+								<option value="100000">100,000 €</option>
+							</select>
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+					<div class="area-from control-group">
+						<label class="control-label">
+							Area From
+						</label>
+
+						<div class="controls">
+							<input type="text" value="" name="filter_area_from">
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+					<div class="area-to control-group">
+						<label class="control-label">
+							Area To
+						</label>
+
+						<div class="controls">
+							<input type="text" value="" name="filter_area_to">
+						</div>
+						<!-- /.controls -->
+					</div>
+					<!-- /.control-group -->
+
+					<div class="form-actions">
+						<button class="btn btn-primary btn-large">Filter now!</button>
+					</div>
+					<!-- /.form-actions -->
+				</form>
+			</div>
+			<!-- /.content -->
+		</div><!-- /.property-filter -->  
+		
+		
+	
+	</div>
+
+</div>
+<!-- /#sidebar -->
+
+
+
+</div>
+
+</div>
+<!-- /#main -->
+
+</div>
+<!-- /.row -->
+</div>
+<!-- /.container -->
+
+</div>
+<!-- /#content -->
+
+${PROPERTA_FOOTER_WRAPPER}
+
+${PROPERTA_FOOTER_JAVASCRIPT}
+</body>
+</html>

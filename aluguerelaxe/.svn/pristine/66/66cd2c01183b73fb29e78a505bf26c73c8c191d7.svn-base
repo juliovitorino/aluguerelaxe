@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgLinksInteressantes
+DESCRIPTION datagrama de Links Interessantes
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME LinksInteressantes.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/linksInteressantes.html
+HOMEPAGE DEFAULT /html/hpinclude.html
+DATAGRAM TYPE SAMPLE
+

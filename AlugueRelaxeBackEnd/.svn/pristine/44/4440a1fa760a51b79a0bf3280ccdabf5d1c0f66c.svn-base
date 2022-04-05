@@ -1,0 +1,170 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>br.com.jcv</groupId>
+  <artifactId>AlugueRelaxeBackEnd</artifactId>
+  <version>3.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>AlugueRelaxeBackEnd</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <skipTests>true</skipTests>
+  </properties>
+  
+  <build>
+		<resources>  
+			<resource>
+				<filtering>false</filtering>
+				<directory>src/main/resource</directory>
+				<includes>
+					<include>hibernate-producao.cfg.xml</include>
+					<include>hibernate-hmg.cfg.xml</include>
+					<include>hibernate-prd.cfg.xml</include>
+					<include>hibernate-dsv.cfg.xml</include>
+					<include>hibernate-replicado.cfg.xml</include>
+					<include>log4j.properties</include>
+				</includes>
+			</resource>
+			<resource>
+				<filtering>false</filtering>
+				<targetPath>br/com/jcv/backend/mapeamento</targetPath>
+				<directory>src/main/java/br/com/jcv/backend/mapeamento</directory>
+				<includes>
+					<include>MensagemDTO.hbm.xml</include>
+					<include>VariavelDTO.hbm.xml</include>
+					<include>UFDTO.hbm.xml</include>
+					<include>CidadeDTO.hbm.xml</include>
+					<include>CaracteristicaDTO.hbm.xml</include>
+				</includes>
+			</resource>
+			<resource>
+				<filtering>false</filtering>
+				<targetPath>br/com/jcv/backend/utility</targetPath>
+				<directory>src/main/java/br/com/jcv/backend/utility</directory>
+				<includes>
+					<include>startup.xml</include>
+				</includes>
+			</resource>
+			
+		</resources>  
+
+		  <plugins>
+		      <plugin>
+		      
+		      <!-- This will allow you to run with tests disabled by default and to 
+		           run them with this command: mvn install -DskipTests=false -->
+		           
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-surefire-plugin</artifactId>
+		        <version>2.10</version>
+		        <configuration>
+		          <skipTests>${skipTests}</skipTests>
+		        </configuration>
+		      </plugin>
+		    </plugins>
+  </build>
+  
+ <!-- repositorio para C3p0 
+  <repositories>
+		<repository>
+			<id>JBoss repository</id>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+-->
+
+  <dependencies>
+	<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.15</version>
+    </dependency>  
+    <dependency>
+      <groupId>antlr</groupId>
+      <artifactId>antlr</artifactId>
+      <version>2.7.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-collection</artifactId>
+      <version>3.1</version>
+    </dependency>
+<!--     
+    <dependency>
+      <groupId>org</groupId>
+      <artifactId>hibernate</artifactId>
+      <version>3</version>
+    </dependency>
+ -->
+ 
+ <!-- novas dependencias para hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>3.6.3.Final</version>
+			<scope>compile</scope>
+		</dependency>
+ 
+		<!-- Hibernate c3p0 connection pool -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-c3p0</artifactId>
+			<version>3.6.3.Final</version>
+			<scope>compile</scope>
+		</dependency>
+		     
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+      <version>1.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+	<dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.5.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>slf4j</groupId>
+      <artifactId>slf4j-jdk14</artifactId>
+      <version>1.5.6</version>
+      <scope>compile</scope>
+    </dependency> 
+    <dependency>
+      <groupId>jaybird</groupId>
+      <artifactId>jaybird</artifactId>
+      <version>2.1.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javassist</groupId>
+      <artifactId>javassist</artifactId>
+      <version>3.4.GA</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.transaction</groupId>
+      <artifactId>jta</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+
+</project>

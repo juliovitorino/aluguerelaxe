@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgRegP1Ani
+DESCRIPTION datagrama regulamento promocao aniversario 1 ano
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME regulamento_p1ani.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/regp1ani.html
+HOMEPAGE DEFAULT /html/hpDefault.html
+DATAGRAM TYPE SAMPLE
+

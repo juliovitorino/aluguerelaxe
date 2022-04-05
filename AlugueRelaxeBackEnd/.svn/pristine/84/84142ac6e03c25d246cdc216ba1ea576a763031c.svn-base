@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mailing-list>
+	<![CDATA[
+	/* XML mailing - patrocinador e seus assinantes indicados pendentes */
+    select  '<mailing-record>'||
+                 '<nome>'|| (select b.assi_nm_assinante from assinantes b where b.assi_cd_assinante = a.assi_cd_assinante_parent) || '</nome>' ||
+                 '<email>'|| (select c.assi_tx_email from assinantes c where c.assi_cd_assinante = a.assi_cd_assinante_parent) || '</email>' ||
+                 '<textolivre1>' || a.assi_nm_assinante || '</textolivre1>' ||
+                 '<textolivre2>' || a.assi_tx_email || '</textolivre2>' ||
+                 '<textolivre3>' || a.assi_tx_hash || '</textolivre3>' ||
+                 '<textolivre4>' || a.assi_tx_campanha || '</textolivre4>' ||
+                 '<textolivre5>' || a.assi_dt_cadastro || '</textolivre5>' ||
+                 '<textolivre6>' || (LEFT(a.assi_nm_assinante , POSITION(' ' IN (a.assi_nm_assinante  || ' '))))  || '</textolivre6>' ||
+               '</mailing-record>'
+    from assinantes a
+    where a.assi_cd_assinante_parent > 0
+    and a.assi_in_status = 'P';
+	]]>
+  <mailing-record><nome>julio vitorino</nome><email>julio.vitorino@ig.com.br</email><textolivre1>jasper</textolivre1><textolivre2>jasper.mattedi@gmail.com</textolivre2><textolivre3>EC6D3EA08B9F80BF1EBA2667C4B96349085D7AD0</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  00:43:47.7630</textolivre5><textolivre6>jasper</textolivre6></mailing-record>
+  <mailing-record><nome>julio vitorino</nome><email>julio.vitorino@ig.com.br</email><textolivre1>info</textolivre1><textolivre2>info@aluguerelaxe.com.br</textolivre2><textolivre3>9AF742323F0B265F914409F0C21E4D83E89A08F0</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  00:43:47.8280</textolivre5><textolivre6>info</textolivre6></mailing-record>
+  <mailing-record><nome>jasper</nome><email>jasper.mattedi@gmail.com</email><textolivre1>eumemso1</textolivre1><textolivre2>eumesmo@mko.com.br</textolivre2><textolivre3>9A02401E6A05CE3122115BE43FF51500A8C7E880</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  00:51:03.6380</textolivre5><textolivre6>eumemso1</textolivre6></mailing-record>
+  <mailing-record><nome>jasper</nome><email>jasper.mattedi@gmail.com</email><textolivre1>dfsgsdfgs</textolivre1><textolivre2>eum2esmo@mko.com.br</textolivre2><textolivre3>2736ACE0DA849B641C95BF28A339E9D9764E4E83</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  00:51:03.7920</textolivre5><textolivre6>dfsgsdfgs</textolivre6></mailing-record>
+  <mailing-record><nome>jasper</nome><email>jasper.mattedi@gmail.com</email><textolivre1>dsfgsdfg</textolivre1><textolivre2>eume4smo@mko.com.br</textolivre2><textolivre3>7FE197E2CEC978D2E864BCB919F444C265B9F02C</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  00:51:03.8230</textolivre5><textolivre6>dsfgsdfg</textolivre6></mailing-record>
+  <mailing-record><nome>Carlos Felix da Silva</nome><email>carlosfelix_rio@uol.com.br</email><textolivre1>Ana Carla Costa da Silva</textolivre1><textolivre2>anacarla.silva@tools.com.br</textolivre2><textolivre3>70426F440B30B0228AC396D678DF29609D926B80</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  09:24:35.2450</textolivre5><textolivre6>Ana </textolivre6></mailing-record>
+  <mailing-record><nome>Roberta Fonseca</nome><email>roberta_fonsecas@yahoo.com.br</email><textolivre1>Rosane</textolivre1><textolivre2>bolkan@ig.com.br</textolivre2><textolivre3>B6A2F50787700585B208BB1106F23CA0E02D4E6D</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  11:00:08.6530</textolivre5><textolivre6>Rosane</textolivre6></mailing-record>
+  <mailing-record><nome>Roberta Fonseca</nome><email>roberta_fonsecas@yahoo.com.br</email><textolivre1>Rosimeri</textolivre1><textolivre2>jeaero@hotmail.com</textolivre2><textolivre3>6D8EB5004F9BC4DF935AAC9FD2C0030EA1091AC3</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  11:00:08.7640</textolivre5><textolivre6>Rosimeri</textolivre6></mailing-record>
+  <mailing-record><nome>rosiney</nome><email>rosineyl@ig.com.br</email><textolivre1>lenilsonleno</textolivre1><textolivre2>lenoalt@ibest.com.br</textolivre2><textolivre3>7A34282BB83D1D38565D94BBA21E9231FABD6620</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  18:47:18.2000</textolivre5><textolivre6>lenilsonleno</textolivre6></mailing-record>
+  <mailing-record><nome>rosiney</nome><email>rosineyl@ig.com.br</email><textolivre1>marcos orelha</textolivre1><textolivre2>marcoscompobatista@yahoo.com.br</textolivre2><textolivre3>6B5736B312437622731FCDEE1430E6A968325298</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  18:47:18.2340</textolivre5><textolivre6>marcos </textolivre6></mailing-record>
+  <mailing-record><nome>rosiney</nome><email>rosineyl@ig.com.br</email><textolivre1>zilton</textolivre1><textolivre2>ziltondalbert@gmail.com.br</textolivre2><textolivre3>DFB781D005895AC3D55A79B8B12A0F2DD80F6D1B</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-09
+  18:47:18.2640</textolivre5><textolivre6>zilton</textolivre6></mailing-record>
+  <mailing-record><nome>Valk Castellani</nome><email>valkcastellani@gmail.com</email><textolivre1>André Quadros</textolivre1><textolivre2>quadros.andre@gmail.com</textolivre2><textolivre3>0573FB8124C985D10C0B8D4F38D77F75C8EC686F</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-10
+  09:03:05.8830</textolivre5><textolivre6>André </textolivre6></mailing-record>
+  <mailing-record><nome>Valk Castellani</nome><email>valkcastellani@gmail.com</email><textolivre1>Fábio Lares</textolivre1><textolivre2>fabiolares@gmail.com</textolivre2><textolivre3>4FE51E25526D3979845E7FE4B8F9BE5430236FFD</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-10
+  09:03:05.9590</textolivre5><textolivre6>Fábio </textolivre6></mailing-record>
+  <mailing-record><nome>Vivaldo</nome><email>vavelar@oi.com.br</email><textolivre1>Jorge</textolivre1><textolivre2>jberg@oi.com.br</textolivre2><textolivre3>B7909802549D0DDB54E96E2EE8FF24B8E789DC38</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-10
+  10:48:05.9530</textolivre5><textolivre6>Jorge</textolivre6></mailing-record>
+  <mailing-record><nome>Marcos Velasco</nome><email>velascomarcos@gmail.com</email><textolivre1>Junior Velasco</textolivre1><textolivre2>juniorvelasco@uol.com.br</textolivre2><textolivre3>403D37355030588E783FA06DF1AAE81BB651A12D</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-10
+  17:22:33.4310</textolivre5><textolivre6>Junior </textolivre6></mailing-record>
+  <mailing-record><nome>SÉRGIO VINICIUS LEMOS VITORINO</nome><email>sergiovlvitorino@gmail.com</email><textolivre1>JONATHAN MORATELLI</textolivre1><textolivre2>jonathan.jmc@gmail.com</textolivre2><textolivre3>526BB5359A48DA19EDE9E68BB141E4BC3671D172</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-11
+  19:39:23.8960</textolivre5><textolivre6>JONATHAN </textolivre6></mailing-record>
+  <mailing-record><nome>SÉRGIO VINICIUS LEMOS VITORINO</nome><email>sergiovlvitorino@gmail.com</email><textolivre1>LEONARDO EIRAS</textolivre1><textolivre2>leonardo.eiras@yahoo.com.br</textolivre2><textolivre3>FA222D0B0A90E5E6891DB98C087E9FBF73A3E187</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-11
+  19:39:23.9200</textolivre5><textolivre6>LEONARDO </textolivre6></mailing-record>
+  <mailing-record><nome>SÉRGIO VINICIUS LEMOS VITORINO</nome><email>sergiovlvitorino@gmail.com</email><textolivre1>RODRIGO LUIZ</textolivre1><textolivre2>rodrigo.luiz.si@gmail.com</textolivre2><textolivre3>6BD8AE53C8CDF12C52DBAEC95DA2A4FEF52421F0</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-11
+  19:39:23.9510</textolivre5><textolivre6>RODRIGO </textolivre6></mailing-record>
+  <mailing-record><nome>Anderson Moysés de Araújo</nome><email>andersonmoyses@gmail.com</email><textolivre1>Rodrigo Aiala</textolivre1><textolivre2>rodrigo.feijolo@gmail.com</textolivre2><textolivre3>930A18AFCFB11A46A8B78847DFB527EC76ED517F</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-12
+  06:36:05.1260</textolivre5><textolivre6>Rodrigo </textolivre6></mailing-record>
+  <mailing-record><nome>Barbara Ferreira</nome><email>bmfbrj@yahoo.com.br</email><textolivre1>Bianca Vasconcellos</textolivre1><textolivre2>bianca_lvasconcellos@yahoo.com.br</textolivre2><textolivre3>B3A22D3E93E860B579E2083A0CCC1F079524AD13</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-12
+  15:52:00.1440</textolivre5><textolivre6>Bianca </textolivre6></mailing-record>
+  <mailing-record><nome>Barbara Ferreira</nome><email>bmfbrj@yahoo.com.br</email><textolivre1>Erica Vasconcellos</textolivre1><textolivre2>eclvasconcellos@yahoo.com.br</textolivre2><textolivre3>58CC7773E8CBA5E95E3297F8B63FC6CB54F4A761</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-12
+  15:52:00.1730</textolivre5><textolivre6>Erica </textolivre6></mailing-record>
+  <mailing-record><nome>Barbara Ferreira</nome><email>bmfbrj@yahoo.com.br</email><textolivre1>Marcia Miranda</textolivre1><textolivre2>marcyamiranda@ig.com.br</textolivre2><textolivre3>493AF9E787346C9844231EFCFCA5F1579E7D8722</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-12
+  15:52:00.2010</textolivre5><textolivre6>Marcia </textolivre6></mailing-record>
+  <mailing-record><nome>Evelyn</nome><email>ivysane@gmail.com</email><textolivre1>Cíntia</textolivre1><textolivre2>cintiacsmel@yahoo.com.br</textolivre2><textolivre3>C95DC319B93D0CCA45553BA188F52072F86884C2</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  10:48:51.8550</textolivre5><textolivre6>Cíntia</textolivre6></mailing-record>
+  <mailing-record><nome>Evelyn</nome><email>ivysane@gmail.com</email><textolivre1>Giuliana</textolivre1><textolivre2>giuliana_andrea@yahoo.com.br</textolivre2><textolivre3>136ABFA90502A7666E9C512A4FAB1620D5D9CAD5</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  10:48:51.9750</textolivre5><textolivre6>Giuliana</textolivre6></mailing-record>
+  <mailing-record><nome>Daniel</nome><email>valerstain@hotmail.com</email><textolivre1>Tatiana Alvim</textolivre1><textolivre2>tatianauna@yahoo.com.br</textolivre2><textolivre3>8F6DE9318D74F14CCD8EBE1579E1931DBCFF08B9</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  13:48:09.0780</textolivre5><textolivre6>Tatiana </textolivre6></mailing-record>
+  <mailing-record><nome>Daniel</nome><email>valerstain@hotmail.com</email><textolivre1>Ronaldo Lee</textolivre1><textolivre2>ronaldo.lee@csn.com.br</textolivre2><textolivre3>520537AC0FABE7C8C5888CE4B7C86A8F4FA67D09</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  13:48:09.1410</textolivre5><textolivre6>Ronaldo </textolivre6></mailing-record>
+  <mailing-record><nome>Daniel</nome><email>valerstain@hotmail.com</email><textolivre1>Cocate</textolivre1><textolivre2>luis.cocate@csn.com.br</textolivre2><textolivre3>4E47025E740452752AAFEFF0ABFB09B632C04784</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  13:48:09.1770</textolivre5><textolivre6>Cocate</textolivre6></mailing-record>
+  <mailing-record><nome>Fred</nome><email>fredericosilva1976@hotmail.com</email><textolivre1>Bruno</textolivre1><textolivre2>brunoestevao@gmail.com</textolivre2><textolivre3>D75C5E84B931D7F390E9D853F57B16806C6A973F</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  15:47:18.3190</textolivre5><textolivre6>Bruno</textolivre6></mailing-record>
+  <mailing-record><nome>Fred</nome><email>fredericosilva1976@hotmail.com</email><textolivre1>Bruno</textolivre1><textolivre2>brunobalbi@yahoo.com.br</textolivre2><textolivre3>6A675576BCAC9744813335D8F0F0FBCCFE5BDAFE</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  15:47:18.3850</textolivre5><textolivre6>Bruno</textolivre6></mailing-record>
+  <mailing-record><nome>Fred</nome><email>fredericosilva1976@hotmail.com</email><textolivre1>Bruno</textolivre1><textolivre2>bruno.alves.hope@petrobras.com.br</textolivre2><textolivre3>73F315F2DF8BEFE108EF892EEA68A15C7C2774FB</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  15:47:18.4290</textolivre5><textolivre6>Bruno</textolivre6></mailing-record>
+  <mailing-record><nome>Karla Gabriela Justino Silva</nome><email>karla_gjs@yahoo.com.br</email><textolivre1>Rosana Freitas</textolivre1><textolivre2>rosana.vrrj@yahoo.com.br</textolivre2><textolivre3>9BCA1CE103BD8845CF6E47D2E1C5979487A385F9</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  19:38:57.5260</textolivre5><textolivre6>Rosana </textolivre6></mailing-record>
+  <mailing-record><nome>Karla Gabriela Justino Silva</nome><email>karla_gjs@yahoo.com.br</email><textolivre1>Damaris Caroline</textolivre1><textolivre2>damariscaroline_vr@yahoo.com.br</textolivre2><textolivre3>93DF038C74A7042C3A29D138324F99B06BB3E057</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  19:38:57.5580</textolivre5><textolivre6>Damaris </textolivre6></mailing-record>
+  <mailing-record><nome>marilene do pilar horning</nome><email>marihorninng2@hotmail.com</email><textolivre1>carlos renato horning</textolivre1><textolivre2>carloshorning@gmail.com</textolivre2><textolivre3>2329A593BD9D4A09002BD42053F450ECCE53E4D6</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  21:37:04.5120</textolivre5><textolivre6>carlos </textolivre6></mailing-record>
+  <mailing-record><nome>marilene do pilar horning</nome><email>marihorninng2@hotmail.com</email><textolivre1>cristiane alessandra horning</textolivre1><textolivre2>cristianehorning@hotmail.com</textolivre2><textolivre3>200A0137643D159D76F3810EF60169C58F2D4259</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  21:37:13.4300</textolivre5><textolivre6>cristiane </textolivre6></mailing-record>
+  <mailing-record><nome>Frederico Motta</nome><email>frederico.motta@gmail.com</email><textolivre1>Michele Oliveira</textolivre1><textolivre2>mimica24@gmail.com</textolivre2><textolivre3>B6E2B3EDA6836F582D33B5CCF335378042B12667</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  22:18:43.2350</textolivre5><textolivre6>Michele </textolivre6></mailing-record>
+  <mailing-record><nome>Frederico Motta</nome><email>frederico.motta@gmail.com</email><textolivre1>Lucymeri</textolivre1><textolivre2>Lucymeri44@yahoo.com.br</textolivre2><textolivre3>7DD095AA0DA485924AFFC51A2E224AA0F66A4879</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  22:18:43.2850</textolivre5><textolivre6>Lucymeri</textolivre6></mailing-record>
+  <mailing-record><nome>Frederico Motta</nome><email>frederico.motta@gmail.com</email><textolivre1>Camilo</textolivre1><textolivre2>camilo.motta@gmail.com</textolivre2><textolivre3>3417171ED737704920E9B6940A5E07B33F24A983</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-13
+  22:18:43.3180</textolivre5><textolivre6>Camilo</textolivre6></mailing-record>
+  <mailing-record><nome>FRANCISMAR VIEIRA</nome><email>francismarvieira@uol.com.br</email><textolivre1>DENISE CORREA</textolivre1><textolivre2>denisefc.manchester@petrobras.com.br</textolivre2><textolivre3>69319256C9CBDDC8FF5FF14F396ACE5E8D36B58F</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-14
+  11:40:42.9690</textolivre5><textolivre6>DENISE </textolivre6></mailing-record>
+  <mailing-record><nome>FRANCISMAR VIEIRA</nome><email>francismarvieira@uol.com.br</email><textolivre1>ROGERIO LICURCI</textolivre1><textolivre2>rlicurci@yahoo.com.br</textolivre2><textolivre3>1A0B299716B8BBBEDA41FBEA2173F3FEFEE69995</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-14
+  11:40:43.0160</textolivre5><textolivre6>ROGERIO </textolivre6></mailing-record>
+  <mailing-record><nome>FRANCISMAR VIEIRA</nome><email>francismarvieira@uol.com.br</email><textolivre1>CASE BOECHAT</textolivre1><textolivre2>case.boechat@gmail.com</textolivre2><textolivre3>51417196B9A0847525DEFCEF527AD77075A7864D</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-14
+  11:40:43.0530</textolivre5><textolivre6>CASE </textolivre6></mailing-record>
+  <mailing-record><nome>jose augusto fonseca</nome><email>j.augusto.fonseca@gmail.com</email><textolivre1>eduardo bogoni</textolivre1><textolivre2>eduardobogoni@gmail.com</textolivre2><textolivre3>9C42EE0C207CC52C87F231006F232074CD90590C</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-14
+  11:48:32.3310</textolivre5><textolivre6>eduardo </textolivre6></mailing-record>
+  <mailing-record><nome>jose augusto fonseca</nome><email>j.augusto.fonseca@gmail.com</email><textolivre1>deives lucio</textolivre1><textolivre2>deivesd@ig.com.br</textolivre2><textolivre3>3A0BD37A2D1D1D5750A04B11DBE4ADE55033741B</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-14
+  11:48:32.3690</textolivre5><textolivre6>deives </textolivre6></mailing-record>
+  <mailing-record><nome>jose augusto fonseca</nome><email>j.augusto.fonseca@gmail.com</email><textolivre1>eduardo kleber</textolivre1><textolivre2>edukleber@yahoo.com.br</textolivre2><textolivre3>C2A0552EC2478F1F86B3AD46D0BDC3C2EAEDEE7D</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-14
+  11:48:32.4060</textolivre5><textolivre6>eduardo </textolivre6></mailing-record>
+  <mailing-record><nome>Fernanda Borges Fernandes do Amaral</nome><email>fernanda_minnie@hotmail.com</email><textolivre1>Janilson</textolivre1><textolivre2>janilson_amaral@hotmail.com</textolivre2><textolivre3>DEC12494AFA901F0429020C23C6BF0B33EB9C085</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  10:47:04.3960</textolivre5><textolivre6>Janilson</textolivre6></mailing-record>
+  <mailing-record><nome>Fernanda Borges Fernandes do Amaral</nome><email>fernanda_minnie@hotmail.com</email><textolivre1>Vanessa</textolivre1><textolivre2>vmendesrj@yahoo.com.br</textolivre2><textolivre3>166C08D3C7C6B735863311F227DA33B702DF1DBE</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  10:47:04.4770</textolivre5><textolivre6>Vanessa</textolivre6></mailing-record>
+  <mailing-record><nome>Fernanda Borges Fernandes do Amaral</nome><email>fernanda_minnie@hotmail.com</email><textolivre1>Adeilson</textolivre1><textolivre2>adeilson_ade@hotmail.com</textolivre2><textolivre3>E8071D136A97ED5DDA374968DEB42EF0EE5C39EC</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  10:47:04.5240</textolivre5><textolivre6>Adeilson</textolivre6></mailing-record>
+  <mailing-record><nome>Claudio Max</nome><email>claudio.max.rj@gmail.com</email><textolivre1>Katia Cilene</textolivre1><textolivre2>katiacileners1@gmail.com</textolivre2><textolivre3>F8C44A6877259A3D4E4FDBA62A1959C696ED2C70</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:03:14.9690</textolivre5><textolivre6>Katia </textolivre6></mailing-record>
+  <mailing-record><nome>Claudio Max</nome><email>claudio.max.rj@gmail.com</email><textolivre1>Ronaldo Rodrigues</textolivre1><textolivre2>ronaldoadv@ig.com.br</textolivre2><textolivre3>9D9AFC7FFCA665BDE2E0BBC5F602D313F5D7CB81</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:03:15.0070</textolivre5><textolivre6>Ronaldo </textolivre6></mailing-record>
+  <mailing-record><nome>Claudio Max</nome><email>claudio.max.rj@gmail.com</email><textolivre1>Marcio Mattoso</textolivre1><textolivre2>marcio.mattoso@hotmail.com</textolivre2><textolivre3>DD72D5551184C66D300E414E15CBFC0119FB1FAA</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:03:15.0500</textolivre5><textolivre6>Marcio </textolivre6></mailing-record>
+  <mailing-record><nome>Merielem Frasson</nome><email>merielem.fra@hotmail.com</email><textolivre1>Jaminsom Pires</textolivre1><textolivre2>sorestaum@hotmail.com</textolivre2><textolivre3>6548A0B9B6FA4C918B9BDDFAC0BB86F661ADA381</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:04:24.5830</textolivre5><textolivre6>Jaminsom </textolivre6></mailing-record>
+  <mailing-record><nome>Merielem Frasson</nome><email>merielem.fra@hotmail.com</email><textolivre1>Antonio Soares</textolivre1><textolivre2>laborprimavera@hotmail.com</textolivre2><textolivre3>52CE2D7B4A4BA4EB54C0E9ABF30DA162872143CD</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:04:24.6320</textolivre5><textolivre6>Antonio </textolivre6></mailing-record>
+  <mailing-record><nome>Merielem Frasson</nome><email>merielem.fra@hotmail.com</email><textolivre1>Samanta Vargas</textolivre1><textolivre2>samantacrisvargas@hotmail.com</textolivre2><textolivre3>16602B7B8C05C776B22F8E4C687B74253B05EC27</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:04:24.6830</textolivre5><textolivre6>Samanta </textolivre6></mailing-record>
+  <mailing-record><nome>Meire</nome><email>mdefante@uol.com.br</email><textolivre1>Maristela</textolivre1><textolivre2>maris.falci@gmail.com</textolivre2><textolivre3>05B502BA46B017DE4EE971648D612092C16F7770</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:21:26.9540</textolivre5><textolivre6>Maristela</textolivre6></mailing-record>
+  <mailing-record><nome>Meire</nome><email>mdefante@uol.com.br</email><textolivre1>Luciana</textolivre1><textolivre2>luciana.sayao@gmail.com</textolivre2><textolivre3>CB07C01CA602F8764D2BF8EEFE0C9B2330C080F1</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:21:27.0040</textolivre5><textolivre6>Luciana</textolivre6></mailing-record>
+  <mailing-record><nome>Meire</nome><email>mdefante@uol.com.br</email><textolivre1>Marcelo</textolivre1><textolivre2>marceloacarneiro@ig.com.br</textolivre2><textolivre3>27E93A9B9E134BB07A4A7A4443D7B931D5A7B603</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  11:21:27.0490</textolivre5><textolivre6>Marcelo</textolivre6></mailing-record>
+  <mailing-record><nome>Julio Fulgencio</nome><email>jcf01@ig.com.br</email><textolivre1>Ernani</textolivre1><textolivre2>eapj_27@hotmail.com</textolivre2><textolivre3>6915BB06890B3801583DD9D71D096161F9A41B0A</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  17:18:34.7600</textolivre5><textolivre6>Ernani</textolivre6></mailing-record>
+  <mailing-record><nome>Julio Fulgencio</nome><email>jcf01@ig.com.br</email><textolivre1>Vicente</textolivre1><textolivre2>sacramentovicente@gmail.com</textolivre2><textolivre3>271B32182F1A36C4D5A7F54A796D575E8A612FA7</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  17:18:34.7970</textolivre5><textolivre6>Vicente</textolivre6></mailing-record>
+  <mailing-record><nome>Julio Fulgencio</nome><email>jcf01@ig.com.br</email><textolivre1>Ronildo</textolivre1><textolivre2>ronildofartes@yahoo.com.br</textolivre2><textolivre3>89183BFAAED34D5871CAE0D611916ED1B859F17D</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  17:18:34.8660</textolivre5><textolivre6>Ronildo</textolivre6></mailing-record>
+  <mailing-record><nome>Sérgio Bohrer Reis</nome><email>sergio_bohrer@yahoo.com.br</email><textolivre1>Márcio Souza</textolivre1><textolivre2>marcior3@gmail.com</textolivre2><textolivre3>C7728EDB11B9DAD63FE7DE1FB7D53EA882399D12</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  17:35:49.6530</textolivre5><textolivre6>Márcio </textolivre6></mailing-record>
+  <mailing-record><nome>Sérgio Bohrer Reis</nome><email>sergio_bohrer@yahoo.com.br</email><textolivre1>Joaquim Neto</textolivre1><textolivre2>joaquim@joaquimneto.com</textolivre2><textolivre3>1B97407F4F5CCF5832F6768D24FA1939C53D6037</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  17:35:49.7030</textolivre5><textolivre6>Joaquim </textolivre6></mailing-record>
+  <mailing-record><nome>Paulo Melo</nome><email>pheitormelo@gmail.com</email><textolivre1>Pedro</textolivre1><textolivre2>pedrinhohenrique21@gmail.com</textolivre2><textolivre3>5E591853CFE91F60477FD4D3694DF35D849D62B7</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  20:07:09.3900</textolivre5><textolivre6>Pedro</textolivre6></mailing-record>
+  <mailing-record><nome>Paulo Melo</nome><email>pheitormelo@gmail.com</email><textolivre1>Juan</textolivre1><textolivre2> juan171@gmail.com</textolivre2><textolivre3>37E56678C71F269D92F1976E8A23A2638BAE3977</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  20:07:09.4200</textolivre5><textolivre6>Juan</textolivre6></mailing-record>
+  <mailing-record><nome>Roger Fernandes</nome><email>rogerfsp@gmail.com</email><textolivre1>Geraldo</textolivre1><textolivre2>gepaula@oi.com.br</textolivre2><textolivre3>49285AE3E2AAEF9E1275F6BD197831361F238BAF</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  21:25:15.2380</textolivre5><textolivre6>Geraldo</textolivre6></mailing-record>
+  <mailing-record><nome>Roger Fernandes</nome><email>rogerfsp@gmail.com</email><textolivre1>Guilherme</textolivre1><textolivre2>gui_bp1992@hotmail.com</textolivre2><textolivre3>A1F839E9B58581598DBC8C0B3680B6A995FFF1AA</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  21:25:15.2720</textolivre5><textolivre6>Guilherme</textolivre6></mailing-record>
+  <mailing-record><nome>Roger Fernandes</nome><email>rogerfsp@gmail.com</email><textolivre1>Wagner</textolivre1><textolivre2>wagner@solocomunicacao.com.br</textolivre2><textolivre3>D746DAFE4A6F28B13B8275FA731E21C9114894FE</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-15
+  21:25:15.3060</textolivre5><textolivre6>Wagner</textolivre6></mailing-record>
+  <mailing-record><nome>SEVERO</nome><email>s_evero@hotmail.com</email><textolivre1>Barbara</textolivre1><textolivre2>bmfb@yahoo.com.br</textolivre2><textolivre3>4FEDF9A80B7BE6189B8BA70A12AE2E8217D69A4B</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-16
+  09:35:39.4380</textolivre5><textolivre6>Barbara</textolivre6></mailing-record>
+  <mailing-record><nome>SEVERO</nome><email>s_evero@hotmail.com</email><textolivre1>Andre</textolivre1><textolivre2>andre.silva@gmail.com</textolivre2><textolivre3>596AD5A2DAB28EE859725D9EB0BE7FDAFA3AE507</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-16
+  09:35:39.4740</textolivre5><textolivre6>Andre</textolivre6></mailing-record>
+  <mailing-record><nome>SEVERO</nome><email>s_evero@hotmail.com</email><textolivre1>Francisco</textolivre1><textolivre2>codigovisual@hotmail.com</textolivre2><textolivre3>71B486BEA06664461EB66DB7123630FB6763D443</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-16
+  09:35:39.5110</textolivre5><textolivre6>Francisco</textolivre6></mailing-record>
+  <mailing-record><nome>andreia</nome><email>andreiavinacio@gmail.com</email><textolivre1>barbara</textolivre1><textolivre2>bmfbrj@yhaoo.com.br</textolivre2><textolivre3>9E3ECECC424C66D1E3AB7D8EE1F6E3FFE998A4FF</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-17
+  17:49:29.8890</textolivre5><textolivre6>barbara</textolivre6></mailing-record>
+  <mailing-record><nome>andreia</nome><email>andreiavinacio@gmail.com</email><textolivre1>eberson</textolivre1><textolivre2>ebersondobp@hotmail.com</textolivre2><textolivre3>114A1E14ABD99191FC6CE72AF6C5B94EA689C037</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-17
+  17:49:30.3360</textolivre5><textolivre6>eberson</textolivre6></mailing-record>
+  <mailing-record><nome>Victor Vilela</nome><email>victorjsvilela@yahoo.com.br</email><textolivre1>Ricardo Vilela</textolivre1><textolivre2>rrvilela@uol.com.br</textolivre2><textolivre3>6025B7218F63D4A7659C9DE581B07EAEBDB3C4FB</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-20
+  12:37:24.4870</textolivre5><textolivre6>Ricardo </textolivre6></mailing-record>
+  <mailing-record><nome>kelly</nome><email>kelly-love-2011@live.com</email><textolivre1>jaine</textolivre1><textolivre2>jainepadilhas@hotmail.com</textolivre2><textolivre3>0585F21545CEAECF9547FCCCB8A3CEA0F20572D3</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-25
+  14:46:39.8910</textolivre5><textolivre6>jaine</textolivre6></mailing-record>
+  <mailing-record><nome>kelly</nome><email>kelly-love-2011@live.com</email><textolivre1>alana</textolivre1><textolivre2>alana_dallago@hotmail.com</textolivre2><textolivre3>015AC06465CC34C5A0F669AF0A35A7CB49C13D6A</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-25
+  14:46:39.9270</textolivre5><textolivre6>alana</textolivre6></mailing-record>
+  <mailing-record><nome>kelly</nome><email>kelly-love-2011@live.com</email><textolivre1>nanda</textolivre1><textolivre2>nandinha_vedde09@hotmail.com</textolivre2><textolivre3>3D2798A48605F98469666AAFF0CD0750E1AE9916</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-25
+  14:46:39.9620</textolivre5><textolivre6>nanda</textolivre6></mailing-record>
+  <mailing-record><nome>Fabio Viana</nome><email>binho_ilh@hotmail.com</email><textolivre1>Michelle Viana</textolivre1><textolivre2>misteixeira@gmail.com</textolivre2><textolivre3>7CC93ABD633E550DD4502DAF39885E9296B55A8A</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-29
+  09:48:31.0180</textolivre5><textolivre6>Michelle </textolivre6></mailing-record>
+  <mailing-record><nome>Fabio Viana</nome><email>binho_ilh@hotmail.com</email><textolivre1>Felipe Abdalah</textolivre1><textolivre2>felipe.abdalah@hotmail.com</textolivre2><textolivre3>33E926FB9B9DD25CC716DEE14C0D88A0A701CAF4</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-29
+  09:48:31.0630</textolivre5><textolivre6>Felipe </textolivre6></mailing-record>
+  <mailing-record><nome>Fabio Viana</nome><email>binho_ilh@hotmail.com</email><textolivre1>Leonardo</textolivre1><textolivre2>leo.pele@hotmail.com</textolivre2><textolivre3>158A1ADE6D379B4E760FC34D48846808F8AC1268</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-02-29
+  09:48:31.2040</textolivre5><textolivre6>Leonardo</textolivre6></mailing-record>
+  <mailing-record><nome>Rondinelly</nome><email>rondinellyr@gmail.com</email><textolivre1>Tia Rosa</textolivre1><textolivre2>ro.moutinho@hotmail.com</textolivre2><textolivre3>1E785DDB079BE7A79DCDB68B6D5AAFF3689B0734</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-02
+  07:51:55.4620</textolivre5><textolivre6>Tia </textolivre6></mailing-record>
+  <mailing-record><nome>Alvaro Azevedo</nome><email>aazevedo@ipiranga.com.br</email><textolivre1>Daniel Serman</textolivre1><textolivre2>danielvs@ipiranga.com.br</textolivre2><textolivre3>960EE9FEE97D4EEA4745281834F12293CC72616B</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-09
+  08:00:45.3670</textolivre5><textolivre6>Daniel </textolivre6></mailing-record>
+  <mailing-record><nome>Alvaro Azevedo</nome><email>aazevedo@ipiranga.com.br</email><textolivre1>Ralf</textolivre1><textolivre2>ralf@ipiranga.com.br</textolivre2><textolivre3>D9BA3D9774CFC18AE3D685A0E9E6FF5190164708</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-09
+  08:00:45.4550</textolivre5><textolivre6>Ralf</textolivre6></mailing-record>
+  <mailing-record><nome>Alvaro Azevedo</nome><email>aazevedo@ipiranga.com.br</email><textolivre1>Maryliz</textolivre1><textolivre2>maryliz@ipiranga.com.br</textolivre2><textolivre3>0DA834532DCE48B631C2D9FA6FD17D321A99817F</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-09
+  08:00:45.5230</textolivre5><textolivre6>Maryliz</textolivre6></mailing-record>
+  <mailing-record><nome>leonardo braga</nome><email>lunkie@bol.com.br</email><textolivre1>Anderson</textolivre1><textolivre2>andersonmoyses@yahoo.com.br     </textolivre2><textolivre3>87D7DBDCC6AE5CEE8E0503FB9A9F1C1A5A39C349</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-14
+  11:35:18.5210</textolivre5><textolivre6>Anderson</textolivre6></mailing-record>
+  <mailing-record><nome>leonardo braga</nome><email>lunkie@bol.com.br</email><textolivre1>Toddynho</textolivre1><textolivre2>cidao_@hotmail.com     </textolivre2><textolivre3>70A07A3E642D9C95B6A36F8C1EDCDEB7BBDC2ABA</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-14
+  11:35:18.5660</textolivre5><textolivre6>Toddynho</textolivre6></mailing-record>
+  <mailing-record><nome>leonardo braga</nome><email>lunkie@bol.com.br</email><textolivre1>Ayala</textolivre1><textolivre2>r.feijolo@gmail.com</textolivre2><textolivre3>82CBB7CF309E0A88D2881C2241C5BCE451CA4847</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-14
+  11:35:18.6160</textolivre5><textolivre6>Ayala</textolivre6></mailing-record>
+  <mailing-record><nome>yasmim </nome><email>yasmimnota100@gmail.com</email><textolivre1>mylena</textolivre1><textolivre2>mylenabergone@hotmail.com</textolivre2><textolivre3>17EBAAFF0E6C623B9A735FF23E20078D1BEA74D5</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-15
+  20:44:47.4040</textolivre5><textolivre6>mylena</textolivre6></mailing-record>
+  <mailing-record><nome>yasmim </nome><email>yasmimnota100@gmail.com</email><textolivre1>lais</textolivre1><textolivre2>lais_nugas@hotmail.com</textolivre2><textolivre3>B1E77793B177E465818FEAF1ABE70CB634F54C86</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-15
+  20:44:47.4390</textolivre5><textolivre6>lais</textolivre6></mailing-record>
+  <mailing-record><nome>yasmim </nome><email>yasmimnota100@gmail.com</email><textolivre1>pedro</textolivre1><textolivre2>pepeubomfin@bol.com</textolivre2><textolivre3>CFEFA9E444EFAE1AE72A6F8850AAC367BA851277</textolivre3><textolivre4>ANIVERSARIO 1 ANO</textolivre4><textolivre5>2012-03-15
+  20:44:47.4750</textolivre5><textolivre6>pedro</textolivre6></mailing-record>
+</mailing-list>

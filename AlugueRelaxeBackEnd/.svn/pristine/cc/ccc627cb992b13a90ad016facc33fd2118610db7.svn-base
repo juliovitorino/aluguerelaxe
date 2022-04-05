@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mailing-list>
+<![CDATA[
+	/* query para extrair os aniversariantes de um determinado mes */
+select  '<mailing-record>' ||
+            '<nome>' || LEFT(c.clie_nm_cliente, POSITION(' ' IN (c.clie_nm_cliente || ' '))) || '</nome>' || /* primeiro no do cliente */
+            '<email>' || c.CLIE_TX_EMAIL || '</email>' || /* email do cliente */
+            '<textolivre1>' || lpad(extract(day from c.clie_dt_nascimento),2,'0') ||'/' || lpad(extract(month from c.clie_dt_nascimento),2,'0')|| 			'</textolivre1>' ||
+    '</mailing-record>'
+    from CLIENTE c 
+    where c.CLIE_IN_STATUS = 'A'
+    and extract(month from c.clie_dt_nascimento) = ?
+    order by  c.CLIE_NM_CLIENTE;
+
+	]]>
+	<mailing-record><nome>Julio</nome><email>julio.vitorino@ig.com.br</email><textolivre1>16/05</textolivre1></mailing-record>
+ <mailing-record><nome>Alexandre </nome><email>ale_farol@hotmail.com</email><textolivre1>08/05</textolivre1></mailing-record>
+  <mailing-record><nome>Ana </nome><email>aluciaramos1@hotmail.com</email><textolivre1>15/05</textolivre1></mailing-record>
+  <mailing-record><nome>Cleide </nome><email>estancia@estanciacanaa.com.br</email><textolivre1>01/05</textolivre1></mailing-record>
+  <mailing-record><nome>Franciane </nome><email>fran_rossetto@hotmail.com</email><textolivre1>09/05</textolivre1></mailing-record>
+  <mailing-record><nome>José </nome><email>henrique_t_carvalho@yahoo.com.br</email><textolivre1>02/05</textolivre1></mailing-record>
+  <mailing-record><nome>José </nome><email>tvroberto2011@yahoo.com.br</email><textolivre1>26/05</textolivre1></mailing-record>
+  <mailing-record><nome>Luciana </nome><email>ancorarflat3307@hotmail.com</email><textolivre1>06/05</textolivre1></mailing-record>
+  <mailing-record><nome>Maria </nome><email>contato@harasdoagape.com</email><textolivre1>07/05</textolivre1></mailing-record>
+  <mailing-record><nome>Marisa </nome><email>marisa.azevedo@terra.com.br</email><textolivre1>25/05</textolivre1></mailing-record>
+  <mailing-record><nome>Mauricio </nome><email>nerlichmw@hotmail.com</email><textolivre1>06/05</textolivre1></mailing-record>
+  <mailing-record><nome>Mia </nome><email>miabarbosafotos@yahoo.com.br</email><textolivre1>16/05</textolivre1></mailing-record>
+  <mailing-record><nome>Olga </nome><email>deby00010@gmail.com</email><textolivre1>16/05</textolivre1></mailing-record>
+  <mailing-record><nome>Roberto </nome><email>chacara_dos_sonhos@hotmail.com</email><textolivre1>16/05</textolivre1></mailing-record>
+  <mailing-record><nome>Roberto </nome><email>nossahistoria@ibest.com.br</email><textolivre1>23/05</textolivre1></mailing-record>
+  <mailing-record><nome>Shirley </nome><email>shirleyk13@yahoo.com.br</email><textolivre1>02/05</textolivre1></mailing-record>
+  <mailing-record><nome>Shirley </nome><email>peruibete@yahoo.com.br</email><textolivre1>03/05</textolivre1></mailing-record>
+  <mailing-record><nome>fergutt@gmail.com</nome><email>fergutt@gmail.com</email><textolivre1>01/05</textolivre1></mailing-record>
+  <mailing-record><nome>mariangela </nome><email>mariii-teixeira@hotmail.com</email><textolivre1>11/05</textolivre1></mailing-record>
+  <mailing-record><nome>marly </nome><email>marly.bandeira.de.mello@gmail.com</email><textolivre1>07/05</textolivre1></mailing-record>
+  <mailing-record><nome>vicente </nome><email>lazer@chacaravistaverde.com.br</email><textolivre1>19/05</textolivre1></mailing-record>
+</mailing-list>

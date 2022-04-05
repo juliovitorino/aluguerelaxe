@@ -1,0 +1,56 @@
+#************************************************************
+# Menu File Descriptor
+# Created By Julio Cesar Vitorino
+# This file is used to SmartInterface to create web database
+# interfaces to any data sources.
+#************************************************************
+SMARTINTERFACE PROJECT DESCRIPTOR
+PROJECTNAME Portal AlugueRelaxe!
+PROJECTFILENAME C:\Tomcat5.5\webapps\AlugueRelaxe\WEB-INF\silimed.jxpr
+URL http://localhost:8080/AlugueRelaxe
+WORKSPACE WEB-INF/files
+SUBJECT Portal AlugueRelaxe!
+AUTHOR Julio Cesar Vitorino
+COMPANY Techtools
+DATE CREATION 21/02/2009
+DATE UPDATE 21/02/2009
+RELATIVE_PATH_DATA WEB-INF/files/dados/
+RELATIVE_PATH_DATAGRAMS WEB-INF/files/datagramas/
+RELATIVE_PATH_FORMS WEB-INF/files/forms/
+RELATIVE_PATH_HTML WEB-INF/files/html/
+RELATIVE_PATH_MENUS WEB-INF/files/menus/
+RELATIVE_PATH_PARAMS WEB-INF/files/params/
+RELATIVE_PATH_PWD WEB-INF/files/pwd/
+RELATIVE_PATH_CONFIG WEB-INF/files/config/
+RELATIVE_PATH_LOG WEB-INF/files/log/
+RELATIVE_PATH_INQUIRY WEB-INF/files/enquete/
+DATAGRAMFILE promocao.dgf
+DATAGRAMFILE promopadrao.dgf
+DATAGRAMFILE prereserva.dgf
+DATAGRAMFILE avaliarimovel.dgf
+DATAGRAMFILE threadimovel.dgf
+DATAGRAMFILE central-reservas.dgf
+DATAGRAMFILE SrAlugueRelaxeFala.dgf
+DATAGRAMFILE banner.dgf
+DATAGRAMFILE planos.dgf
+DATAGRAMFILE colaborador.dgf
+DATAGRAMFILE regulamento_p1ani.dgf
+DATAGRAMFILE patrocinador.dgf
+DATAGRAMFILE publicidade.dgf
+DATAGRAMFILE login.dgf
+DATAGRAMFILE rodape.dgf
+DATAGRAMFILE arnosestados.dgf
+DATAGRAMFILE missao.dgf
+DATAGRAMFILE faleconosco.dgf
+DATAGRAMFILE depoimentos.dgf
+DATAGRAMFILE nova-conta.dgf
+DATAGRAMFILE lista-imovel-uf.dgf
+DATAGRAMFILE ficha-imovel.dgf
+DATAGRAMFILE startAlugueRelaxe.dgf
+DATAGRAMFILE MenuNavegacao.dgf
+DATAGRAMFILE Menu5itens.dgf
+DATAGRAMFILE LinksInteressantes.dgf
+DATAGRAMFILE parceiros.dgf
+DATAGRAMFILE sobre.dgf
+DATAGRAMFILE termouso.dgf
+DATAGRAMFILE dicas.dgf

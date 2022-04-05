@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0.4//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.0.4/distro-source/core/src/gwt-module.dtd">
+<module rename-to="componente">
+	<inherits name="com.google.gwt.user.User" />
+	<source path="client"/>
+<!-- 
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.FaseSemaforo" />
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.TrackerLab" />
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.VUMeterLab" />
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.DataGridLab" />
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.FormPesquisaLab" />
+
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.ParameterLab" />
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.BotaoPesquisarLab" />
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.AdvancedDataGridLab" />
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.PropertiesChaveValorLab" />
+ -->	
+	<entry-point class="br.com.jcv.aluguerelaxe.client.componente.labs.CrudLab" />
+
+	<servlet class="br.com.jcv.aluguerelaxe.server.ReservalRPCImpl" path="/reservarpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.PaginacaoRPCImpl" path="/paginacaorpc"/>
+	
+</module>

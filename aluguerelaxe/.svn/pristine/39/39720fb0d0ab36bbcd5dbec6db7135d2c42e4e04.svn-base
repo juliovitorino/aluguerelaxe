@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.7.1//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.7.1/distro-source/core/src/gwt-module.dtd">
+<module rename-to='threadimovel'>
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.google.gwt.visualization.Visualization"/>
+	
+	<!-- IMPORTANTE: Quando colocar em producao sera necessario criar uma conta google e realizar o sign up da URL -->
+	<!--      If you want to deploy this application outside of localhost,      
+	you must obtain a Google AJAX Search API key at:        
+	http://code.google.com/intl/pt-BR/apis/maps/signup.html      
+	append &amp;key=ABC to the string below, replacing ABC with the key    
+    <script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2" />	
+	obtained from the site above.     -->    
+	
+	<inherits name="com.google.gwt.maps.GoogleMaps"/>
+<!--	<script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2" />-->
+	<script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2&amp;key=ABQIAAAARGOj3BcX82rFLvOrvEt_6hQBYM-PZpivslm6am8ewAIEA7y-fxRKsmESB_dTa_jlSe416PUg-5lkAw" />
+	
+	<entry-point
+		class="br.com.jcv.aluguerelaxe.client.imovel.thread.ThreadImovel" />
+
+	<!-- Specify servlets for RPC -->
+	<servlet class="br.com.jcv.aluguerelaxe.server.FichaImovelRPCImpl" path="/fichaimovelrpc"/>
+	
+</module>

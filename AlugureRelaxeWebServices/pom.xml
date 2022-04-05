@@ -1,0 +1,213 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.jcv</groupId>
+  <artifactId>AlugueRelaxeWebServices</artifactId>
+  <packaging>war</packaging>
+  <version>1.0.0</version>
+  <name>AlugueRelaxe WebServices</name>
+
+  <dependencies>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>br.com.jcv</groupId>
+      <artifactId>AlugueRelaxeBackEnd</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>6.2.0</version>
+      <scope>provided</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.google</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+      <classifier>sources</classifier>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>FastInfoset</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>gmbal-api-only</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>ha-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri.javax</groupId>
+      <artifactId>annotation-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri.javax.xml</groupId>
+      <artifactId>soap-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxb-core</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxb-impl</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxb-jxc</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxb-xjc</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxws-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxws-rt</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jaxws-tools</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>jsr181-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>management-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>mimepull</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>policy</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>resolver</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>saaj-impl</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>stax-ex</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>stax2-api</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>streambuffer</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>jaxws-ri</groupId>
+      <artifactId>woodstox-core-asl</artifactId>
+      <version>2.2.8</version>
+      <scope>compile</scope>
+    </dependency>
+    
+  </dependencies>
+  <build>
+    <finalName>AlugueRelaxeWebServices</finalName>
+  </build>
+</project>

@@ -1,0 +1,39 @@
+<div id="recentpost" class="clearfloat">
+	<ul>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=AC">Aluguel Temporada Acre</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=AL">Aluguel Temporada Alagoas</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=AP">Aluguel Temporada Amapá</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=AM">Aluguel Temporada Amazonas</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=BA">Aluguel Temporada Bahia</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=CE">Aluguel Temporada Ceará</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=DF">Aluguel Temporada Distrito Federal</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=ES">Aluguel Temporada Espírito Santo</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=GO">Aluguel Temporada Goiás</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=MA">Aluguel Temporada Maranhão</a>
+	</ul>
+</div> 		
+<div id="mostcommented" class="clearfloat">
+	<ul>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=MT">Aluguel Temporada Mato Grosso</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=MS">Aluguel Temporada Mato Grosso do Sul</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=MG">Aluguel Temporada Minas Gerais</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=PR">Aluguel Temporada Paraná</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=PB">Aluguel Temporada Paraíba</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=PA">Aluguel Temporada Pará</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=PE">Aluguel Temporada Pernambuco</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=PI">Aluguel Temporada Piauí</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=RN">Aluguel Temporada Rio Grande do Norte</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=RS">Aluguel Temporada Rio Grande do Sul</a>
+	</ul>
+</div>
+<div id="recent_comments" class="clearfloat">
+	<ul>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=RJ">Aluguel Temporada Rio de Janeiro</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=RO">Aluguel Temporada Rondônia</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=RR">Aluguel Temporada Roraima</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=SC">Aluguel Temporada Santa Catarina</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=SE">Aluguel Temporada Sergipe</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=SP">Aluguel Temporada São Paulo</a>
+		<li><a href="/arweb/JXControllerSmartInterface?cmd=dtgListaImovelUf&atvd=0&cidade=-1&uf=TO">Aluguel Temporada Tocantins</a>	</ul>
+	</ul>
+</div>

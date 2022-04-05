@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spammer-config>
+
+	<!-- Descreva aqui o subject do e-mail -->
+	<assunto>${TSPI_TAG_IFC_NOME_1}, carnaval em ${TSPI_TAG_IFC_CIDADE_1} - ${TSPI_TAG_IFC_UF_1}</assunto>
+	
+	<!-- Template html para ser enviado durante o processo -->
+	<template>c:/Users/Julio/Resources/AlugueRelaxeResources/spammer/templates/template-spammer-publicidade-imovel.html</template>
+
+	<!-- lista xml contendo os e-mails para contatos -->
+	<catalogo>C:/Users/Julio/Resources/AlugueRelaxeResources/spammer/mailing/mailing-list-bd-ar-parte1.xml</catalogo>
+
+	<!-- lista de publicadores da mensagem -->
+	<publicador nome="Administrador" email="info@aluguerelaxe.com.br"/>
+
+	<!-- Lista de smtp mail servers local ou na VM a serem utilizados no processo -->
+	<servidorEmail nome="smtp.aluguerelaxe.com.br" porta="25" contaAutenticacao="aluguerelaxe@aluguerelaxe.com.br"/> <!-- Windows 7 -->
+	
+	<!--
+	<servidorEmail nome="smtp.saturno.com.br" porta="25">
+	<servidorEmail nome="smtp.pluto.com.br" porta="25">
+	-->
+
+	<!-- lista dos imóveis que terão suas informações enviadas durante o spammer -->
+	<fichaImovel>
+		<id>65</id>
+		<id>17</id>
+		<id>67</id>
+		<id>19</id>
+		<id>100</id>
+		<id>228</id>
+		<id>43</id>
+		<id>58</id>
+		<id>61</id>
+		<id>17</id>
+	</fichaImovel>
+</spammer-config>

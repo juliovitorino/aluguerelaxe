@@ -1,0 +1,17 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgReservas
+DESCRIPTION datagrama da Central de Reservas
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME central-reservas.dgf
+HTMLERROR /html/errodefault.html
+HOMEPAGE DEFAULT /html/hpDefaultCentralReservas.html
+DATAGRAM TYPE SAMPLE
+

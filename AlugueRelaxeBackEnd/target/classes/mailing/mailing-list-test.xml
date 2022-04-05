@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mailing-list>
+	<mailing-record>
+		<nome>Julio Cesar</nome>
+		<email>julio.vitorino@ig.com.br</email>
+		<textolivre1>ig.com.br textolivre 1</textolivre1>
+		<textolivre2>ig.com.br textolivre 2</textolivre2>
+		<textolivre3>ig.com.br textolivre 3</textolivre3>
+		<textolivre4>ig.com.br textolivre 4</textolivre4>
+		<textolivre5>ig.com.br textolivre 5</textolivre5>
+		<textolivre6>ig.com.br textolivre 6</textolivre6>
+		<textolivre7>ig.com.br textolivre 7</textolivre7>
+		<textolivre8>ig.com.br textolivre 8</textolivre8>
+		<textolivre9>ig.com.br textolivre 9</textolivre9>
+		<textolivre10>ig.com.br textolivre 10</textolivre10>
+	</mailing-record>
+	<mailing-record>
+		<nome>Julio Cesar Vitorino</nome>
+		<email>julio.vitorino@gmail.com</email>
+		<textolivre1>gmail.com.br textolivre 1</textolivre1>
+		<textolivre2>gmail.com.br textolivre 2</textolivre2>
+		<textolivre3>gmail.com.br textolivre 3</textolivre3>
+		<textolivre4>gmail.com.br textolivre 4</textolivre4>
+		<textolivre5>gmail.com.br textolivre 5</textolivre5>
+		<textolivre6>gmail.com.br textolivre 6</textolivre6>
+		<textolivre7>gmail.com.br textolivre 7</textolivre7>
+		<textolivre8>gmail.com.br textolivre 8</textolivre8>
+		<textolivre9>gmail.com.br textolivre 9</textolivre9>
+		<textolivre10>gmail.com.br textolivre 10</textolivre10>
+	</mailing-record>
+	<mailing-record>
+		<nome>Sr.AlugueRelaxe Vitorino</nome>
+		<email>aluguerelaxe@gmail.com</email>
+	</mailing-record>
+</mailing-list>

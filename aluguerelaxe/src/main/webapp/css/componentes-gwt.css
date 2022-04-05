@@ -1,0 +1,592 @@
+/************************************
+Quando alterar os temas e necessario 
+verificar o line-height e o padding-left
+ou padding-right
+*************************************/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+/******************************************
+ TEMA gwt-WindowPanel
+*******************************************/
+
+.gwt-WindowPanel {
+	border: none;
+}
+
+.gwt-WindowPanel .titulowp {
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: small;
+	font-family: "verdana", sans-serif;
+	vertical-align: middle;
+	line-height: 18px;
+}
+
+.gwt-WindowPanel .botoes {
+	vertical-align: middle;
+	line-height: 18px;
+}
+
+.gwt-WindowPanel .imgfechar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.gwt-WindowPanel .imgrestaurar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.gwt-WindowPanel .imgminimizar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.gwt-WindowPanel .topLeft {
+	background: url(../images/wp-top-left.png) no-repeat;
+	height: 25px;
+	width: 7px;
+}
+
+.gwt-WindowPanel .topCenter {
+	vertical-align: top;
+	background: url(../images/wp-top-center.png) repeat-x;
+	height: 25px;
+	width: 32px;
+}
+
+.gwt-WindowPanel .topRight {
+	background: url(../images/wp-top-right.png) no-repeat;
+	padding-right: 7px;
+	height: 25px;
+	width: 8px;
+}
+
+.gwt-WindowPanel .middleLeft {
+	background: url(../images/wp-center-left.png) repeat-y;
+	height: 45px;
+	width: 7px;
+}
+
+.gwt-WindowPanel .middleCenter {
+	height: 100%;
+	width: 100%;
+	background-color: #e8e8e8;
+}
+
+.gwt-WindowPanel .middleRight {
+	background: url(../images/wp-center-right.png) repeat-y;
+	height: 45px;
+	width: 8px;
+}
+
+.gwt-WindowPanel .bottomLeft {
+	background: url(../images/wp-bottom-left.png) no-repeat;
+	height: 32px;
+	width: 7px;
+}
+
+.gwt-WindowPanel .bottomCenter {
+	background: url(../images/wp-bottom-center.png) repeat-x;
+	height: 32px;
+	width: 15px;
+}
+
+.gwt-WindowPanel .bottomRight {
+	background: url(../images/wp-bottom-right.png) no-repeat;
+	height: 32px;
+	width: 8px;
+}
+
+/******************************************
+ TEMA blue01
+*******************************************/
+
+.blue01 {
+	border: none;
+}
+
+.blue01 .titulowp {
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: small;
+	font-family: "verdana", sans-serif;
+	vertical-align: bottom;
+	line-height: 41px;
+}
+
+.blue01 .botoes {
+	vertical-align: bottom;
+	line-height: 41px;
+}
+
+.blue01 .imgfechar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.blue01 .imgrestaurar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.blue01 .imgminimizar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.blue01 .topLeft {
+	background: url(../images/blue01-wp-top-left.png) no-repeat;
+	padding-left: 17px;
+	height: 43px;
+	width: 22px;
+}
+
+.blue01 .topCenter {
+	vertical-align: top;
+	background: url(../images/blue01-wp-top-center.png) repeat-x;
+	height: 43px;
+	width: 109px;
+}
+
+.blue01 .topRight {
+	background: url(../images/blue01-wp-top-right.png) no-repeat;
+	padding-right: 17px;
+	height: 43px;
+	width: 22px;
+}
+
+.blue01 .middleLeft {
+	background: url(../images/blue01-wp-center-left.png) repeat-y;
+	height: 15px;
+	width: 22px;
+}
+
+.blue01 .middleCenter {
+	height: 100%;
+	width: 100%;
+	background-color: #ccffff;
+}
+
+.blue01 .middleRight {
+	background: url(../images/blue01-wp-center-right.png) repeat-y;
+	height: 15px;
+	width: 22px;
+}
+
+.blue01 .bottomLeft {
+	background: url(../images/blue01-wp-bottom-left.png) no-repeat;
+	height: 24px;
+	width: 22px;
+}
+
+.blue01 .bottomCenter {
+	background: url(../images/blue01-wp-bottom-center.png) repeat-x;
+	height: 24px;
+	width: 130px;
+}
+
+.blue01 .bottomRight {
+	background: url(../images/blue01-wp-bottom-right.png) no-repeat;
+	height: 24px;
+	width: 22px;
+}
+
+/******************************************
+ TEMA blue02
+*******************************************/
+
+.blue02 {
+	border: none;
+}
+
+.blue02 .titulowp {
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: small;
+	font-family: "verdana", sans-serif;
+	vertical-align: bottom;
+	line-height: 40px;
+}
+
+.blue02 .botoes {
+	vertical-align: bottom;
+	line-height: 40px;
+}
+
+.blue02 .imgfechar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.blue02 .imgrestaurar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.blue02 .imgminimizar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.blue02 .topLeft {
+	background: url(../images/blue02-wp-top-left.png) no-repeat;
+	padding-left: 7px;
+	height: 40px;
+	width: 15px;
+}
+
+.blue02 .topCenter {
+	vertical-align: top;
+	background: url(../images/blue02-wp-top-center.png) repeat-x;
+	height: 40px;
+	width: 34px;
+}
+
+.blue02 .topRight {
+	background: url(../images/blue02-wp-top-right.png) no-repeat;
+	padding-right: 15px;
+	height: 40px;
+	width: 16px;
+}
+
+.blue02 .middleLeft {
+	background: url(../images/blue02-wp-center-left.png) repeat-y;
+	height: 64px;
+	width: 15px;
+}
+
+.blue02 .middleCenter {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.blue02 .middleRight {
+	background: url(../images/blue02-wp-center-right.png) repeat-y;
+	height: 59px;
+	width: 16px;
+}
+
+.blue02 .bottomLeft {
+	background: url(../images/blue02-wp-bottom-left.png) no-repeat;
+	height: 23px;
+	width: 15px;
+}
+
+.blue02 .bottomCenter {
+	background: url(../images/blue02-wp-bottom-center.png) repeat-x;
+	height: 23px;
+	width: 24px;
+}
+
+.blue02 .bottomRight {
+	background: url(../images/blue02-wp-bottom-right.png) no-repeat;
+	height: 23px;
+	width: 16px;
+}
+
+/******************************************
+ TEMA quadro
+*******************************************/
+
+.quadro {
+	border: none;
+}
+
+.quadro .titulowp {
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: small;
+	font-family: "verdana", sans-serif;
+	vertical-align: bottom;
+	line-height: 20px;
+}
+
+.quadro .botoes {
+	vertical-align: bottom;
+	line-height: 20px;
+}
+
+.quadro .imgfechar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.quadro .imgrestaurar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.quadro .imgminimizar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.quadro .topLeft {
+	background: url(../images/quadro-wp-top-left.png) no-repeat;
+	padding-left: 7px;
+	height: 20px;
+	width: 17px;
+}
+
+.quadro .topCenter {
+	vertical-align: top;
+	background: url(../images/quadro-wp-top-center.png) repeat-x;
+	height: 20px;
+	width: 25px;
+}
+
+.quadro .topRight {
+	background: url(../images/quadro-wp-top-right.png) no-repeat;
+	padding-right: 17px;
+	height: 20px;
+	width: 18px;
+}
+
+.quadro .middleLeft {
+	background: url(../images/quadro-wp-center-left.png) repeat-y;
+	height: 29px;
+	width: 17px;
+}
+
+.quadro .middleCenter {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.quadro .middleRight {
+	background: url(../images/quadro-wp-center-right.png) repeat-y;
+	height: 29px;
+	width: 18px;
+}
+
+.quadro .bottomLeft {
+	background: url(../images/quadro-wp-bottom-left.png) no-repeat;
+	height: 20px;
+	width: 17px;
+}
+
+.quadro .bottomCenter {
+	background: url(../images/quadro-wp-bottom-center.png) repeat-x;
+	height: 20px;
+	width: 25px;
+}
+
+.quadro .bottomRight {
+	background: url(../images/quadro-wp-bottom-right.png) no-repeat;
+	height: 20px;
+	width: 18px;
+}
+
+/******************************************
+ TEMA pretrato -- porta retrato
+*******************************************/
+
+.pretrato {
+	border: none;
+	font-size: 3px;
+}
+
+.pretrato .titulowp {
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: small;
+	font-family: "verdana", sans-serif;
+	vertical-align: bottom;
+	line-height: 0px;
+}
+
+.pretrato .botoes {
+	vertical-align: bottom;
+	line-height: 0px;
+}
+
+.pretrato .imgfechar {
+	vertical-align: middle;
+	width: 0px;
+	height: 0px;
+}
+
+.pretrato .imgrestaurar {
+	vertical-align: middle;
+	width: 0px;
+	height: 0px;
+}
+
+.pretrato .imgminimizar {
+	vertical-align: middle;
+	width: 0px;
+	height: 0px;
+}
+
+.pretrato .topLeft {
+	background: url(../images/pretrato-wp-top-left.png) no-repeat;
+	padding-left: 7px;
+	height: 16px;
+	width: 8px;
+}
+
+.pretrato .topCenter {
+	vertical-align: top;
+	background: url(../images/pretrato-wp-top-center.png) repeat-x;
+	height: 15px;
+	width: 129px;
+}
+
+.pretrato .topRight {
+	background: url(../images/pretrato-wp-top-right.png) no-repeat;
+	padding-right: 12px;
+	height: 15px;
+	width: 14px;
+}
+
+.pretrato .middleLeft {
+	background: url(../images/pretrato-wp-center-left.png) repeat-y;
+	height: 87px;
+	width: 8px;
+}
+
+.pretrato .middleCenter {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.pretrato .middleRight {
+	background: url(../images/pretrato-wp-center-right.png) repeat-y;
+	height: 87px;
+	width: 14px;
+}
+
+.pretrato .bottomLeft {
+	background: url(../images/pretrato-wp-bottom-left.png) no-repeat;
+	height: 14px;
+	width: 8px;
+}
+
+.pretrato .bottomCenter {
+	background: url(../images/pretrato-wp-bottom-center.png) repeat-x;
+	height: 25px;
+	width: 129px;
+}
+
+.pretrato .bottomRight {
+	background: url(../images/pretrato-wp-bottom-right.png) no-repeat;
+	height: 14px;
+	width: 14px;
+}
+
+/******************************************
+ TEMA orkut
+*******************************************/
+
+.orkut {
+	border: none;
+}
+
+.orkut .titulowp {
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: small;
+	font-family: "verdana", sans-serif;
+	vertical-align: bottom;
+	line-height: 31px;
+}
+
+.orkut .botoes {
+	vertical-align: bottom;
+	line-height: 31px;
+}
+
+.orkut .imgfechar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.orkut .imgrestaurar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.orkut .imgminimizar {
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+}
+
+.orkut .topLeft {
+	background: url(../images/orkut-top-left.png) no-repeat;
+	padding-left: 12px;
+	height: 33px;
+	width: 17px;
+}
+
+.orkut .topCenter {
+	vertical-align: top;
+	background: url(../images/orkut-top-center.png) repeat-x;
+	height: 33px;
+	width: 15px;
+}
+
+.orkut .topRight {
+	background: url(../images/orkut-top-right.png) no-repeat;
+	padding-right: 18px;
+	height: 33px;
+	width: 19px;
+}
+
+.orkut .middleLeft {
+	background: url(../images/orkut-center-left.png) repeat-y;
+	height: 26px;
+	width: 17px;
+}
+
+.orkut .middleCenter {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.orkut .middleRight {
+	background: url(../images/orkut-center-right.png) repeat-y;
+	height: 26px;
+	width: 19px;
+}
+
+.orkut .bottomLeft {
+	background: url(../images/orkut-bottom-left.png) no-repeat;
+	height: 22px;
+	width: 17px;
+}
+
+.orkut .bottomCenter {
+	background: url(../images/orkut-bottom-center.png) repeat-x;
+	height: 22px;
+	width: 15px;
+}
+
+.orkut .bottomRight {
+	background: url(../images/orkut-bottom-right.png) no-repeat;
+	height: 22px;
+	width: 19px;
+}

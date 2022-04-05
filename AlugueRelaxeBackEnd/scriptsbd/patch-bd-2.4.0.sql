@@ -1,0 +1,32 @@
+ALTER TABLE IMOVEL
+ADD IMOV_IN_SORTEIO_SB VARCHAR(1)
+DEFAULT 'N' 
+NOT NULL 
+CHECK (IMOV_IN_SORTEIO_SB IN ('S','N'));
+
+alter table IMOVEL_PLANO_FATURA drop constraint INTEG_73;
+alter table IMOVEL_PLANO_FATURA
+add constraint INTEG_73
+check (IMPF_IN_STATUS IN ('P','L','R','C','V'));
+
+alter table IMOVEL_VISITAS drop constraint INTEG_178;
+alter table IMOVEL_VISITAS
+add constraint INTEG_178
+check (IMVI_IN_ORIGEM_VISITA IN ('LI','PP','PD','LD','IP', 'EM','FB','TW','BL','RA','SB'));
+
+alter table PLANO drop constraint INTEG_102;
+alter table PLANO
+add constraint INTEG_102
+check (PLAN_IN_TIPO_COMPRA IN ('N','P','D','S','E'));
+
+ALTER TABLE IMOVEL_IMAGEM_VIDEO
+ADD IMIV_DT_CADASTRO TIMESTAMP
+DEFAULT CURRENT_TIMESTAMP 
+NOT NULL ;
+
+alter table PUBLICIDADE drop constraint INTEG_141;
+alter table PUBLICIDADE
+add constraint INTEG_141
+check (PUBL_IN_TIPO_PUBLICIDADE IN ('PP','PD','SB')) ;
+
+SET GENERATOR SEQ_ASSI_CD_ASSINANTE  TO 10000;

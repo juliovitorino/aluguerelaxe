@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgPlanos
+DESCRIPTION datagrama da pagina de planos
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME planos.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/planos.html
+HOMEPAGE DEFAULT /html/hpDefaultPlanos.html
+DATAGRAM TYPE SAMPLE
+

@@ -1,0 +1,17 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgListaImovelUf
+DESCRIPTION datagrama da Lista de Imovel por UF
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME lista-imovel-uf.dgf
+HTMLERROR /html/errodefault.html
+HOMEPAGE DEFAULT /html/hpDefaultListaImovelUF.html
+DATAGRAM TYPE SAMPLE
+

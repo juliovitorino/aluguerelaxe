@@ -1,0 +1,504 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<title>
+Informativo
+</title>
+<style type="text/css">
+/** Client-specific Styles */
+#outlook a {
+	padding:0;
+} /* Force Outlook to provide a "view in browser" button. */
+body {
+	width:100% !important;
+}
+.ReadMsgBody {
+	width:100%;
+}
+.ExternalClass {
+	width:100%;
+} /* Force Hotmail to display emails at full width */
+body {
+	-webkit-text-size-adjust:none;
+} /* Prevent Webkit platforms from changing default text sizes. */
+/* Reset Styles */
+body {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+
+	line-height:100%;
+	outline:none;
+	text-decoration:none;
+}
+table td {
+	border-collapse:collapse;
+}
+#backgroundTable {
+	height:100% !important;
+	margin:0;
+	padding:0;
+	width:100% !important;
+}
+#contentTable {
+	vertical-align:top;
+}
+/** Yahoo paragraph fix: removes the proper spacing or the paragraph (p) tag. To correct we set the top/bottom margin to 1em in the head of the document. Simple fix with little effect on other styling. You do not need to move this inline. NOTE: It is also common to use two breaks instead of the paragraph tag but I think this way is cleaner and more semantic. 
+**/
+p {
+	margin: 1em 0;
+}
+/** Hotmail header color reset: Hotmail replaces your header color styles with a green color on H2, H3, H4, H5, and H6 tags. In this example, the color is reset to black for a non-linked header, blue for a linked header, red for an active header (limited support), and purple for a visited header (limited support).  Replace with your choice of color. The !important is really what is overriding Hotmail's styling. Hotmail also sets the H1 and H2 tags to the same size.
+**/
+h1, .h1 {
+	color: #555555 !important;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 100% !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 5px !important;
+	margin-left: 0 !important;
+	text-align: left;
+}
+h2, .h2 {
+	color: #F0AB00 !important;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 100% !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 5px !important;
+	margin-left: 0 !important;
+	text-align: left;
+}
+h3, .h3 {
+	color: #555555 !important;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 120% !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	text-align: left;
+}
+h4, .h4 {
+	color: #333333 !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 120% !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 10px !important;
+	margin-left: 0 !important;
+	text-align: left;
+}
+h5, .h5 {
+	color: #333333 !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 120% !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 10px !important;
+	margin-left: 0 !important;
+	text-align: left;
+}
+.Tagline {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	text-align: left;
+	font-weight: bold;
+}
+.Tagline a:link, .Tagline a:visited, .Tagline a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ContactUtility {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	text-align: right;
+	font-weight: bold;
+}
+.ContactUtility a:link, .ContactUtility a:visited, .ContactUtility a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.BodyContent div {
+	color: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	text-align: left;
+}
+.BodyContent div a:link, .BodyContent div a:visited, .BodyContent div a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #0066B3;
+	font-weight: normal;
+	text-decoration: none;
+}
+.BackToTop {
+	color: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	text-align: right;
+}
+.BackToTop a:link, .BackToTop a:visited, .BackToTop a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #0066B3;
+	font-weight: normal;
+	text-decoration: none;
+}
+.BodyContent {
+	color: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	text-align: left;
+}
+.BodyContent a:link, .BodyContent a:visited, .BodyContent a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #0066B3;
+	font-weight: normal;
+	text-decoration: none;
+}
+.BodyContent p {
+	color: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	text-align: left;
+}
+.BodyContent p a:link, .BodyContent p a:visited, .BodyContent p a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #0066B3;
+	font-weight: normal;
+	text-decoration: none;
+}
+.TOC {
+	color: #0066B3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 120%;
+	text-align: left;
+}
+.TOC a:link, .TOC a:visited, .TOC a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #0066B3;
+	font-weight: normal;
+	text-decoration: none;
+}
+.Footer {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 100%;
+	text-align: right;
+}
+.Footer a:link, .Footer a:visited, .Footer a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+.Button {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 100%;
+	text-align: right;
+}
+.Button a:link, .Button a:visited, .Button a .yshortcuts /* Yahoo! Mail Override */ {
+	color: #FFFFFF !important;
+	font-weight: Bold;
+	text-decoration: none !important;
+}
+.InlinePhoto {
+	text-align: right !important;
+}
+/** Outlook 07, 10 Padding issue: These "newer" versions of Outlook add some padding around table cells potentially throwing off your perfectly pixeled table.  The issue can cause added space and also throw off borders completely.  Use this fix in your header or inline to safely fix your table woes. INLINE: No
+**/
+table td {
+	border-collapse:collapse;
+}
+</style>
+</head>
+ 
+<body>
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+  <tr>
+    <td id="contentTable"><!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
+      <!--header-->
+      <table cellspacing="0" border="0" cellpadding="0" width="600" align="center">
+        <tr>
+          <td valign="top"><!--top links-->
+            <table cellspacing="0" border="0" cellpadding="0" width="600">
+              <tr>
+                <td style="font-size: 11px; font-family: Arial, Helvetica, sans-serif; color: #555555; margin: 0px;">Para garantir que você continue a receber informações relacionadas ao AlugueRelaxe, adicione o endereço aluguerelaxe@aluguerelaxe.com.br ou info@aluguerelaxe.com.br em seu livro de endereços (address book) ou lista de remetentes autorizados.</td>
+              </tr>
+            </table>
+            <!--/top links--></td>
+        </tr>
+        <tr>
+          <td height="18"><!-- anchor for back to top --></td>
+        </tr>
+        <tr>
+          <td valign="top"><!-- logo, tagline and contact-->
+            <div style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #666666; font-weight:bold; margin: 0px;">
+              <table width="600" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td align="left"><img src="http://www.aluguerelaxe.com.br/stream/logo/alugue_relaxe.png" alt="Anuencia"></td>
+                </tr>
+              </table>
+            </div>
+            <!-- /logo, tagline and contact--></td>
+        </tr>
+        <tr>
+          <td height="15"><!-- spacer --></td>
+        </tr>
+        <tr>
+          <td height="9" bgcolor="#F0AB00"><!-- orange bar --></td>
+        </tr>
+        <tr>
+          <td height="30"><!-- spacer --></td>
+        </tr>
+      </table>
+      <!--/header-->
+      <!--intro-->
+      <table cellspacing="0" border="0" cellpadding="0" width="600" align="center">
+        <tr>
+          <td valign="top" width="280"><table cellspacing="0" border="0" cellpadding="0">
+              <tr>
+                <td valign="top"><h2 style="font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #F0AB00; font-weight:bold; margin: 0px;">AUTORIZA&Ccedil;&Atilde;O</h2>
+                  <h3 style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #555555; font-weight:normal; margin: 0px;">Instru&ccedil;&otilde;es para contato com anunciante a fim de iniciar uma negocia&ccedil;&otilde;o de temporada.</h3></td>
+              </tr>
+              <tr>
+                <td height="20"><!---spacer before button---></td>
+              </tr>
+            </table></td>
+          <td valign="top"><!-- *** HERO PHOTO *** -->
+            <table cellspacing="0" cellpadding="0" border="0" align="right">
+              <tr>
+                <td width="20"><font size="1" style="height:1px;width:20px; font-size: 1px;">&#160;</font></td>
+                <td><img src="http://www.sap.com/global/ui/images/photos/0300x0200/271864_l_srgb_s_gl_0300_0200_rl_00_00.jpg" alt="SAP" width="300" height="200"></td>
+              </tr>
+            </table>
+            <!-- *** /HERO PHOTO *** --></td>
+        </tr>
+        <tr>
+          <td height="30" colspan="2"><!---created spacer becuase margins and cellspacing is messed up with outlook and gmail---></td>
+        </tr>
+      </table>
+      <!--/intro-->
+      <!--Outside Content Wrapper to include Highlights-->
+      <table cellspacing="0" border="0" cellpadding="0" width="600" align="center" class="BodyContent">
+        <tr>
+          <td width="385" valign="top"><!--Article 1-->
+            <table cellspacing="0" border="0" cellpadding="0" width="100%" align="center" class="BodyContent">
+              <tr>
+                <td width="100%" valign="top" style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555 margin: 0px;"><h5 style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #333333; font-weight:bold; margin: 0px;">Prezado(a) AlugueRelaxe, </h5>
+                  <p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;"><a href="#" style="text-decoration:none !important; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #0066B3;" target="_blank"><strong>Inicie a conversação com o proprietário do imóvel utilizando-se deste script:</strong></a></p>
+                  <p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Sr(a) <strong>${NOME_PROPRIETARIO} - ${PROPRIETARIO_TELEFONE}</strong>, existe uma oportunidade de alugar seu imóvel <strong>${TITULO_IMOVEL}</strong> domiciliado em <strong>${ENDERECO_COMPLETO_IMOVEL}</strong> ao cliente <strong>${NOME_CONTATO}</strong>, email <strong>${EMAIL_CONTATO}</strong>, telefone <strong>${TELEFONE_CONTATO}</strong> de <strong>${CIDADE_CONTATO}/${UF_CONTATO}</strong> que foi prospectada pelo nosso setor comercial do AlugueRelaxe.</p>
+                  <!-- *** Bulleted list *** -->
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">O imóvel está disponível no periodo de ${DATA_CHECKIN_CONTATO} a ${DATA_CHECKOUT_CONTATO} ?</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Qual valor da temporada para o período ${DATA_CHECKIN_CONTATO} a ${DATA_CHECKOUT_CONTATO} já incluindo taxas ?</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>
+					<tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">É exigido seguro Caução ? Qual valor?</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>                   
+					<tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">O que tem de atrativo perto do imóvel para ajudar na decisão positiva do cliente ?</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>                   
+					<tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Autoriza a negociação ?</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>                   
+                  </table>
+                  <!--/bulleted list-->
+                </td>
+              </tr>
+            </table>
+            <table cellspacing="0" border="0" cellpadding="0" width="100%" align="center" class="BodyContent">
+              <tr>
+                <td width="100%" valign="top" style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555 margin: 0px;"><h5 style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #333333; font-weight:bold; margin: 0px;">Peguntas e Respostas </h5><p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;"><a href="#" style="text-decoration:none !important; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #0066B3;" target="_blank"><strong>Segue uma relação de perguntas possíveis durante a solicitação de autorização.</strong></a></p></td>
+              </tr>
+              <tr>
+                <td width="100%" valign="top" style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555 margin: 0px;">
+                  <p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Por que eu (anunciante) não posso negociar diretamente com o interessado em alugar o imóvel ?</p>
+                  <!-- *** Bulleted list *** -->
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">explique que é porque ele anuncia de graça e de acordo com o termo de uso: Os anunciantes que anunciam gratuitamente, caso recebam qualquer contato pelos meios de publicidade do AlugueRelaxe, a negociação será realizada pela Central de Reservas e será cobrada uma comissão pela negociação.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>
+                  </table>
+                  <!--/bulleted list-->
+                </td>
+              </tr>
+              <tr>
+                <td width="100%" valign="top" style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555 margin: 0px;">
+                  <p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Por que tenho que pagar a comissão de 30%?</p>
+                  <!-- *** Bulleted list *** -->
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">exclicar os beneficios da negociacao pelo Aluguerelaxe são: Transparência, confiança e segurança jurídica. Além de existirem custos com instuições financeiras, funcionários, publicidade, consultoria jurídica, impostos, telefonemas, entre outros. </td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>
+                  </table>
+                  <!--/bulleted list-->
+                </td>
+              </tr>
+            </table>
+            <table cellspacing="0" border="0" cellpadding="0" width="100%" align="center" class="BodyContent">
+              <tr>
+                <td width="100%" valign="top" style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555 margin: 0px;"><h5 style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #333333; font-weight:bold; margin: 0px;">Dicas</h5>
+                  <p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;"><a href="#" style="text-decoration:none !important; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #0066B3;" target="_blank"><strong>Seguem algumas que podem ser úteis:</strong></a></p>
+                  <!-- *** Bulleted list *** -->
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">acontece muito do mesmo locatário voltar ao mesmo imóvel quando ele é bem atendido, daí  nas próximas negociações você promover um laço de relacionamento com o locatário. Mas que pelo aluguerelaxe funciona desse jeito. (Explicar o processo como funciona)</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Se o cliente não quiser, avise que o contato do suposto locatario será cancelado e que o imovel esta indisponivel nada data e que será indicado outro imóvel no lugar deste.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>
+					<tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Solicitar ao anunciante para colocar o e-mail do AlugueRelaxe na lista de remetentes confiáveis no seu programa leitor de e-mail (outlook, ig, uol, gmail, etc), pois a maior parte da comunicação da negociação será feita por e-mail.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>                   
+					<tr>
+                      <td width="20">&nbsp;</td>
+                      <td width="7" valign="top"><img src="http://www.sap.com/global/ui/images/emails/email-bullet-gold-Square-7px.gif" width="7" height="7" alt="" border="0" style="margin-top:5px;"></td>
+                      <td width="10">&nbsp;</td>
+                      <td valign="top" style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">Durante a fase de aprovação da pre-reserva o cliente deve enviar e-mail com foto de uma conta de luz e/ou agua do mes anterior. Também deve devolver e-mail com "De acordo" sobre a negociação.</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4" height="10">&nbsp;</td>
+                    </tr>                   
+                  </table>
+                  <!--/bulleted list-->
+                </td>
+              </tr>
+            </table>
+			
+            <!---/Article 1---></td>
+          <td width="40"><!---spacer between atrciles and highlights---></td>
+          <td width="175" valign="top"><!--Highlights --->
+            <table cellspacing="0" border="0" cellpadding="0" width="175" align="center" class="SideModule">
+              <tr>
+                <td bgcolor="#000000" height="4"><!-- Black line appears aboe the first highlight ONLY---></td>
+              </tr>
+              <tr>
+                <td class="SideModuleGrayBground" style="background-color:#F0F0F0; padding:10px 10px 10px 10px;"><h4 style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222222; font-weight:bold; margin: 0px;">Pense!</h4>
+                  <!---Need style within p becuase Gmail only allows inline style and the H tag removes it --->
+                  <p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;"><a href="#" style="text-decoration:none !important; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #0066B3;">&#8250;&nbsp;Transportai um punhado de terra todos os dias e terás uma montanha.</a></p>
+                  <p style="font-weight:normal; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #555555;">&#8250;&nbsp;Faça uma boa negociação. Boa Sorte!</p>
+				</td>
+              </tr>
+              <tr>
+                <td height="10"><!---spacer between modules---></td>
+              </tr>
+              <tr>
+                <td bgcolor="#000000" height="4"><!-- Black line appears aboe the first highlight ONLY---></td>
+              </tr>
+              <tr>
+                <td style="padding:10px 10px 10px 10px;"><h4 style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222222; font-weight:bold; margin: 0px;">Fique conectado!</h4>
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td valign="top" align="left" width="25"><a href="#" style=" text-decoration:none !important; font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #0066B3;" target="_blank"><img src="http://www.sap.com/global/ui/images/icons/socialmedia/icon-social-network-Facebook-email.png" width="16" height="16" alt="Facebook" border="0"/></a></td>
+                      <td valign="top" align="left" width="25"><a href="#" style=" text-decoration:none !important; font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #0066B3;" target="_blank"><img src="http://www.sap.com/global/ui/images/icons/socialmedia/icon-social-network-Twitter-email.png" width="16" height="16" alt="Twitter" border="0"/></a></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table>
+      <!---/Outside wrapper--->
+      <!---Footer--->
+      <table width="600" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td height="20"></td>
+        </tr>
+        <tr>
+          <td style="font-size: 11px; font-family: Arial, Helvetica, sans-serif; color: #555555; margin: 0px;">Este e-mail promocional fornece informações sobre  serviços do AlugueRelaxe que possam ser de seu interesse.</td>
+        </tr>
+        <tr>
+          <td height="20"></td>
+        </tr>
+      </table>
+      <!---/Footer---></td>
+  </tr>
+</table>
+</body>
+</html>

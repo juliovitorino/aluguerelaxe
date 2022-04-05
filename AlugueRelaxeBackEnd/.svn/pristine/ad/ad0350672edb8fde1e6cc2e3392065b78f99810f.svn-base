@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/stream/logo/alugue_relaxe.png" alt="Transferencia"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;"><p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+              Sr. AlugueRelaxe,</strong></font></p>
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Segue abaixo as informa&ccedil;&otilde;es para realização de transferência de depósito em conta corrente.</b><br/>
+           </font>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            <strong>C&oacute;digo de rastreamento:</strong><br/></font>
+			<h1>${CODIGO_TRACKING}</h1>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            <strong>Informações bancárias para transferência de depósito:</strong><br/>
+            Banco:<strong>${NOME_BANCO}</strong><br/>
+            Agência: <strong>${NOME_AGENCIA}</strong><br/>
+            C/C: <strong>${CONTA_CORRENTE}</strong><br/>
+            Favorecido: <strong>${NOME_LOCADOR}</strong><br/>
+           </font>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            <strong>Segue a memória de cálculo:</strong><br/><br/>
+            Valor negociado da temporada:<strong>R$&nbsp;${VALOR_NEGOCIADO_TEMPORADA}</strong><br/><br/>
+            Forma de Pagamento Escolhida: <strong>${FORMA_PGTO_ESCOLHIDA}</strong><br/><br/>
+            Deposito antecipado (custódia): <strong>R$&nbsp;${VALOR_DEPOSITADO_CUSTODIA}</strong><br/><br/>
+            Depósito Caução: <strong>R$&nbsp;${VALOR_DEPOSITO_CAUCAO}</strong><br/><br/>
+            Valor a ser pago na entrega da chave: <strong>R$&nbsp;${VALOR_A_SER_PAGO_NA_CHAVE}</strong><br/><br/>
+            Comissão do AlugueRelaxe: <strong>${PERC_COMISSAO_ALUGUE_RELAXE}(%)</strong><br/><br/>
+            Valor Comissão do AlugueRelaxe: <strong>R$&nbsp;${VALOR_COMISSAO_ALUGUE_RELAXE}</strong><br/><br/>
+            Valor a ser liberado: <strong>${VALOR_A_SER_LIBERADO}</strong><br/>
+           </font>
+           </p>  
+           
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+		   Para acompanhar diretamente no portal clique no link <a href="${LINK_RESERVA}">${LINK_RESERVA}</a></font>
+           </p> 
+           
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Por favor, realizar a verifica&ccedil;&atilde;o e executar os procedimentos de transferência do depósito o mais breve possível.
+           </font>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Atenciosamente,<br/>
+            Central de Reservas AlugueRelaxe
+           </font>
+           </p>  
+              
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;"><p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+
+<div id="listaDestaques">
+	<div class="destaqueImovel">
+	    <div class="linhaFoto">
+	        
+	        <div class="divAdContent">
+	           
+	            <p class="itemDestaque">
+				
+Oi <b>${TSPI_TAG_IFC_NOME_1}</b>,
+
+	            </p>
+	            <p class="itemDestaque">
+Este é o relatório de visitas ao seu imóvel no ano de ${TSPI_TAG_IFC_TEXTO_LIVRE_16}, conforme cadastro abaixo:
+	            </p>
+	            <p class="itemDestaque">
+Ref.:<b>${TSPI_TAG_IFC_TEXTO_LIVRE_1}</b><br/>
+Titulo:<b>${TSPI_TAG_IFC_TEXTO_LIVRE_2}</b>
+	            </p>
+	            <p class="itemDestaque">
+No ano de ${TSPI_TAG_IFC_TEXTO_LIVRE_16} seu imóvel teve ${TSPI_TAG_IFC_TEXTO_LIVRE_15} visitas  distribuídas nos meses conforme tabela abaixo.
+	            </p>
+	            <p class="itemDestaque">
+<table border="1">
+	<tr>
+		<td colspan="13" align="center">ANO - ${TSPI_TAG_IFC_TEXTO_LIVRE_16}</td>
+	</tr>
+	<tr>
+		<td>TOTAL</td>
+		<td>&nbsp;JAN&nbsp;</td>
+		<td>&nbsp;FEV</td>
+		<td>&nbsp;MAR&nbsp;</td>
+		<td>&nbsp;ABR&nbsp;</td>
+		<td>&nbsp;MAI&nbsp;</td>
+		<td>&nbsp;JUN&nbsp;</td>
+		<td>&nbsp;JUL&nbsp;</td>
+		<td>&nbsp;AGO&nbsp;</td>
+		<td>&nbsp;SET&nbsp;</td>
+		<td>&nbsp;OUT&nbsp;</td>
+		<td>&nbsp;NOV&nbsp;</td>
+		<td>&nbsp;DEZ&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_15}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_3}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_4}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_5}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_6}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_7}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_8}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_9}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_10}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_11}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_12}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_13}</td>
+		<td>${TSPI_TAG_IFC_TEXTO_LIVRE_14}</td>
+	</tr>
+	<tr>
+		<td colspan="13" align="center"><img src="https://chart.googleapis.com/chart?cht=bvs&chs=400x200&chd=t:${TSPI_TAG_IFC_TEXTO_LIVRE_3},${TSPI_TAG_IFC_TEXTO_LIVRE_4},${TSPI_TAG_IFC_TEXTO_LIVRE_5},${TSPI_TAG_IFC_TEXTO_LIVRE_6},${TSPI_TAG_IFC_TEXTO_LIVRE_7},${TSPI_TAG_IFC_TEXTO_LIVRE_8},${TSPI_TAG_IFC_TEXTO_LIVRE_9},${TSPI_TAG_IFC_TEXTO_LIVRE_10},${TSPI_TAG_IFC_TEXTO_LIVRE_11},${TSPI_TAG_IFC_TEXTO_LIVRE_12},${TSPI_TAG_IFC_TEXTO_LIVRE_13},${TSPI_TAG_IFC_TEXTO_LIVRE_14}&chl=Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez"></td>
+	</tr>
+</table>
+
+				</p>
+	            <p class="itemDestaque">
+Não esqueça que você pode visitar o gráfico de distribuição de visitas na sua área de anunciantes, basta fazer o login.
+	            </p>
+
+	            <p class="titItemDestaque">
+				Um Grande Abraço,<br/>
+				Júlio Vitorino<br/>
+				Administrador do AlugueRelaxe<br/>
+	            <a href="http://www.aluguerelaxe.com.br">http://www.aluguerelaxe.com.br</a>
+	            </p>
+					
+	        </div>
+
+	        
+	    </div>
+	</div>
+</div>
+
+		
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>

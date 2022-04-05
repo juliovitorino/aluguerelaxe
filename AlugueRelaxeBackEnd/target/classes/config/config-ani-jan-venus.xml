@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spammer-config>
+	<!-- Descreva a tarefa deste config -->
+	<tarefa>Anunciantes aniversariantes de Agosto (Venus) => </tarefa>
+
+	<!-- Descreva aqui o subject do e-mail -->
+	<assunto>${TSPI_TAG_IFC_NOME_1}, Feliz Aniversário!</assunto>
+	
+	<!-- Template html para ser enviado durante o processo -->
+	<template>/home/aluguerelaxe/spammer/templates/template-aniversario-novo.html</template>
+
+	<!-- lista xml contendo os e-mails para contatos -->
+	<catalogo>/home/aluguerelaxe/spammer/mailing/mailing-ani-jan.xml</catalogo>
+
+	<!-- lista de publicadores da mensagem -->
+	<publicador nome="Administrador" email="aluguerelaxe@aluguerelaxe.com.br"/>
+
+	<!-- tempo de espera entre envio de cada e-mail unidade em milisegundos -->
+	<tempoespera>60000</tempoespera>
+	
+	<!-- ativa modo de leitura da lista de emails do final para o inicio -->
+	<modoreverso>OFF</modoreverso>
+
+	<!-- Lista de smtp mail servers local ou na VM a serem utilizados no processo -->
+	<servidorEmail nome="smtp.aluguerelaxe.com.br" porta="587" contaAutenticacao="aluguerelaxe@aluguerelaxe.com.br" aliaspwd="JUPITER_SMTP_PWD"/> 
+	
+	<!--
+	<servidorEmail nome="smtp.saturno.com.br" porta="25">
+	<servidorEmail nome="smtp.pluto.com.br" porta="25">
+	-->
+
+	<!-- lista dos imóveis que terão suas informações enviadas durante o spammer -->
+	<fichaImovel>
+		<id>2</id>
+	</fichaImovel>
+</spammer-config>

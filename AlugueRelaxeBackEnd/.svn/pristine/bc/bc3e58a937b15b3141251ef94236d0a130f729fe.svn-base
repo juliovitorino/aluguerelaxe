@@ -1,0 +1,147 @@
+log4j.rootLogger=INFO, AR_Geral, Console
+
+log4j.appender.Console=org.apache.log4j.ConsoleAppender
+log4j.appender.Console.layout=org.apache.log4j.PatternLayout
+log4j.appender.Console.layout.ConversionPattern=(%r ms) [%t] %-5p: %c{1}::%M()[%L] %x: %m%n
+
+#Configuracoes de log4j para comandos realizados pelo hibernate no AlugueRelaxe
+log4j.appender.AR_hb=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_hb.File=/home/aluguerelaxe/temp/ar-hibernate.log
+log4j.appender.AR_hb.MaxFileSize=10MB
+log4j.appender.AR_hb.MaxBackupIndex=10
+log4j.appender.AR_hb.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_hb.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+
+#Configuracoes de log4j para AlugueRelaxe
+log4j.appender.AR_Geral=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Geral.File=/home/aluguerelaxe/temp/ar-geral.log
+log4j.appender.AR_Geral.MaxFileSize=10MB
+log4j.appender.AR_Geral.MaxBackupIndex=10
+log4j.appender.AR_Geral.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Geral.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+
+#Configuracoes de log4j para caracteristicas
+log4j.appender.AR_Caracteristicas=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Caracteristicas.File=/home/aluguerelaxe/temp/ar-caracteristicas.log
+log4j.appender.AR_Caracteristicas.MaxFileSize=10MB
+log4j.appender.AR_Caracteristicas.MaxBackupIndex=10
+log4j.appender.AR_Caracteristicas.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Caracteristicas.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+
+#Configuracoes de log4j para cidade
+log4j.appender.AR_Cidade=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Cidade.File=/home/aluguerelaxe/temp/ar-cidade.log
+log4j.appender.AR_Cidade.MaxFileSize=10MB
+log4j.appender.AR_Cidade.MaxBackupIndex=10
+log4j.appender.AR_Cidade.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Cidade.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+ 
+#Configuracoes de log4j para depoimento
+log4j.appender.AR_Depoimento=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Depoimento.File=/home/aluguerelaxe/temp/ar-depoimento.log
+log4j.appender.AR_Depoimento.MaxFileSize=10MB
+log4j.appender.AR_Depoimento.MaxBackupIndex=10
+log4j.appender.AR_Depoimento.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Depoimento.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+ 
+#Configuracoes de log4j para imovel
+log4j.appender.AR_Imovel=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Imovel.File=/home/aluguerelaxe/temp/ar-imovel.log
+log4j.appender.AR_Imovel.MaxFileSize=10MB
+log4j.appender.AR_Imovel.MaxBackupIndex=10
+log4j.appender.AR_Imovel.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Imovel.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+
+#Configuracoes de log4j para mensagem
+log4j.appender.AR_Mensagem=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Mensagem.File=/home/aluguerelaxe/temp/ar-mensagem.log
+log4j.appender.AR_Mensagem.MaxFileSize=10MB
+log4j.appender.AR_Mensagem.MaxBackupIndex=10
+log4j.appender.AR_Mensagem.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Mensagem.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+
+#Configuracoes de log4j para uf
+log4j.appender.AR_Uf=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Uf.File=/home/aluguerelaxe/temp/ar-uf.log
+log4j.appender.AR_Uf.MaxFileSize=10MB
+log4j.appender.AR_Uf.MaxBackupIndex=10
+log4j.appender.AR_Uf.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Uf.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+
+#Configuracoes de log4j para variavel
+log4j.appender.AR_Variavel=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Variavel.File=/home/aluguerelaxe/temp/ar-variavel.log
+log4j.appender.AR_Variavel.MaxFileSize=10MB
+log4j.appender.AR_Variavel.MaxBackupIndex=10
+log4j.appender.AR_Variavel.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Variavel.layout.ConversionPattern=%d [%t] %-5p %c{1}::%M()[%L] - %m%n 
+
+#Configuracoes de log4j para classe GlobalStartup
+log4j.appender.AR_GlobalStartup=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_GlobalStartup.File=/home/aluguerelaxe/temp/ar-globalstartup.log
+log4j.appender.AR_GlobalStartup.MaxFileSize=10MB
+log4j.appender.AR_GlobalStartup.MaxBackupIndex=10
+log4j.appender.AR_GlobalStartup.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_GlobalStartup.layout.ConversionPattern=%d [%t] %-5p - %m%n 
+
+#Configuracoes de log4j para classe server DestinoRPCImpl
+log4j.appender.AR_Server_DestinoRPCImpl=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Server_DestinoRPCImpl.File=/home/aluguerelaxe/temp/ar-server-destinorpcimpl.log
+log4j.appender.AR_Server_DestinoRPCImpl.MaxFileSize=10MB
+log4j.appender.AR_Server_DestinoRPCImpl.MaxBackupIndex=10
+log4j.appender.AR_Server_DestinoRPCImpl.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Server_DestinoRPCImpl.layout.ConversionPattern=%d [%t] %-5p - %m%n 
+
+#Configuracoes de log4j para classe server PainelDepoimentoRPCImpl
+log4j.appender.AR_Server_PainelDepoimentoRPCImpl=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Server_PainelDepoimentoRPCImpl.File=/home/aluguerelaxe/temp/ar-server-paineldepoimentorpcimpl.log
+log4j.appender.AR_Server_PainelDepoimentoRPCImpl.MaxFileSize=10MB
+log4j.appender.AR_Server_PainelDepoimentoRPCImpl.MaxBackupIndex=10
+log4j.appender.AR_Server_PainelDepoimentoRPCImpl.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Server_PainelDepoimentoRPCImpl.layout.ConversionPattern=%d [%t] %-5p - %m%n 
+
+#Configuracoes de log4j para classe server PainelUfCidadesRPCImpl
+log4j.appender.AR_Server_PainelUfCidadesRPCImpl=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Server_PainelUfCidadesRPCImpl.File=/home/aluguerelaxe/temp/ar-server-painelufcidadesrpcimpl.log
+log4j.appender.AR_Server_PainelUfCidadesRPCImpl.MaxFileSize=10MB
+log4j.appender.AR_Server_PainelUfCidadesRPCImpl.MaxBackupIndex=10
+log4j.appender.AR_Server_PainelUfCidadesRPCImpl.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Server_PainelUfCidadesRPCImpl.layout.ConversionPattern=%d [%t] %-5p - %m%n 
+
+#Configuracoes de log4j para classe server PublicidadeRPCImpl
+log4j.appender.AR_Server_PublicidadeRPCImpl=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Server_PublicidadeRPCImpl.File=/home/aluguerelaxe/temp/ar-server-publicidaderpcimpl.log
+log4j.appender.AR_Server_PublicidadeRPCImpl.MaxFileSize=10MB
+log4j.appender.AR_Server_PublicidadeRPCImpl.MaxBackupIndex=10
+log4j.appender.AR_Server_PublicidadeRPCImpl.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Server_PublicidadeRPCImpl.layout.ConversionPattern=%d [%t] %-5p - %m%n 
+
+#Configuracoes de log4j para classe server PublicidadeRPCImpl
+log4j.appender.AR_Server_UploadManager=org.apache.log4j.RollingFileAppender
+log4j.appender.AR_Server_UploadManager.File=/home/aluguerelaxe/temp/ar-server-uploadmanager.log
+log4j.appender.AR_Server_UploadManager.MaxFileSize=10MB
+log4j.appender.AR_Server_UploadManager.MaxBackupIndex=10
+log4j.appender.AR_Server_UploadManager.layout=org.apache.log4j.PatternLayout
+log4j.appender.AR_Server_UploadManager.layout.ConversionPattern=%d [%t] %-5p - %m%n 
+
+log4j.logger.com.genuitec.eclipse.sqlexplorer=DEBUG
+log4j.logger.org.apache=WARN
+log4j.logger.net.sf.hibernate=WARN, AR_hb
+
+#Debug por pacotes em seus respectivos appenders
+log4j.logger.br.com.jcv.backend=INFO, AR_Geral
+log4j.logger.br.com.jcv.backend.caracteristicas=INFO, AR_Caracteristicas
+log4j.logger.br.com.jcv.backend.cidade=INFO, AR_Cidade
+log4j.logger.br.com.jcv.backend.depoimento=INFO, AR_Depoimento
+log4j.logger.br.com.jcv.backend.imovel=INFO, AR_Imovel
+log4j.logger.br.com.jcv.backend.mensagem=INFO, AR_Mensagem
+log4j.logger.br.com.jcv.backend.uf=INFO, AR_Uf
+log4j.logger.br.com.jcv.backend.variavel=INFO, AR_Variavel
+log4j.logger.br.com.jcv.backend.utility.GlobalStartup=INFO, AR_GlobalStartup
+
+log4j.logger.br.com.jcv.aluguerelaxe.server=INFO, AR_Geral
+log4j.logger.br.com.jcv.aluguerelaxe.server.DestinoRPCImpl=INFO, AR_Server_DestinoRPCImpl
+log4j.logger.br.com.jcv.aluguerelaxe.server.PainelDepoimentoRPCImpl=INFO, AR_Server_PainelDepoimentoRPCImpl
+log4j.logger.br.com.jcv.aluguerelaxe.server.PainelUfCidadesRPCImpl=INFO, AR_Server_PainelUfCidadesRPCImpl
+log4j.logger.br.com.jcv.aluguerelaxe.server.PublicidadeRPCImpl=INFO, AR_Server_PublicidadeRPCImpl
+log4j.logger.br.com.jcv.aluguerelaxe.server.uploadmanager.UploadManager=INFO, AR_Server_UploadManager

@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgPublicidade
+DESCRIPTION datagrama da pagina de precos da publicidade
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME publicidade.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/publicidade.html
+HOMEPAGE DEFAULT /html/hpPublicidade.html
+DATAGRAM TYPE SAMPLE
+

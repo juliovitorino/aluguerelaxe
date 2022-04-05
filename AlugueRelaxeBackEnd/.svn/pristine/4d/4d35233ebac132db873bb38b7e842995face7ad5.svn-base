@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="br.com.jcv.backend.caracteristicas.CaracteristicaDTO"
+		table="CARACTERISTICA">
+		<id name="id" column="CARA_CD_CARACTERISTICA">
+			<generator class="sequence">
+				<param name="sequence">SEQ_CARA_CD_CARACTERISTICA</param>
+			</generator>
+		</id>
+		<property name="nome" column="CARA_NM_CARACTERISTICA" />
+		<property name="descricaoAnuncio" column="CARA_TX_ANUNCIO" />
+	</class>
+</hibernate-mapping>

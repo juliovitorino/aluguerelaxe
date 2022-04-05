@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0.3//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.0.3/distro-source/core/src/gwt-module.dtd">
+<module rename-to="console">
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.google.gwt.maps.GoogleMaps"/>
+	<inherits name="com.google.gwt.visualization.Visualization"/>
+	
+<!--	<script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2" />-->
+	<script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2&amp;key=ABQIAAAARGOj3BcX82rFLvOrvEt_6hQBYM-PZpivslm6am8ewAIEA7y-fxRKsmESB_dTa_jlSe416PUg-5lkAw" />
+	
+	
+	<source path="client" />
+	
+	<entry-point class="br.com.jcv.aluguerelaxe.client.administracao.console.Console"/>
+	
+	<servlet class="br.com.jcv.aluguerelaxe.server.LoginRPCImpl" path="/loginrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.ClienteRPCImpl" path="/clienterpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.UFRPCImpl" path="/ufrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.GaleriaImovelRPCImpl" path="/galeriaimovelrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.CaracteristicaRPCImpl" path="/caracteristicarpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.FichaImovelRPCImpl" path="/fichaimovelrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.ProgressBarRPCImpl" path="/progressbarrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.PlanosRPCImpl" path="/planosrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.CepRPCImpl" path="/ceprpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.AvisosRPCImpl" path="/avisosrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.ReservalRPCImpl" path="/reservarpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.ModoPublicidadeRPCImpl" path="/modopublicidaderpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.SuperPanelRPCImpl" path="/superpanelrpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.PaginacaoRPCImpl" path="/paginacaorpc"/>
+	
+	
+</module>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mailing-list>
+  <mailing-record><nome>Ligia das Dores Silva</nome><email>julio.vitorino@gmail.com</email></mailing-record>
+  <mailing-record><nome>Pedro Cardoso</nome><email>pedrodende76@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>ornella ingarao</nome><email>contato@aurafortaleza.com</email></mailing-record>
+  <mailing-record><nome>FLÁVIO LOPES MACHADO DA SILVA</nome><email>flopes@csn.com.br</email></mailing-record>
+  <mailing-record><nome>Rafael Maldonado</nome><email>adm.rafaelmaldonado@live.com</email></mailing-record>
+  <mailing-record><nome>Fabiano Bernardi</nome><email>alugoemcanasvieiras@yahoo.com</email></mailing-record>
+  <mailing-record><nome>Rossana Livia Dias Pereira</nome><email>rossanalivia@gmail.com</email></mailing-record>
+  <mailing-record><nome>Solange Ap Peres Haka</nome><email>solangehaka@bol.com.br</email></mailing-record>
+  <mailing-record><nome>nelma pereira v. cardoso</nome><email>u.nelmamelo@gmail.com</email></mailing-record>
+  <mailing-record><nome>janete borges da silva</nome><email>contato@ubatubatemporadas.com.br</email></mailing-record>
+  <mailing-record><nome>Marisa Silva de Azevedo</nome><email>marisa.azevedo@terra.com.br</email></mailing-record>
+  <mailing-record><nome>Nirley Alexandre de Souza</nome><email>alexnir@ig.com.br</email></mailing-record>
+  <mailing-record><nome>Gabriel Silveira da Mota</nome><email>gabrielsmota@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Carla Fadel</nome><email>carla.fadel@ig.com.br</email></mailing-record>
+  <mailing-record><nome>fabio miki joanson</nome><email>fabiojoanson@hotmail.com</email></mailing-record>
+  <mailing-record><nome>claudia maria de carvalho welp</nome><email>claudiawelp@gmail.com</email></mailing-record>
+  <mailing-record><nome>carlos cesar de almeida souza</nome><email>cesarsouza4@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Graziella Santos</nome><email>contatochacara@gmail.com</email></mailing-record>
+  <mailing-record><nome>Nelson Geromel</nome><email>geromel@live.com</email></mailing-record>
+  <mailing-record><nome>tania aparecida martins</nome><email>taniamartins.42@gmail.com</email></mailing-record>
+  <mailing-record><nome>Edson Junior</nome><email>edsoneventos@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Gilberto Lopes</nome><email>sitiobebele@oi.com.br</email></mailing-record>
+  <mailing-record><nome>Márcia Santos</nome><email>contato@chacarapordosolaruja.com.br</email></mailing-record>
+  <mailing-record><nome>Helbio Ramos</nome><email>helbioramos@gmail.com</email></mailing-record>
+  <mailing-record><nome>ISABEL CRISTINA</nome><email>belcrisj@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Ana Maria de Mattos Barros</nome><email>brotas@casasechacaras.com.br</email></mailing-record>
+  <mailing-record><nome>Sébastien Marc Victor Antz</nome><email>sebastienantz@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Elizangela Cristina</nome><email>crislii@globo.com</email></mailing-record>
+  <mailing-record><nome>Eunice Gomes Côrtes</nome><email>orlarioimoveis.net@globomail.com</email></mailing-record>
+  <mailing-record><nome>Faustos Juliano Barbedo</nome><email>reservas@pousadasky.com.br</email></mailing-record>
+  <mailing-record><nome>Roberto Mota</nome><email>nossahistoria@ibest.com.br</email></mailing-record>
+  <mailing-record><nome>Otavio Faria</nome><email>pizzacash@ig.com.br</email></mailing-record>
+  <mailing-record><nome>sergio teixeira sant anna</nome><email>seimarmagalhaes@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Rodrigo Santos</nome><email>atendimentocinp@gmail.com</email></mailing-record>
+  <mailing-record><nome>denise pires</nome><email>denisegrijo@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Claudia flavia</nome><email>portodeiracema@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Eber Q. Raimundo</nome><email>eberqraimundo@ig.com.br</email></mailing-record>
+  <mailing-record><nome>Vanessa R.Silva</nome><email>vanrodsilva@gmail.com</email></mailing-record>
+  <mailing-record><nome>Ronaldo Siulys</nome><email>siulys@terra.com.br</email></mailing-record>
+  <mailing-record><nome>Carolina Maria de Moura Freitas</nome><email>carolinammfreitas@gmail.com</email></mailing-record>
+  <mailing-record><nome>alberione alves coelho</nome><email>alberionecoelho@gmail.com</email></mailing-record>
+  <mailing-record><nome>CLOVIS ZAMP</nome><email>info@cyberlinks.com.br</email></mailing-record>
+  <mailing-record><nome>Glaucia Ribeiro</nome><email>glauciarrsilva@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Genilson Nuzaro da Paixão</nome><email>aptemporadamco@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Surama Kléia da Silva Chaves</nome><email>celeiroeventos@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Anna Maria Claus</nome><email>amclaus@globo.com</email></mailing-record>
+  <mailing-record><nome>leopoldo ferro</nome><email>leopoldo.ferro@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Luciana de Almeida Ponzo</nome><email>ancorarflat3307@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Pau Brasil®</nome><email>paubrasilinternational@gmail.com</email></mailing-record>
+  <mailing-record><nome>ELZA ALVES GONÇALVES</nome><email>elzaagonc@ig.com.br</email></mailing-record>
+  <mailing-record><nome>Bruna Peixoto Girard</nome><email>brunapeixoto5@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Luciano</nome><email>forum2009@terra.com.br</email></mailing-record>
+  <mailing-record><nome>SITIO IPIRANGA</nome><email>sitioipiranga2011@gmail.com</email></mailing-record>
+  <mailing-record><nome>marcelo leonardo maia</nome><email>marcelolmaia@gmail.com</email></mailing-record>
+  <mailing-record><nome>Luiz Antonio Maia Duarte</nome><email>maiaduarte@terra.com.br</email></mailing-record>
+  <mailing-record><nome>roberto melo </nome><email>meloguimaraes@r7.com</email></mailing-record>
+  <mailing-record><nome>jose dias gouveia</nome><email>contieng@gmail.com</email></mailing-record>
+  <mailing-record><nome>anderson ferreira rodrigues</nome><email>contato@pousadaquarius.com.br</email></mailing-record>
+  <mailing-record><nome>Magna Lopes</nome><email>chacaraleaodejuda@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Geraldo de Mello Tito</nome><email>melloti@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Maria Izabel Dias de Pinho Gomes</nome><email>contato@harasdoagape.com</email></mailing-record>
+  <mailing-record><nome>Nilza Maria Garcia</nome><email>nilzagarciaiguatama@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>julio maria</nome><email>birisilas@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Angela Rosa da Silva</nome><email>wauvo@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Jorge Almeida</nome><email>jorge@barrabela.com</email></mailing-record>
+  <mailing-record><nome>mariangela teixeira da silva</nome><email>mariii-teixeira@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Sítio Maravilha em São Roque</nome><email>sitiomaravilha1@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Plinio F Filho</nome><email>plinio_filho2009@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Mauricio Werner Nerlich</nome><email>nerlichmw@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Valeria Vanni</nome><email>conti_vanni@uol.com.br</email></mailing-record>
+  <mailing-record><nome>Maria das Dores Ferreira Silva</nome><email>contato@loctur.com</email></mailing-record>
+  <mailing-record><nome>Ana Paula Sader do Nascimento</nome><email>polpasdefruta@oi.com.br</email></mailing-record>
+  <mailing-record><nome>Adma Alves Duarte</nome><email>Admaaduarte@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Rogerio Modesto Barabba</nome><email>sitiobarabba@gmail.com</email></mailing-record>
+  <mailing-record><nome>waldir Alves de Menezes Junior</nome><email>daividfss@gmail.com</email></mailing-record>
+  <mailing-record><nome>carlos de barros cavalcanti neto</nome><email>carlos@dubrazilhoteis.com.br</email></mailing-record>
+  <mailing-record><nome>Cleide Marisa Longobardi</nome><email>estancia@estanciacanaa.com.br</email></mailing-record>
+  <mailing-record><nome>vicente souza</nome><email>lazer@chacaravistaverde.com.br</email></mailing-record>
+  <mailing-record><nome>Pousada Luar de Caiobá</nome><email>luardecaioba@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>JACQUES PARIENTI</nome><email>jack@hotelarara.com.br</email></mailing-record>
+  <mailing-record><nome>Roberto C A Teixeira</nome><email>chacara_dos_sonhos@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Maria Geni Cerqueira</nome><email>recanto@chacarasantarita.com</email></mailing-record>
+  <mailing-record><nome>FRANCISCO MACIEL</nome><email>franciscomaciel@solardaarvore.com.br</email></mailing-record>
+  <mailing-record><nome>Elisete Marques</nome><email>elisetecm@terra.com.br</email></mailing-record>
+  <mailing-record><nome>Alexandre de Jesus</nome><email>cantinhoocian@gmail.com</email></mailing-record>
+  <mailing-record><nome>Tomas Basile</nome><email>tomsanaiki@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Lucilia Abich</nome><email>pousadarech@pousadarech.com.br</email></mailing-record>
+  <mailing-record><nome>rogerio u z negreiros</nome><email>pousadapraiadosamores@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Vera Lucia de Mello Aché</nome><email>veradrolma@gmail.com</email></mailing-record>
+  <mailing-record><nome>Escala Imoveis</nome><email>carol@investinfortaleza.com</email></mailing-record>
+  <mailing-record><nome>Leandro Costa</nome><email>leandropcosta@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Joneson Carneiro de Azevedo</nome><email>joneson@carneiro.com.br</email></mailing-record>
+  <mailing-record><nome>Christiae Cracel</nome><email>admcracel@gmail.com</email></mailing-record>
+  <mailing-record><nome>Altevir Rose </nome><email>altevirrose@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>jean charles machado</nome><email>charles.deolho@gmail.com</email></mailing-record>
+  <mailing-record><nome>RICARDO BASTOS BRONZE</nome><email>ricardobronze@hotmail.com</email></mailing-record>
+  <mailing-record><nome>PauloSérgio Aredes de Araujo</nome><email>pousadacabecadoindio@terra.com.br</email></mailing-record>
+  <mailing-record><nome>Casa Jureia</nome><email>casa.jureia@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Mario Neto</nome><email>contato@reginadelmare.com.br</email></mailing-record>
+  <mailing-record><nome>andré pereira da silva</nome><email>redesegura.imoveis@eletroguard.com.br</email></mailing-record>
+  <mailing-record><nome>JORGE LUIZ DE ASSIS BAKER</nome><email>cac472010@hotmail.com</email></mailing-record>
+  <mailing-record><nome>lindinalva nascimento</nome><email>ranchosonhoazul2011@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Avanir Alves Cavalcanti</nome><email>avanicavalcanti@gmail.com</email></mailing-record>
+  <mailing-record><nome>Ronaldo Pinto da Silva</nome><email>ronaldossp@bol.com.br</email></mailing-record>
+  <mailing-record><nome>Zulmar Osmar da Cunha</nome><email>zulmarcunha@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Alexandre Abdala Karpus</nome><email>karpus@ig.com.br</email></mailing-record>
+  <mailing-record><nome>Renato Carpaneda</nome><email>revaraca@hotmail.com</email></mailing-record>
+  <mailing-record><nome>marly aparecida berndt bandeira de mello</nome><email>marly.bandeira.de.mello@gmail.com</email></mailing-record>
+  <mailing-record><nome>denis alessandro ruiz espinosa</nome><email>s.pinter@ig.com.br</email></mailing-record>
+  <mailing-record><nome>maria ines jordao</nome><email>mines_jordao@hotmail.com</email></mailing-record>
+  <mailing-record><nome>jose ricardo p pontes</nome><email>josericardoponte@uol.com.br</email></mailing-record>
+  <mailing-record><nome>Amanda Ferreira</nome><email>amanda@amandabravo.com</email></mailing-record>
+  <mailing-record><nome>Maria Cristina Paiva</nome><email>contato@ilhabelasuites.com.br</email></mailing-record>
+  <mailing-record><nome>Silvana Patricia Bonfim</nome><email>Silbonfim@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Vladimir Arrivabene Juniopr</nome><email>vlad.arriv@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Lindinalva dos santos nascimento</nome><email>nalva_presentes@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Géssica Portelles</nome><email>gessicaportellis@hotmail.com</email></mailing-record>
+  <mailing-record><nome>WILSON ROMÃO</nome><email>praia.casa@hotmail.com</email></mailing-record>
+  <mailing-record><nome>cristiane telo</nome><email>cristianecaldasnovas@hotmail.com</email></mailing-record>
+  <mailing-record><nome>marilene horning</nome><email>marihorning2@hotmail.com</email></mailing-record>
+  <mailing-record><nome>jose antonio moreno</nome><email>joseagmoreno@ig.com.br</email></mailing-record>
+  <mailing-record><nome>fergutt@gmail.com</nome><email>fergutt@gmail.com</email></mailing-record>
+  <mailing-record><nome>Aparecida Celeste O.S.Jesus</nome><email>cidaceleste@hotmail.com</email></mailing-record>
+  <mailing-record><nome>DIONISIO MARQUES</nome><email>marques4331@HOTMAIL.COM</email></mailing-record>
+  <mailing-record><nome>waldiley rodrigues</nome><email>waldiley@live.com</email></mailing-record>
+  <mailing-record><nome>Elisa de Andrade</nome><email>casasaudavel@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Jose Luis Cardieri</nome><email>sitiocasarao@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Mia Barbosa</nome><email>miabarbosafotos@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Liliane moraes de souza</nome><email>lilianesouza22@hotmail.com</email></mailing-record>
+  <mailing-record><nome>george silva de souza</nome><email>georgesphp@gmail.com</email></mailing-record>
+  <mailing-record><nome>silvia fatima da silva morgado</nome><email>zurita_sp@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Claudir Nobre Cabreira</nome><email>nohbre@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Shirley Siqueira</nome><email>peruibete@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>valeria cursino de oliveira</nome><email>valval380@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>Karla Berbat Netto</nome><email>sitiovaledosol@globomail.com</email></mailing-record>
+  <mailing-record><nome>Nanci Ap. Neves do Nascimento</nome><email>nanciapneves@hotmail.com</email></mailing-record>
+  <mailing-record><nome>JOSE RONALDO POLETO</nome><email>rosapoleto@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>alexandre glavam ulharuzo</nome><email>unalex@ibest.com.br</email></mailing-record>
+  <mailing-record><nome>maria santos</nome><email>marianatalina25@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Andréa Mendes Lacerda</nome><email>andreamlacerda@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Alexandre Cesa e Silva</nome><email>ale_farol@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Cassino Aluguel</nome><email>cassinoaluguel@yahoo.com.br</email></mailing-record>
+  <mailing-record><nome>janaina monteiro da silva</nome><email>janams2011@hotmail.com</email></mailing-record>
+  <mailing-record><nome>sergio steiner prieto</nome><email>sergioprieto@terra.com.br</email></mailing-record>
+  <mailing-record><nome>joão maria de paiva</nome><email>paivjoao@bol.com.br</email></mailing-record>
+  <mailing-record><nome>Tatiana Gaeta</nome><email>tati.gaeta@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Ester Arnaz Luiz</nome><email>ester_peruibe@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Luana Carvalho</nome><email>rluanacarvalho@gmail.com</email></mailing-record>
+  <mailing-record><nome>silvana rabello</nome><email>silvanarsp@gmail.com</email></mailing-record>
+  <mailing-record><nome>Tathiana Hoffmann Bandeira</nome><email>tatha_hoffmann@hotmail.com</email></mailing-record>
+  <mailing-record><nome>ELAINE CARLA MUNIZ FALCÃO</nome><email>efalcao@tce.sp.gov.br</email></mailing-record>
+  <mailing-record><nome>Marli Xavier de Souza</nome><email>marli.tropicalia@gmail.com</email></mailing-record>
+  <mailing-record><nome>Olga Ribeiro</nome><email>deby00010@gmail.com</email></mailing-record>
+  <mailing-record><nome>Monica Borges da silva</nome><email>ludycat_ludy@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Pier Luigi Nardiello</nome><email>casasbrasil@hotmail.it</email></mailing-record>
+  <mailing-record><nome>luciana saad castello branco</nome><email>luksaad@hotmail.com</email></mailing-record>
+  <mailing-record><nome>juraci nascimento dos santos</nome><email>papuscko_555@hotmail.com</email></mailing-record>
+  <mailing-record><nome>Regina Lúcia da Costa e Castro</nome><email>gabrielalccastro@ig.com.br</email></mailing-record>
+  <mailing-record><nome>LAIS FRANCA MANNO</nome><email>laismanno@gmail.com</email></mailing-record>
+  <mailing-record><nome>Luciano Carlos da Silva</nome><email>legiaogames1@ibest.com.br</email></mailing-record>
+  <mailing-record><nome>Luciana Pereira Oliveira</nome><email>rentrecife@gmail.com</email></mailing-record>
+</mailing-list>  

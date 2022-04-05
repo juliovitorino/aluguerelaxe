@@ -1,0 +1,333 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+<title>Tables with CSS</title>
+<style type="text/css"> 
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address {
+	margin:0;
+	padding:0;
+		}
+body {
+	background: #fff url(graphics/bg-body.gif) repeat-x;
+	font:76%/160% "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	}
+p {
+	text-align:center;
+	}	
+a:link {
+	color:#d42945;
+	text-decoration:none;
+	border-bottom:1px dotted #ffbac8;
+	}	
+a:visited {
+	color:#d42945;
+	border-bottom:none;
+	text-decoration:none;
+	}		
+a:hover,
+a:focus {
+	color:#f03b58;
+	border-bottom:1px solid #f03b58;
+	text-decoration:none;
+	}
+table a,
+table a:link,
+table a:visited {
+	border:none;
+	}							
+	
+img {
+	border:0;
+	margin-top:.5em;
+	}	
+table {
+	width:90%;
+	border-top:1px solid #e5eff8;
+	border-right:1px solid #e5eff8;
+	margin:1em auto;
+		border-collapse:collapse;
+	}
+caption {
+	color: #9ba9b4;
+	font-size:.94em;
+		letter-spacing:.1em;
+		margin:1em 0 0 0;
+		padding:0;
+		caption-side:top;
+		text-align:center;
+	}	
+tr.odd td	{
+	background:#f7fbff
+	}
+tr.odd .column1	{
+	background:#f4f9fe;
+	}	
+.column1	{
+	background:#f9fcfe;
+	}
+td {
+	color:#678197;
+	border-bottom:1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+	padding:.3em 1em;
+	text-align:center;
+	}				
+th {
+	font-weight:normal;
+	color: #678197;
+	text-align:left;
+	border-bottom: 1px solid #e5eff8;
+	border-left:1px solid #e5eff8;
+	padding:.3em 1em;
+	}							
+thead th {
+	background:#f4f9fe;
+	text-align:center;
+	font:bold 1.2em/2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+	color:#66a3d3
+	}	
+tfoot th {
+	text-align:center;
+	background:#f4f9fe;
+	}	
+tfoot th strong {
+	font:bold 1.2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+	margin:.5em .5em .5em 0;
+	color:#66a3d3;
+		}		
+tfoot th em {
+	color:#f03b58;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: normal;
+	}
+</style>
+</head>
+<body>
+<table summary="Webhosting products overview showing all available packages, what's included and what the monthly cost is with an option to order">
+	<caption>Planos que podem ser escolhidos para divulga&ccedil;&atilde;o do im&oacute;vel</caption>
+	<thead>
+	<tr class="odd">
+		<td class="column1"></td>
+		<th scope="col" abbr="Home">An&uacute;ncio Gratuito<br/><img src="http://www.aluguerelaxe.com.br/stream/ar/gratis.png" alt="Gratuito"/></th>
+		<th scope="col" abbr="Home Plus">Plano Bronze<br/><img src="http://www.aluguerelaxe.com.br/stream/ar/bronze.png" alt="Bronze"/></th>	
+		<th scope="col" abbr="Business">Plano Prata<br/><img src="http://www.aluguerelaxe.com.br/stream/ar/silver.png" alt="Prata"/></th>
+		<th scope="col" abbr="Business Plus">Plano Ouro<br/><img src="http://www.aluguerelaxe.com.br/stream/ar/cubos_gold.png" alt="Ouro"/></th>
+		<th scope="col" abbr="Business Plus">Plano Diamante<br/><img src="http://www.aluguerelaxe.com.br/stream/ar/diamond.png" alt="Diamante"/></th>
+		<th scope="col" abbr="Business Plus">Prazo<br/>Fixo<br/><img src="http://www.aluguerelaxe.com.br/stream/ar/calendar.png" alt="Prazo Fixo"/></th>
+	</tr>	
+	</thead>
+    <tfoot>	
+ 	<tr class="odd">
+		<td class="column1">&nbsp;</td>
+		<th scope="col"><strong>An&uacute;ncio Gratuito</strong><br /><em>R$ 0,00</em></th>
+		<th scope="col"><strong>Plano Bronze</strong><br /><em>R$ 9,90</em></th>
+		<th scope="col"><strong>Plano Prata</strong><br /><em>R$ 28,00</em></th>
+		<th scope="col"><strong>Plano Ouro</strong><br /><em>R$ 53,00</em></th>
+		<th scope="col"><strong>Plano Diamante</strong><br /><em>R$ 100,00</em></th>
+		<th scope="col"><strong>Prazo Fixo</strong><br /><em>R$ 29,90</em></th>
+	</tr>	
+ 	<tr class="odd">
+		<td class="column1">&nbsp;</td>
+		<th scope="col"><strong>---</strong><br /><em>R$ 0,00</em></th>
+		<th scope="col"><strong>Apenas</strong><br /><em>R$ 0,33 / dia</em></th>
+		<th scope="col"><strong>Apenas</strong><br /><em>R$ 0,31 / dia</em></th>
+		<th scope="col"><strong>Apenas</strong><br /><em>R$ 0,29 / dia</em></th>
+		<th scope="col"><strong>Apenas</strong><br /><em>R$ 0,27 / dia</em></th>
+		<th scope="col"><strong>---</strong><br /><em>--</em></th>
+	</tr>	
+ 	<tr class="odd">
+		<td class="column1">&nbsp;</td>
+		<th scope="col">&nbsp;</th>
+		<th scope="col"><strong>Desconto</strong><br /><em>0%</em></th>
+		<th scope="col"><strong>Desconto</strong><br /><em>5%</em></th>
+		<th scope="col"><strong>Desconto</strong><br /><em>10%</em></th>
+		<th scope="col"><strong>Desconto</strong><br /><em>15%</em></th>
+		<th scope="col"><strong>Desconto</strong><br /><em>---</em></th>
+	</tr>	
+	</tfoot>
+	<tbody>
+ 	<tr>
+		<th scope="row" class="column1">Fotos Permitidas</th>
+		<td>10</td>
+		<td>10</td>
+		<td>12</td>
+		<td>24</td>
+		<td>48</td>
+		<td>12</td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">Dias de An&uacute;ncio</th>
+		<td>(livre)</td>
+		<td>30</td>
+		<td>90</td>
+		<td>180</td>
+		<td>365</td>
+		<td>30</td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Assinatura</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+	</tr>	
+ 	 <tr class="odd">
+		<th scope="row" class="column1">Publicidade 1a. Pagina</th>
+		<td>Sorteio</td>
+		<td>1</td>
+		<td>1x M&ecirc;s</td>
+		<td>1x M&ecirc;s</td>
+		<td>1x M&ecirc;s</td>
+		<td>Sorteio</td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Publicidade Destaque</th>	
+		<td>Sorteio</td>
+		<td>1</td>
+		<td>1x M&ecirc;s</td>
+		<td>1x M&ecirc;s</td>
+		<td>1x M&ecirc;s</td>
+		<td>Sorteio</td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">Im&oacute;vel Patrocinador</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Negocia&ccedil;&atilde;o Direta com Cliente</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">Campanha de Emails</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Campanha SMS</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">Apoio Jur&iacute;dico</th>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td>Contratado a parte</td>
+		<td>Contratado a parte</td>
+		<td>Contratado a parte</td>
+		<td>Contratado a parte</td>
+		<td>Contratado a parte</td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Fura-Fila</th>
+		<td>Contratado a parte</td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">V&iacute;deo Im&oacute;vel</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Publica&ccedil;&atilde;o no Facebook</th>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">Banner</th>
+		<td>Contratado a parte</td>
+		<td>Contratado a parte</td>
+		<td>Contratado a parte</td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td>Contratado a parte</td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">An&uacute;ncio Narrado</th>
+		<td>Contratado a parte</td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">An&uacute;ncio Diferenciado</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Alerta 24h</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+	</tr>	
+ 	<tr class="odd">
+		<th scope="row" class="column1">Brinde Caneca AlugueRelaxe</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/check2.png" alt="incluso" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+	</tr>	
+ 	<tr>
+		<th scope="row" class="column1">Super Banner</th>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+		<td>3</td>
+		<td><img src="images/16x16/delete2.png" alt="N&atilde;o" width="16" height="16" /></td>
+	</tr>	
+	</tbody>
+</table>
+ <p>Pre&ccedil;os e condi&ccedil;&otilde;es podem ter seu conte&uacute;do alterado sem pr&eacute;vio aviso.</p>
+ <p><img src="images/pagseguro.jpg" width="900" height="260"/></p>
+</body>
+</html>
+

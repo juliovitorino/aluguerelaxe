@@ -1,0 +1,17 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgLogin
+DESCRIPTION datagrama da Ficha do Imovel
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME login.dgf
+HTMLERROR /html/errodefault.html
+HOMEPAGE DEFAULT /html/hpLoginPassaportAlugueRelaxe.html
+DATAGRAM TYPE SAMPLE
+

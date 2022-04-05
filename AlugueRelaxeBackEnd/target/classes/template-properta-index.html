@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+
+
+
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+	${SECAO_HEAD}
+
+    <title>${TITULO_HTML}</title>
+</head>
+
+<body class="home page page-template">
+
+${PROPERTA_HEADER_TOP}
+
+<div id="content" class="clearfix">
+    <div class="map-wrapper">
+        <div class="map">
+            <script type="text/javascript">
+                var infoBoxes = [];
+				
+				${PROPERTA_INFOBOX_PUSH}
+
+                jQuery(document).ready(function ($) {
+                    var map = $('#map').aviators_map({
+                        locations: new Array(${PROPERTA_LAT_LONG}),
+                        types: new Array(${PROPERTA_TIPOS}),
+                        contents: infoBoxes,
+                        transparentMarkerImage: '${URL_HOME_PROPERTA}assets/img/marker-transparent.png',
+                        transparentClusterImage: '${URL_HOME_PROPERTA}assets/img/markers/cluster-transparent.png',
+                        zoom: ${PROPERTA_ZOOM} ,
+                        center: {
+                            latitude: ${PROPERTA_LATI_CENTER} ,
+                            longitude: ${PROPERTA_LONG_CENTER}
+                        },
+                        filterForm: '.map-filtering',
+                        enableGeolocation: '',
+                        pixelOffsetX: -75,
+                        pixelOffsetY: -200
+                    });
+                });
+            </script>
+
+
+            <div id="map" class="map-inner" style="height: 700px"></div>
+            <!-- /.map-inner -->
+
+            <div class="container">
+    <div class="row">
+        <div class="span12">
+
+            <div class="property-filter widget filter-horizontal">
+                <div class="content">
+                    <form method="post" action="${URL_GATEWAY_SERVICES}/filtrogeral" class="form-inline">
+ 
+ 
+                        <div class="property-types" style="height:1px !important; overflow: hidden;">
+                            <div class="property-type apartment">
+                                <label for="filter_type_6">
+                                    <input type="checkbox" name="filter_type[]" title="Apartment"
+                                           id="filter_type_6" class="no-ezmark" value="6"> Apartment
+                                </label>
+                            </div>
+                            <div class="property-type building-area ">
+                                <label for="filter_type_42">
+                                    <input type="checkbox" name="filter_type[]" title="Building Area"
+                                           id="filter_type_42" class="no-ezmark" value="42"> Building Area
+                                </label>
+                            </div>
+                            <div class="property-type condo ">
+                                <label for="filter_type_43">
+                                    <input type="checkbox" name="filter_type[]" title="Condo"
+                                           id="filter_type_43" class="no-ezmark" value="43"> Condo
+                                </label>
+                            </div>
+                            <div class="property-type cottage ">
+                                <label for="filter_type_44">
+                                    <input type="checkbox" name="filter_type[]" title="Cottage"
+                                           id="filter_type_44" class="no-ezmark" value="44"> Cottage
+                                </label>
+                            </div>
+                            <div class="property-type family-house ">
+                                <label for="filter_type_41">
+                                    <input type="checkbox" name="filter_type[]" title="Family House"
+                                           id="filter_type_41" class="no-ezmark" value="41"> Family House
+                                </label>
+                            </div>
+                            <div class="property-type single-home ">
+                                <label for="filter_type_40">
+                                    <input type="checkbox" name="filter_type[]" title="Single Home"
+                                           id="filter_type_40" class="no-ezmark" value="40"> Single Home
+                                </label>
+                            </div>
+                            <div class="property-type villa ">
+                                <label for="filter_type_45">
+                                    <input type="checkbox" name="filter_type[]" title="Villa"
+                                           id="filter_type_45" class="no-ezmark" value="45"> Villa
+                                </label>
+                            </div>
+                        </div>
+                        <!-- /.property-types -->
+						
+                        <div class="general">
+							 <input type="text" 
+							 name="p_filtro"
+							 placeholder="Digite o nome do local de viagem ou a identifica&ccedil;&atilde;o da propriedade" 
+							 data-provide="typeahead" 
+							 data-items="10" 
+							 data-source='${CIDADES_UF}'>
+							 
+							 <input type="hidden" name="p_pagina" value="1">
+
+
+<!--
+                            <input type="text" value="" name="filter_area_from" id="inputAreaFrom-"
+                                   placeholder="Area from">
+
+                            <input type="text" value="" name="filter_area_to" id="inputAreaTo-"
+                                   placeholder="Area to">
+-->
+							 <input type="submit" value="Pesquisar" class="btn btn-primary btn-large">
+
+<!--
+                            <button class="btn btn-primary btn-large">Pesquisar</button>
+-->
+                        </div>
+                        <!-- /.general -->
+                    </form>
+                </div>
+                <!-- /.content -->
+            </div>
+            <!-- /.property-filter -->                        </div>
+        <!-- /.span12 -->
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->        </div>
+        <!-- /.map -->
+    </div>
+
+    <!-- /.map-wrapper -->
+    <div class="container">
+        <div class="row">
+
+            <div id="main" class="span9">
+
+                <h2>Painel VIP</h2>
+                <div class="properties-grid featured">
+<div class="row">
+	${PROPERTA_IMOVEL_PP_ITEM}
+
+</div>
+</div>
+<!-- /.properties-grid -->
+
+<div class="show-all">
+    <a href="properties/">Show all</a>
+</div>                <hr>
+
+                <h1 class="page-header">Outras Oportunidades</h1>
+                <div class="properties-grid">
+<div class="row">
+	${PROPERTA_IMOVEL_PD_ITEM}
+
+</div>
+
+<div class="row-fluid">
+</div>
+<!-- /.row -->
+
+</div>
+<!-- /.properties-grid -->
+<div class="show-all">
+    <a href="properties/">Show all</a>
+</div>                <hr>
+
+                <div id="features-grid" class="features-grid widget">
+    <div class="textwidget">
+        <div class="row">
+            <div class="span3">
+                <div class="content-box">
+                    <div class="row">
+
+                        <div class="span1">
+                            <div class="pictopro-icon">
+                                <i class="icon icon-normal-profile-male"></i>
+                            </div>
+                        </div>
+
+                        <div class="content span2">
+                            <h3>Real Front end submission</h3>
+
+                            <p>Properta allows your users to add their own properties in real front-end
+                                page.</p>
+
+                            <p><a href="">Show All<i class="icon icon-normal-right-arrow-circle"></i></a>
+                            </p>
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.content-box --></div>
+            <div class="span3">
+                <div class="content-box">
+                    <div class="row">
+
+                        <div class="span1">
+                            <div class="pictopro-icon">
+                                <i class="icon icon-normal-globe"></i>
+                            </div>
+                        </div>
+
+                        <div class="content span2">
+                            <h3>Translation Ready &amp; WPML Support</h3>
+
+                            <p>Translate Properta to your language using PO files or WPML</p>
+
+                            <p><a href="">Show All<i class="icon icon-normal-right-arrow-circle"></i></a>
+                            </p>
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.content-box --></div>
+            <div class="span3">
+                <div class="content-box">
+                    <div class="row">
+
+                        <div class="span1">
+                            <div class="pictopro-icon">
+                                <i class="icon icon-normal-magnifier"></i>
+                            </div>
+                        </div>
+
+                        <div class="content span2">
+                            <h3>dsIDXPress for WP Support</h3>
+
+                            <p>Properta supports leading IDX/MLS real estate search WP plugin.</p>
+
+                            <p><a href="">Show All<i class="icon icon-normal-right-arrow-circle"></i></a>
+                            </p>
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.content-box --></div>
+        </div>
+    </div>
+</div>
+                <div id="carouselproperties" class="property-carousel widget">
+<h2>Carousel dos Patrocinadores</h2>
+<div class="carousel">
+<ul class="bxslider properties-grid unstyled">
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Nosso condomínio é fechado e todos os nossos chalés são mobiliados, sala cozinha habitável com todos os utensílios, fogão, geladeira e Microondas, dois quartos sendo que um deles é de parede móvel de madeira, que durante o dia poderá ser deixado aberto para ampliar o ambiente.</p></div>
+                    <img src="http://www.aluguerelaxe.com.br/stream/fotos/542/418/C542I418ID1381873237591-XG.jpg" alt="Ilhabela - SP">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Temporada
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                R$ 155/Dia
+            </div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        Ilhabela
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">São Paulo</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            800m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            2
+        </div>
+        <!-- /.bedrooms -->
+
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Nam convallis consequat dui. Suspendisse sit amet augue nunc. Quisque
+                            eget ligula quis diam viverra volutpat. Aliquam nec neque a metus blandit lobortis vitae
+                            vitae
+                            quam. Fusce ultricies molestie veli ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="2459 Tilden St">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Rent
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                500 € <span class="suffix">/ per month</span></div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        2459 Tilden St
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Judiciary Square</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            1030m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            12
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            6
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et
+                            risus vitae lectus dapibus sagittis sit amet eu eros. Pellentesque accumsan mi nec tristique
+                            vehicula. Suspendisse potenti. Cras f ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="677 Cottage Terrace">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Sale
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                59,600 €
+            </div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        677 Cottage Terrace
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Spring Valley</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            650m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            1
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            1
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Etiam ut est in odio tempor tincidunt vitae sed sem. Nullam dignissim
+                            lorem et erat dictum, cursus posuere lorem pretium. In leo elit, luctus vel vehicula vel,
+                            accumsan quis velit. Ut sagittis commodo ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="126 31st Pl NE">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Sale
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                48,000 €
+            </div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        126 31st Pl NE
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Civic Betterment</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            950m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            2
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            3
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Quisque non dictum eros. Praesent porta vehicula arcu eu ornare. Donec
+                            id egestas arcu. Suspendisse auctor condimentum ligula ultricies cursus. Vestibulum vel orci
+                            vel
+                            lacus rhoncus sagittis sed vitae ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="Carlton Ave NE">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Sale
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                87,000 €
+            </div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        Carlton Ave NE
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Capitol Hill</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            800m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            2
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            3
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Curabitur posuere lorem in nunc rutrum consequat. Fusce vel nulla nunc.
+                            Nam adipiscing purus ut posuere sodales. Morbi varius interdum urna, non scelerisque erat
+                            suscipit eu. Nunc vel congue tellus, e ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="12 Hayden Rd">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Sale
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                45,999 €
+            </div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        12 Hayden Rd
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Swampoodle</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            590m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            1
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            1
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Curabitur posuere lorem in nunc rutrum consequat. Fusce vel nulla nunc.
+                            Nam adipiscing purus ut posuere sodales. Morbi varius interdum urna, non scelerisque erat
+                            suscipit eu. Nunc vel congue tellus, e ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="20th St NE">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Sale
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                85,600 €
+            </div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        20th St NE
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Benning</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            450m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            1
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            2
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Curabitur posuere lorem in nunc rutrum consequat. Fusce vel nulla nunc.
+                            Nam adipiscing purus ut posuere sodales. Morbi varius interdum urna, non scelerisque erat
+                            suscipit eu. Nunc vel congue tellus, e ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="359 Rand Pl NE">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Sale
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                56,000 €
+            </div>
+            <!-- /.price -->
+
+            <div class="reduced">
+                Reduced
+            </div>
+            <!-- /.reduced -->
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        359 Rand Pl NE
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Swampoodle</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            540m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            1
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            3
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Etiam ut est in odio tempor tincidunt vitae sed sem. Nullam dignissim
+                            lorem et erat dictum, cursus posuere lorem pretium. In leo elit, luctus vel vehicula vel,
+                            accumsan quis velit. Ut sagittis commodo ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="3417 Girard St NE">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Rent
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                900 € <span class="suffix">per Month</span></div>
+            <!-- /.price -->
+
+            <div class="reduced">
+                Reduced
+            </div>
+            <!-- /.reduced -->
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        3417 Girard St NE
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Near Northeast</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            90m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            1
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            1
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+<li>
+    <div class="property">
+        <div class="image">
+            <div class="content">
+                <a href="property-detail.html">
+                    <div class="description"><p>Quisque non dictum eros. Praesent porta vehicula arcu eu ornare. Donec
+                            id egestas arcu. Suspendisse auctor condimentum ligula ultricies cursus. Vestibulum vel orci
+                            vel
+                            lacus rhoncus sagittis sed vitae ...</p></div>
+                    <img src="${URL_HOME_PROPERTA}assets/img/property-tmp-small.png" alt="2566 Quincy St NE">
+                </a>
+            </div>
+            <!-- /.content -->
+
+            <div class="rent-sale">
+                Sale
+            </div>
+            <!-- /.rent-sale -->
+
+            <div class="price">
+                59,900 €
+            </div>
+            <!-- /.price -->
+
+        </div>
+        <!-- /.image -->
+
+        <div class="info">
+            <div class="title clearfix">
+                <h2><a href="property-detail.html">
+                        2566 Quincy St NE
+                    </a></h2>
+            </div>
+            <!-- /.title -->
+
+            <div class="location">Sursum Corda</div>
+            <!-- /.location -->
+        </div>
+        <!-- /.info -->
+
+    </div>
+    <!-- /.property -->
+
+    <div class="property-info clearfix">
+        <div class="area">
+            <i class="icon icon-normal-cursor-scale-up"></i>
+            900m<sup>2</sup>
+        </div>
+        <!-- /.area -->
+
+        <div class="bedrooms">
+            <i class="icon icon-normal-bed"></i>
+            4
+        </div>
+        <!-- /.bedrooms -->
+
+        <div class="bathrooms">
+            <i class="icon icon-normal-shower"></i>
+            4
+        </div>
+        <!-- /.bathrooms -->
+    </div>
+    <!-- /.property-info -->
+
+</li>
+</ul>
+</div>
+
+
+</div>
+
+                <div id="partners_widget-3" class="widget partners">
+
+                    <h2>Partners</h2>
+
+                    <div class="partners">
+                        <div class="row">
+                            <div class="span3">
+                                <div class="partner">
+                                    <a href="http://www.themeforest.net">
+                                        <img width="270" height="70" src="${URL_HOME_PROPERTA}assets/img/partners/themeforest.png"
+                                             class="thumbnail-image" alt="themeforest"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.span3 -->
+                            <div class="span3">
+                                <div class="partner">
+                                    <a href="http://www.activeden.net">
+                                        <img width="270" height="70" src="${URL_HOME_PROPERTA}assets/img/partners/activeden.png"
+                                             class="thumbnail-image" alt="activeden"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.span3 -->
+                            <div class="span3">
+                                <div class="partner">
+                                    <a href="http://www.3docean.net">
+                                        <img width="270" height="70" src="${URL_HOME_PROPERTA}assets/img/partners/3docean.png"
+                                             class="thumbnail-image" alt="3docean"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.span3 -->
+                            <div class="span3">
+                                <div class="partner">
+                                    <a href="http://www.codecanyon.net">
+                                        <img width="270" height="70" src="${URL_HOME_PROPERTA}assets/img/partners/code-canyon.png"
+                                             class="thumbnail-image" alt="code-canyon"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.span3 -->
+                            <div class="span3">
+                                <div class="partner">
+                                    <a href="http://www.photodune.net">
+                                        <img width="270" height="70" src="${URL_HOME_PROPERTA}assets/img/partners/photo-dune.png"
+                                             class="thumbnail-image" alt="photo-dune"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.span3 -->
+                            <div class="span3">
+                                <div class="partner">
+                                    <a href="http://www.graphicriver.net">
+                                        <img width="270" height="70" src="${URL_HOME_PROPERTA}assets/img/partners/graphic-river.png"
+                                             class="thumbnail-image" alt="graphic-river"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /.span3 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.partners -->
+                </div>
+            </div>
+            <!-- /#main -->
+
+
+            <div class="sidebar span3">
+                <div id="quick-search" class="widget widget-search"><h2>Pesquisa R&aacute;pida</h2>
+
+    <div class="content">
+        <form method="get" class="site-search" action="javascript:void(0);">
+            <input class="search-query form-text" placeholder="Digite uma cidade, UF ou No. de propriedade" type="text" name="s" id="s" value="">
+            <button type="submit" class="btn">Procurar</button>
+        </form>
+        <!-- /.site-search -->
+    </div>
+    <!-- /.inner -->
+</div>                
+
+<div id="partners_widget-2" class="widget partners">
+
+    <h2>Parceiros</h2>
+
+    <div class="partners">
+        <div class="row">
+            <div class="span3">
+                <div class="partner">
+                    <a href="http://www.themeforest.net">
+                        <img width="270" height="70" src="${URL_HOME_PROPERTA}assets/img/partners/themeforest.png"
+                             class="thumbnail-image" alt="themeforest"/>
+                    </a>
+                </div>
+            </div>
+            <!-- /.span3 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.partners -->
+</div>               
+
+<div id="mostrecentproperties_widget-2" class="widget properties">
+
+    <h2>Recentes</h2>
+
+    <div class="content">
+	
+		${IMOVEIS_RECENTES}
+
+    </div>
+    <!-- /.content -->
+
+</div>                
+
+<div id="agencies_widget-2" class="widget agencies">
+
+    <h2>Agencies</h2>
+
+    <div class="content">
+        <div class="agency clearfix">
+            <div class="header">
+                <div class="image">
+                    <a href="agencies/agency-detail">
+                        <img src="${URL_HOME_PROPERTA}assets/img/agency-small-tmp.png" alt="Beverly Hills Real Estate">
+                    </a>
+                </div>
+                <!-- /.image -->
+
+                <div class="info">
+                    <h2>Beverly Hills Real Estate</h2>
+
+                    <div class="properties-count">
+                        <span class="number">2</span> properties
+                    </div>
+                    <!-- /.properties-count -->
+
+                    <a href="" class="btn">View profile</a>
+                </div>
+                <!-- /.info -->
+            </div>
+            <!-- /.header -->
+
+            <div class="address">
+                4265 Broadway Avenue<br/>
+                Johnson City, TN 37601
+            </div>
+            <!-- /.address -->
+
+            <div class="email">
+                <a href="mailto:sample@example.com">sample@example.com</a>
+            </div>
+            <!-- /.email -->
+
+            <div class="phone">
+                (401) 852-987
+            </div>
+            <!-- /.phone -->
+
+        </div>
+        <!-- /.agency -->
+        <div class="agency clearfix">
+            <div class="header">
+                <div class="image">
+                    <a href="agencies/agency-detail">
+                        <img src="${URL_HOME_PROPERTA}assets/img/agency-small-tmp.png" alt="Colombia Real Estate">
+                    </a>
+                </div>
+                <!-- /.image -->
+
+                <div class="info">
+                    <h2>Colombia Real Estate</h2>
+
+                    <div class="properties-count">
+                        <span class="number">6</span> properties
+                    </div>
+                    <!-- /.properties-count -->
+
+                    <a href="" class="btn">View profile</a>
+                </div>
+                <!-- /.info -->
+            </div>
+            <!-- /.header -->
+
+            <div class="address">
+                485 Shinn Avenue<br/>
+                Pittsburgh, PA 15222
+            </div>
+            <!-- /.address -->
+
+            <div class="email">
+                <a href="mailto:sample@example.com">sample@example.com</a>
+            </div>
+            <!-- /.email -->
+
+            <div class="phone">
+                (401) 458-965
+            </div>
+            <!-- /.phone -->
+
+        </div>
+        <!-- /.agency -->
+    </div>
+    <!-- /.content -->
+
+</div>            
+</div>
+            <!-- /#sidebar -->
+
+		</div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /#content -->
+
+${PROPERTA_FOOTER_WRAPPER}
+
+${PROPERTA_FOOTER_JAVASCRIPT}
+</body>
+</html>

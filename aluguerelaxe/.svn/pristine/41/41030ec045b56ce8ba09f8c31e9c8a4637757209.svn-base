@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgDepoimento
+DESCRIPTION datagrama da pagina termo de uso
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME depoimentos.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/depoimento.html
+HOMEPAGE DEFAULT /html/hpDefault.html
+DATAGRAM TYPE SAMPLE
+

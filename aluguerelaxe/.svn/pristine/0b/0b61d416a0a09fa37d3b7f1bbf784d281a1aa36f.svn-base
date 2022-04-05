@@ -1,0 +1,56 @@
+		<div class="texto_estilo">
+			<p class="titulo_item">Conheça o painel Publicidade da 1a. Página</p>
+			<p>Um painel de tamanho 600 x 315 pixels com potencial visual para encantar e cativar seus visitantes.</p>
+			<p><img src="images/publ-p1ap.png" width="460px"/></p>
+		</div>
+		
+		<div class="texto_estilo">
+			<p class="titulo_item">Conheça o painel Outros Destaques</p>
+			<p>Um painel de tamanho 320 x 260 pixels com potencial visual para encantar e cativar seus visitantes.</p>
+			<p><img src="images/publ-pod.png"/></p>
+		</div>
+		
+		<div class="texto_estilo">
+			<p class="titulo_item">Qual o valor das publicidades?</p>
+			<p>R$ 2,70 para anúncios no Painel Publicidade de 1a. Página</p>
+			<p>R$ 0,98 para anúncios no Painel Outros Destaques</p>
+		</div>
+		
+		<div class="texto_estilo">
+			<p class="titulo_item">Como calcular o prazo e o valor da publicidade?</p>
+			<p>O prazo das publicidades nos painéis é SEMPRE diário.</p>
+			<p>Para calcular o quanto irá pagar em publicidade, veja o exemplo a seguir:</p>
+			<p>João Berdinando deseja colocar seu imóvel no painel de publicidade de 1a. página por 10 dias. Segue o cálculo:<br/>
+			10 dias x R$ 2,70 = R$ 27,00</p>
+			<p>Faça o mesmo procedimento para o painel Outros Destaques.</p>
+		</div>
+		
+
+		<div class="texto_estilo">
+			<p class="titulo_item">Como comprar uma publicidade ?</p>
+			<p>Pague o valor desejado em uma das contas a seguir e envie seu nome completo e o No. de propriedade do imóvel para o email 
+				aluguerelaxe@aluguerelaxe.com.br juntamente com os dados do comprovante e assim que for confirmado o pagamento, a publicidade no painel
+				correspondente será liberada.</p>
+
+			<p>Os depósitos, transferências ou pagamentos poderão ser feitos nas seguintes contas :</p> 
+			
+			<blockquote>Banco: santander<BR/>
+				Nome: Júlio Cesar Vitorino<BR/>
+				Agência: 0296<BR/>
+				Conta: 180484-6<BR/><BR/>
+				
+				Banco: Itaú<BR/>
+				Nome: Júlio Cesar Vitorino<BR/>
+				Agência: 1671<BR/>
+				Conta: 01049-2
+			</blockquote>
+			
+		</div>
+		
+		<div class="texto_estilo">
+			<p class="titulo_item">Conheça também ...</p>
+			<p><a href="/arweb/JXControllerSmartInterface?cmd=dtgPatrocinador" title="Veja as vantagens de um im&oacute;vel patrocinador">Saiba como transformar o seu imóvel em um Imóvel Patrocinador</a></p>
+			<p><a href="/arweb/JXControllerSmartInterface?cmd=dtgColaborador" title="Veja as vantagens de um im&oacute;vel colaborador">Saiba como transformar o seu imóvel em um Imóvel Colaborador</a></p>
+		</div>
+		
+		

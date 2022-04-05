@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/504e9837062e00181ee9c0569c35cbf6=504e9837062e00181ee9c0569c35cbf6;https\://192.168.0.10/svn/MavenAR;https\://192.168.0.10/svn/MavenAR;branches;tags;trunk;true;867d480b-1be4-4948-bfde-ec2d59a4cf66;https\://192.168.0.10/svn/MavenAR;;false;;;0

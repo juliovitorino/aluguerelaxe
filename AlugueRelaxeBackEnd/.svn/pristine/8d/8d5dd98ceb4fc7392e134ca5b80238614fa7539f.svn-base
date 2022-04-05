@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;">
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Ol&aacute; ${NOVO_ASSINANTE_PROMOCAO},
+			</font></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Obrigado por se cadastrar no nosso site www.aluguerelaxe.com.br - Temos aluguel de im&oacute;veis para temporada em mais de 200 destinos no Brasil 
+			direto dos propriet&aacute;rios. 
+			</font></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			A partir de agora você está prestes a participar da promoção gratuita - ${PROMOCAO_ATIVA}.
+			</font></p>
+			
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Para <strong>ativar a sua participa&ccedil;&atilde;o na promo&ccedil;&atilde;o gratuita - ${PROMOCAO_ATIVA} do AlugueRelaxe.com.br</strong>, 
+			siga as instru&ccedil;es abaixo:<br/> <br/>
+			Clique no link que cont&eacute;m a chave de ativa&ccedil;&atilde;o abaixo ou copie e cole em seu navegador e tecle 'Enter'.</font></p>
+			
+			<p><a href="${LINK_ATIVA_PROMOCAO}">${LINK_ATIVA_PROMOCAO}</a></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+			&Eacute; imprescind&iacute;vel a ativa&ccedil;&atilde;o deste link em um prazo m&aacute;ximo de 72 horas a 
+			partir do recebimento deste e-mail.<br/>
+			Caso contr&aacute;rio sua participa&ccedil;&atilde;o ser&aacute; exclu&iacute;da de nossa base de dados.</strong></font></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+			Ao ativar sua participa&ccedil;&atilde;o pelo link acima n&oacute;s iremos enviar um e-mail com seu n&uacute;mero de inscri&ccedil;&atilde;o.
+			</strong></font></p>
+
+			<p><a href="${LINK_REGULAMENTO}">Regulamento da promo&ccedil;&atilde;o</a></p>
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Atenciosamente,<br/>
+			Julio Vitorino<br/>
+            Administrador do AlugueRelaxe<br/>
+			http://www.aluguerelaxe.com.br<br/>
+           </font>
+           </p>  
+ 
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>
+           

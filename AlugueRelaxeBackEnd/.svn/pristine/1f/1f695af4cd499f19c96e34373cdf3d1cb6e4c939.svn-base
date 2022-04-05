@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+	${SECAO_HEAD}
+
+    <title>Propriedades anunciandas por ${TITULO_HTML}</title>
+</head>
+
+<body class="home page page-template">
+${PROPERTA_HEADER_TOP}
+
+<div id="content" class="clearfix">
+    <div class="map-wrapper">
+        <div class="map">
+            <script type="text/javascript">
+                var infoBoxes = [];
+				
+				${PROPERTA_INFOBOX_PUSH}
+
+                jQuery(document).ready(function ($) {
+                    var map = $('#map').aviators_map({
+                        locations: new Array(${PROPERTA_LAT_LONG}),
+                        types: new Array(${PROPERTA_TIPOS}),
+                        contents: infoBoxes,
+                        transparentMarkerImage: '${URL_HOME_PROPERTA}assets/img/marker-transparent.png',
+                        transparentClusterImage: '${URL_HOME_PROPERTA}assets/img/markers/cluster-transparent.png',
+                        zoom: 14 ,
+                        center: {
+                            latitude: ${PROPERTA_LATI_CENTER} ,
+                            longitude: ${PROPERTA_LONG_CENTER}
+                        },
+                        filterForm: '.map-filtering',
+                        enableGeolocation: '',
+                        pixelOffsetX: -75,
+                        pixelOffsetY: -200
+                    });
+                });
+            </script>
+
+
+            <div id="map" class="map-inner" style="height: 700px"></div>
+            <!-- /.map-inner -->
+
+		</div>
+        <!-- /.map -->
+    </div>
+
+    <!-- /.map-wrapper -->
+	
+<hr/>	
+    <div class="container">
+        <div class="row">
+
+            <div class="sidebar span3">
+
+				<div id="agencies_widget-2" class="widget agencies">
+
+					<h2>Propriet&aacute;rio</h2>
+	
+					<div class="content">
+						<div class="agency clearfix">
+							<div class="header">
+								<div class="image">
+									<a href="agency-detail.html">
+										<img src="${URL_FOTO_CLIENTE}" alt="${NOME_CLIENTE}">
+									</a>
+								</div>
+								<!-- /.image -->
+				
+								<div class="info">
+									<h2>${NOME_CLIENTE}</h2>
+									
+									<!--
+									<div class="properties-count">
+										<span class="number">${NUMERO_PROPRIEDADES}</span> propriedades
+									</div>
+									 /.properties-count -->
+				
+								</div>
+								<!-- /.info -->
+							</div>
+							<!-- /.header -->
+							
+							<!--
+							<div class="address">
+								${ENDERECO_IMOVEL}
+							</div>
+							/.address -->
+							
+							<!--
+							<div class="email">
+								<a href="mailto:sample@example.com">sample@example.com</a>
+							</div>
+							 /.email -->
+							 
+							<!--
+							<div class="phone">
+								(401) 852-987
+							</div>
+							 /.phone -->
+				
+						</div>
+						<!-- /.agency -->
+
+					</div>
+					<!-- /.content -->
+
+				</div>            
+			</div>
+            <!-- /#sidebar -->
+
+
+            <div id="main" class="span9">
+
+                <h2>Minhas propriedades</h2>
+                <div id="mostrecentproperties_widget-3" class="widget properties">
+				
+					${IMOVEIS_RECENTES}
+		
+				</div>
+				<!-- /.properties-grid -->
+				
+			</div>
+			<!-- /#main -->
+
+		</div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /#content -->
+
+${PROPERTA_FOOTER_WRAPPER}
+
+${PROPERTA_FOOTER_JAVASCRIPT}
+
+</body>
+</html>

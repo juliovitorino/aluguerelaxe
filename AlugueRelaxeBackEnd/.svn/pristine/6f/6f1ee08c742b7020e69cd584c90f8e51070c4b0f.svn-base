@@ -1,0 +1,184 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;"><p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+
+<div id="listaDestaques">
+	<div class="destaqueImovel">
+	    <div class="linhaFoto">
+	        
+	        <div class="divAdContent">
+	           
+	            <p class="itemDestaque">
+				
+Oi <b>${TSPI_TAG_IFC_NOME_1}</b>,
+
+	            </p>
+	            <p class="itemDestaque">
+O AlugueRelaxe, localizado na cidade de Volta Redonda/RJ, é um projeto sem fins lucrativos que há 3 anos atua na área 
+de publicidade e comunicação com o foco em imóveis.
+	            </p>
+	            <p class="itemDestaque">
+Infelizmente, manter um site na internet não é de graça. Existem custos de google adwords, provedor, registro da FAPESP, 
+cotas de contas de e-mail, etc. Atualmente pago do meu salário de Analista de TI todos esses custos. Por quê?
+	            </p>
+	            <p class="itemDestaque">
+Primeiro é como eu disse, é um projeto pessoal e a idéia é que ele continue gratuito para todos na internet,
+para isso venho pedir sua ajuda para continuar a manter esse sonho vivo.
+	            </p>
+	            <p class="itemDestaque">
+Em segundo lugar, as atividades de responder FAQ e e-mails, programação do site, diagramação, análise de novas idéias, projetar, codificar e testar, 
+demandam muito esforço meu, 
+que faço à noite durante a semana ou aos sábados e domingos com muito orgulho e prazer,<b>mas também necessito de equipamentos para isso 
+(computadores, servidores, discos, rede, impressora, cartuchos de tinta, pendrives, licenças de uso de produtos de terceiros e imagens, entre outros) e, 
+agora tenho idéias de construir mais novidades com tecnologia móvel (iphone, android, outros smartphones, ipad, tablets, SMS).</b> Enfim, mais custos ! 
+  </p>
+	            <p class="itemDestaque">
+Gostaria diretamente da sua ajuda, pois você já utiliza todos os serviços e recursos do site para poder atrair os olhos de clientes para seu imóvel. 
+Espero que esteja gostando!
+ 
+  </p>
+	            <p class="itemDestaque">
+Então, <b>${TSPI_TAG_IFC_NOME_1}</b>, por isso PRECISAMOS DE VOCÊ e venho solicitar uma ajuda de contribuição de: 
+				</p>
+	            <p class="itemDestaque">
+<table border="0">
+	<tr>
+		<td width="130px"><!-- INICIO FORMULARIO BOTAO PAGSEGURO R$ 10-->
+		<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+		<input type="hidden" name="code" value="3544C3DA5E5EF186649CCF938EB35AE1" />
+		<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/99x61-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+		</form>
+		<!-- FINAL FORMULARIO BOTAO PAGSEGURO --></td>
+
+		<td width="130px"><!-- INICIO FORMULARIO BOTAO PAGSEGURO R$ 20,00-->
+		<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+		<input type="hidden" name="code" value="BAD16695E5E509188490CFB17E0F08B4" />
+		<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/99x61-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+		</form>
+		<!-- FINAL FORMULARIO BOTAO PAGSEGURO --></td>
+		
+		<td width="130px"><!-- INICIO FORMULARIO BOTAO PAGSEGURO R$ 50,00-->
+		<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+		<input type="hidden" name="code" value="A0DFFBF22E2EF82DD4B56F9AF306B1F1" />
+		<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/99x61-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+		</form>
+		<!-- FINAL FORMULARIO BOTAO PAGSEGURO --></td>
+		
+		<td width="130px"><!-- INICIO FORMULARIO BOTAO PAGSEGURO R$ 100,00-->
+		<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+		<input type="hidden" name="code" value="30A82C2CF1F11E2114F60F97BDFABC7D" />
+		<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/99x61-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+		</form>
+		<!-- FINAL FORMULARIO BOTAO PAGSEGURO --></td>
+	</tr>
+	<tr>
+		<td align="center">R$ 10,00</td>
+		<td align="center">R$ 20,00</td>
+		<td align="center">R$ 50,00</td>
+		<td align="center">R$ 100,00</td>
+	</tr>
+</table>
+
+				</p>
+				<p class="itemDestaque">
+	<b>${TSPI_TAG_IFC_NOME_1}</b>, caso você prefira por transferência bancária
+				</p>
+
+<TABLE BORDER=1> 
+	<TR><TH>Instituição</TH><TH>Agência</TH><TH>Número da Conta</TH><TH>Titular</TH></TR> 
+	<TR><TD>Itaú</TD><TD>1671</TD><TD>01049-2</TD><TD>Julio Cesar Vitorino</TD></TR> 
+	<TR><TD>Santander</TD><TD>3296</TD><TD>01084282-1</TD><TD>Julio Cesar Vitorino</TD></TR> 
+</TABLE> 
+
+
+				<p class="itemDestaque">
+A contribuição <b>NÃO É OBRIGATÓRIA</b> mas será grande valia para este projeto.
+				</p>
+				
+				<p class="itemDestaque">
+O que ganho se fizer uma doação? Há alguma vantagem?
+				</p>
+
+				<p class="itemDestaque">
+Uma contribuição é um ato simbólico de ajuda e incentivo para o projeto permanecer no ar. 
+O que posso oferecer a todas as pessoas que fazem contribuições, é <b>DIFERENCIÁ-LAS</b> de usuários comuns, e agradecer imensamente pela ajuda e reconhecimento!
+Todos usuários que fazem contribuições, receberão:
+
+<OL> 
+	<LI>Destaque no Painel Imóvel Patrocinador
+	<LI>Destaque no imóvel fura-fila colaborador
+	<LI>Prioridade nas propagandas no Painel de Publicidade de 1a. Página
+	<LI>Prioridade nas propagandas no Painel de Publicidade Outros Destaques
+	<LI>Destaque do imóvel nas campanhas por E-mail
+</OL> 
+				</p>
+				
+	            <p class="itemDestaque">
+Este é um modo de agradecimento por sua ajuda, e o diferenciá-los dos demais!
+				</p>
+				
+	            <p class="itemDestaque">
+Saliento, que toda a contribuição será bem-vinda, e desde já agradeço seu apoio, fundamental para o sucesso deste trabalho.
+Na oportunidade, aproveito para apresentar minha estima e consideração.
+				</p>
+	            <p class="itemDestaque">
+<b>${TSPI_TAG_IFC_NOME_1}</b>, conto com a sua contribuição!
+
+	            </p>
+
+	            <p class="titItemDestaque">
+				Um Grande Abraço,<br/>
+				Júlio Vitorino<br/>
+				Administrador do AlugueRelaxe<br/>
+	            <a href="http://www.aluguerelaxe.com.br">http://www.aluguerelaxe.com.br</a>
+	            </p>
+					
+	        </div>
+
+	        
+	    </div>
+	</div>
+</div>
+
+		
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>

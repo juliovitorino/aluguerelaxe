@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spammer-config>
+
+	<!-- Descreva aqui o subject do e-mail -->
+	<assunto>${TSPI_TAG_IFC_NOME_1}, carnaval em ${TSPI_TAG_IFC_CIDADE_1} - ${TSPI_TAG_IFC_UF_1}</assunto>
+	
+	<!-- Template html para ser enviado durante o processo -->
+	<template>c:/Users/Julio/Resources/AlugueRelaxeResources/spammer/templates/template-spammer-publicidade-imovel.html</template>
+
+	<!-- lista xml contendo os e-mails para contatos -->
+	<catalogo>C:/Users/Julio/Resources/AlugueRelaxeResources/spammer/mailing/mailing-list.xml</catalogo>
+
+	<!-- lista de publicadores da mensagem -->
+	<publicador nome="arnaldo chaves" email="arnaldo@jupiter.com.br"/>
+	<publicador nome="thales" email="thales@jupiter.com.br"/>
+
+	<!-- Lista de smtp mail servers local ou na VM a serem utilizados no processo -->
+	<servidorEmail nome="smtp.jupiter.com.br" porta="25" contaAutenticacao="arnaldo@jupiter.com.br"/> <!-- Windows 7 -->
+	
+	<!--
+	<servidorEmail nome="smtp.saturno.com.br" porta="25">
+	<servidorEmail nome="smtp.pluto.com.br" porta="25">
+	-->
+
+	<!-- lista dos imóveis que terão suas informações enviadas durante o spammer -->
+	<fichaImovel>
+		<id>162</id>
+		<id>17</id>
+	</fichaImovel>
+</spammer-config>

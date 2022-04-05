@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;"><p>
+             <font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+              Parab&eacute;ns prezado cliente ${NOME_CLIENTE},</strong></font></p>
+              
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Seu im&oacute;vel, propriedade #${ID_IMOVEL}, ${TITULO_ANUNCIO}, foi contemplado na se&ccedil;&atilde;o de publicidade ${SECAO_PUBLICIDADE} 
+			a partir do dia ${DATA_INICIO_DE_PUBLICIDADE} at&eacute; ${DATA_FINAL_DE_PUBLICIDADE}.</font></p>
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			A imagem a ser divulgada &eacute; a &uacute;ltima imagem do alb&uacute;m de fotografias do im&oacute;vel. 
+			Para ter um maior efeito na propaganda para os visitantes, coloque uma imagem de maior impacto fotogr&aacute;fico.</font></p>
+			
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Aproveite para divulgar seu im&oacute;vel na sua rede de relacionamento, Orkut, Facebook e Twitter, para aumentar a exposi&ccedil;&atilde;o do im&oacute;vel.</font></p>
+
+			<p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Lembramos que a se&ccedil;&atilde;o de publicidade é uma concessão dada pelo AlugueRelaxe, conforme descrito nos termos de uso.
+			</font></p>
+ 
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Atenciosamente,<br/>
+            Equipe do AlugueRelaxe.com.br
+           </font>
+           </p>  
+              
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>

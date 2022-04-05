@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mailing-list>
+	<mailing-record>
+		<nome>Julio Cesar</nome>
+		<email>julio.vitorino@ig.com.br</email>
+	</mailing-record>
+	<mailing-record>
+		<nome>Julio Cesar Vitorino</nome>
+		<email>julio.vitorino@gmail.com</email>
+	</mailing-record>
+	<mailing-record>
+		<nome>Sr.AlugueRelaxe Vitorino</nome>
+		<email>aluguerelaxe@gmail.com</email>
+	</mailing-record>
+	<mailing-record>
+		<nome>Thales Amitti Vitorino</nome>
+		<email>thales@jupiter.com.br</email>
+	</mailing-record>
+</mailing-list>

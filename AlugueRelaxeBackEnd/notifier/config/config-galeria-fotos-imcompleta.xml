@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spammer-config>
+	<!-- Descreva a tarefa deste config -->
+	<tarefa>Anuncios com galeria imcompleta =></tarefa>
+
+	<!-- Descreva aqui o subject do e-mail -->
+	<assunto>${TSPI_TAG_IFC_NOME_1}, seu anuncio esta com galeria imcompleta </assunto>
+	
+	<!-- Template html para ser enviado durante o processo -->
+	<template>/home/aluguerelaxe/spammer/templates/template-galeria-fotos-imcompleta.html</template>
+
+	<!-- lista xml contendo os e-mails para contatos -->
+	<catalogo>/home/aluguerelaxe/spammer/mailing/anuncio-menos-8-fotos.xml</catalogo>
+	
+	<!-- lista de publicadores da mensagem -->
+	<publicador nome="AlugueRelaxe News" email="info@aluguerelaxe.com.br"/>
+	
+	<!-- tempo de espera entre envio de cada e-mail unidade em milisegundos -->
+	<tempoespera>20000</tempoespera>
+	
+	<!-- ativa modo de leitura da lista de emails do final para o inicio -->
+	<modoreverso>OFF</modoreverso>
+
+	<!-- Lista de smtp mail servers local ou na VM a serem utilizados no processo -->
+	<servidorEmail nome="mail.aluguerelaxe.com.br" porta="25" contaAutenticacao="info@aluguerelaxe.com.br" aliaspwd="JUPITER_SMTP_PWD"/>
+
+	<!-- lista dos imóveis que terão suas informações enviadas durante o spammer -->
+	<fichaImovel>
+		  <id>2</id>
+	</fichaImovel>
+</spammer-config>

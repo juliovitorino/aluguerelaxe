@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--
+
+		startup.xml Configuration file. Copyright(C), 2009 Written by JÃºlio
+		Cesar Vitorino Change Log: 28/09/2006 - Start. By JCV
+	-->
+
+
+<Sigem4Configuration>
+	<Property name="BEA_HOME" value="/opt/bea10" />
+	<Property name="WL_HOME" value="/opt/bea10/wlserver_10.0" />
+	<Property name="SIGEM4_DOMAIN" value="/opt/bea10/user_projects/domains/sigem4teste" />
+
+	<PathLanguageResources>${SIGEM4_DOMAIN}</PathLanguageResources>
+
+	<PathOfCertification>${SIGEM4_DOMAIN}/autodeploy/sdk-web/certs</PathOfCertification>
+	<PathOfRevokeCerification>${SIGEM4_DOMAIN}/autodeploy/sdk-web/crls</PathOfRevokeCerification>
+	<TransactionTimeout>60000</TransactionTimeout>
+	<AuthorizedDomains>.petrobras.biz;.corp.petrobras.biz;.br-petrobras.com.br;.conpet.gov.br;.canalcliente*.com.br;.espaciopetrobras.com;.gasenergia.com.br;.gaspetro.com.br;.intranetpetrobras.com;.miacceso.com;.pecom.com;.pesquisasatisfacao.com.br;.session.rservices.com;.petros.com.br;.petrobras.com;.petrobras.com.bo;.petrobras.com.br;.petrobras.gov.br;.petrobrasenergia.com;.petronect.com.br;.prominp.com.br;.termobahia.com;.termobahia.com.br;.refap.biz;.transp.biz;.sinercom.ccee.org.br;www.petrobrasonline.com.br;194.201.182.*;</AuthorizedDomains>
+	<AuthorizedAutovueServers>s5700wb40.corp.petrobras.biz</AuthorizedAutovueServers>
+	<LookupHostname>PRODUCTION</LookupHostname>
+	<Zone>INTRANET_ZONE</Zone>
+
+	<ActiveDAOFactory>FIREBIRD</ActiveDAOFactory>
+
+	<!--
+		Data Sources para JBOSS
+		<OracleDataSource>java:/OracleSigemDS</OracleDataSource>
+		<InterbaseDataSource>java:/InterbaseSigemDS</InterbaseDataSource>
+	-->
+
+	<!--  Data Sources para WEBLOGIC -->
+	<OracleDataSource>jdbc/InterbaseAlugueRelaxeDS</OracleDataSource>
+	<InterbaseDataSource>java:/InterbaseDS</InterbaseDataSource>
+
+	<ApplicationServers Active="BEA Weblogic 10.0 - Sigem IV - Cluster">
+		<AS name="JBOSS 4.0.0" lookupLocalContextForLocalEJB="false">
+			<InitialContextFactory>org.jnp.interfaces.NamingContextFactory</InitialContextFactory>
+			<ProviderUrl>mi088615.petrobras.biz:1099</ProviderUrl>
+			<UrlPkgPrefixes>org.jboss.naming:org.jnp.interfaces</UrlPkgPrefixes>
+		</AS>
+	</ApplicationServers>
+
+	<!--
+		Valores de atributos fixos que independem de plataforma, estes valores
+		devem ser usados para o servidor de aplicaÃ§Ã£o local
+	-->
+	<FixedValues>
+
+		<!-- valores para HIBERNATE_XML_ACTIVE sao => HIBERNATE_XML_DEVELOPMENT ou HIBERNATE_XML_RELEASE_CANDIDATE ou HIBERNATE_XML_PRODUCTION -->
+		<Local name="HIBERNATE_XML_ACTIVE" value="HIBERNATE_XML_PRODUCAO" />
+		<Local name="HIBERNATE_XML_DESENVOLVIMENTO" value="hibernate-dsv.cfg.xml" />
+		<Local name="HIBERNATE_XML_HOMOLOGACAO" value="hibernate-hmg.cfg.xml" />
+		<Local name="HIBERNATE_XML_REPLICADO" value="hibernate-replicado.cfg.xml" />
+		<Local name="HIBERNATE_XML_PRODUCAO" value="hibernate-producao.cfg.xml" />
+		<Local name="HIBERNATE_XML_PRODUCAO_TRANSICAO" value="hibernate-prd.cfg.xml" />
+	</FixedValues>
+
+</Sigem4Configuration>

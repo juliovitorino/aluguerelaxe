@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.7.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.7.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to='destinoferias'>
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.google.gwt.maps.GoogleMaps"/>
+	<inherits name="com.google.gwt.visualization.Visualization"/>
+<!--	<script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2" />-->
+	<script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2&amp;key=ABQIAAAARGOj3BcX82rFLvOrvEt_6hQBYM-PZpivslm6am8ewAIEA7y-fxRKsmESB_dTa_jlSe416PUg-5lkAw" />
+	
+	
+	<!-- Specify the app entry point class.                         -->
+	<entry-point
+		class="br.com.jcv.aluguerelaxe.client.destino.DestinoFerias" />
+
+	<!-- Specify servlets for RPC                                    -->
+	<servlet class="br.com.jcv.aluguerelaxe.server.DestinoRPCImpl" path="/destinorpc"/>
+	<servlet class="br.com.jcv.aluguerelaxe.server.UFRPCImpl" path="/ufrpc"/>
+</module>

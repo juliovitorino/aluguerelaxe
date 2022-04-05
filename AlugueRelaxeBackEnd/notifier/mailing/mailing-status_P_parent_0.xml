@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mailing-list>
+<![CDATA[
+	select '<mailing-record>'||
+				 '<nome>' || assi_nm_assinante || '</nome>' ||
+				 '<email>' || assi_tx_email || '</email>' ||
+				 '<textolivre1>' || assi_tx_hash || '</textolivre1>' ||
+				 '<textolivre2>' || assi_tx_campanha || '</textolivre2>' ||
+				 '<textolivre3>' || assi_dt_cadastro || '</textolivre3>' ||
+			   '</mailing-record>'
+	from assinantes where assi_in_status = 'P'
+	and assi_cd_assinante_parent = 0;
+]]>
+  <mailing-record><nome>Fred</nome><email>fredericosilva1976@hotmail.com</email><textolivre1>4D9BDD67A84A19ED04E6DA2586166E09C185EE08</textolivre1><textolivre2>ANIVERSARIO 1 ANO</textolivre2><textolivre3>2012-02-13 15:47:18.2080</textolivre3></mailing-record>
+  <mailing-record><nome>Marilene</nome><email>marihorninng2@hotmail.com</email><textolivre1>D0DBF25A08422368ECF5D49624CD85442D22423A</textolivre1><textolivre2>ANIVERSARIO 1 ANO</textolivre2><textolivre3>2012-02-13 21:37:02.7330</textolivre3></mailing-record>
+  <mailing-record><nome>Kelly</nome><email>kelly-love-2011@live.com</email><textolivre1>C8D8B8D7C0EA6315769C6217FF6E69EAB65AD790</textolivre1><textolivre2>ANIVERSARIO 1 ANO</textolivre2><textolivre3>2012-02-25 14:46:39.8250</textolivre3></mailing-record>
+</mailing-list>

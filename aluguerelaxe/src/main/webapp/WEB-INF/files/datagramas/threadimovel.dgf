@@ -1,0 +1,17 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgThread
+DESCRIPTION datagrama da thread de um imovel
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME threadimovel.dgf
+HTMLERROR /html/errodefault.html
+HOMEPAGE DEFAULT /html/hpDefaultThreadImovel.html
+DATAGRAM TYPE SAMPLE
+

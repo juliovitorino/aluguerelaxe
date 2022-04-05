@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;">
+
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Ol&aacute; ${NOVO_ASSINANTE_AMIGO},
+			</font></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Voc&ecirc; foi indicado por ${NOVO_ASSINANTE_PROMOCAO} ao nosso site www.aluguerelaxe.com.br - Temos aluguel de im&oacute;veis para temporada em mais de 200 destinos no Brasil 
+			direto dos propriet&aacute;rios. 
+			</font></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			A partir de agora voc&ecirc; est&aacute; prestes a participar da promo&ccedil;&atilde;o gratuita - ${PROMOCAO_ATIVA}. Como? 
+			Se seu amigo(a) ${NOVO_ASSINANTE_PROMOCAO} for sorteado, 
+			voc&ecirc; ganhar&aacute; automaticamente o prêmio amigo-indica-amigo, que &eacute; dado ao amigo indicado do sorteado.
+			</font></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			O e-mail do seu amigo(a) &eacute; ${NOVO_ASSINANTE_PROMOCAO_EMAIL}
+			</font></p>
+			
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Para <strong>concordar com a indica&ccedil;&atilde;o de seu amigo(a) ${NOVO_ASSINANTE_PROMOCAO} e ativar 
+			a sua participa&ccedil;&atilde;o na promo&ccedil;&atilde;o ${PROMOCAO_ATIVA} do AlugueRelaxe.com.br junto com ele, </strong>, 
+			siga as instru&ccedil;es abaixo:<br/> <br/>
+			Clique no link abaixo que cont&eacute;m a chave de ativa&ccedil;&atilde;o ou copie e cole em seu navegador e tecle 'Enter'.</font></p>
+			
+			<p><a href="${LINK_ATIVA_PROMOCAO}">${LINK_ATIVA_PROMOCAO}</a></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+			&Eacute; imprescind&iacute;vel a ativa&ccedil;&atilde;o deste link em um prazo m&aacute;ximo de 72 horas a 
+			partir do recebimento deste e-mail.<br/>
+			Caso contr&aacute;rio sua participa&ccedil;&atilde;o ser&aacute; exclu&iacute;da de nossa base de dados.</strong></font></p>
+
+			<p><a href="${LINK_REGULAMENTO}">Regulamento da promo&ccedil;&atilde;o</a></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Aproveite para participar tamb&eacute;m da promo&ccedil;&atilde;o - ${PROMOCAO_ATIVA} e concorrer ao pr&ecirc;mio principal e de quebra 
+			indicar 3 amigos para o pr&ecirc;mio extra amigo-indica-amigo, igual seu amigo(a) ${NOVO_ASSINANTE_PROMOCAO} lembrou de voc&ecirc;. 
+			Cadastre-se em <a href="http://www.aluguerelaxe.com.br">http://www.aluguerelaxe.com.br</a>
+			</font></p>
+
+			<p align="center"><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Boa sorte para seu amigo e voc&ecirc; !
+			</font></p>
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Atenciosamente,<br/>
+			Julio Vitorino<br/>
+            Administrador do AlugueRelaxe<br/>
+			<a href="http://www.aluguerelaxe.com.br">http://www.aluguerelaxe.com.br</a>
+           </font>
+           </p>  
+
+           
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>
+           

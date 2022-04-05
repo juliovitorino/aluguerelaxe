@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+
+
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aviators, http://themes.byaviators.com">
+
+    <link rel="shortcut icon" href="http://localhost:8080/mobile/assets/img/favicon.png" type="image/png">
+
+    <!--[if lt IE 9]>
+    <script src="http://localhost:8080/mobile/assets/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <meta name='robots' content='noindex,nofollow'/>
+
+    <link rel='stylesheet' id='font-css'
+          href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C300&#038;subset=latin%2Clatin-ext&#038;ver=3.6'
+          type='text/css' media='all'/>
+
+
+    <link rel='stylesheet' id='revolution-fullwidth' href='http://localhost:8080/mobile/assets/libraries/rs-plugin/css/fullwidth.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='revolution-settings' href='http://localhost:8080/mobile/assets/libraries/rs-plugin/css/settings.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='bootstrap-css' href='http://localhost:8080/mobile/assets/libraries/bootstrap/css/bootstrap.min.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='bootstrap-responsive-css' href='http://localhost:8080/mobile/assets/libraries/bootstrap/css/bootstrap-responsive.min.css' type='text/css' media='all'/>
+
+    <link rel='stylesheet' id='pictopro-normal-css' href='http://localhost:8080/mobile/assets/icons/pictopro-normal/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='justvector-web-font-css' href='http://localhost:8080/mobile/assets/icons/justvector-web-font/stylesheet.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='chosen-css' href='http://localhost:8080/mobile/assets/libraries/chosen/chosen.css' type='text/css' media='all'/>
+
+    <link rel='stylesheet' id='aviators-css' href='http://localhost:8080/mobile/assets/css/jquery.bxslider.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='properta-css' href='http://localhost:8080/mobile/assets/css/properta.css' type='text/css' media='all'/>
+
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
+    <script type='text/javascript' src='http://localhost:8080/mobile/assets/js/aviators-settings.js'></script>
+    <script type='text/javascript' src='http://localhost:8080/mobile/assets/libraries/chosen/chosen.jquery.min.js'></script>
+    <script type='text/javascript' src='http://localhost:8080/mobile/assets/libraries/rs-plugin/js/jquery.themepunch.revolution.min.js'></script>
+    <script type='text/javascript' src='http://localhost:8080/mobile/assets/libraries/rs-plugin/js/jquery.themepunch.plugins.min.js'></script>
+
+    <title>Properta icones</title>
+</head>
+
+<body class="home page page-template">
+  <table class="table">
+	<thead>
+	  <tr>
+		<th>icone</th>
+		<th>nome</th>
+	  </tr>
+	</thead>
+	<tbody>
+
+        <tr><td><span class="icon-normal-wizard-wand"></span></td><td>icon-normal-wizard-wand</td></tr>
+        <tr><td><span class="icon-normal-wireframe-three-columns"></span></td><td>icon-normal-wireframe-three-columns</td></tr>
+        <tr><td><span class="icon-normal-wireframe-matrix"></span></td><td>icon-normal-wireframe-matrix</td></tr>
+        <tr><td><span class="icon-normal-wireframe-lines"></span></td><td>icon-normal-wireframe-lines</td></tr>
+        <tr><td><span class="icon-normal-wireframe-horizontal-vertical-colum"></span></td><td>icon-normal-wireframe-horizontal-vertical-colum</td></tr>
+        <tr><td><span class="icon-normal-wine-cup"></span></td><td>icon-normal-wine-cup</td></tr>
+        <tr><td><span class="icon-normal-wine-bottles"></span></td><td>icon-normal-wine-bottles</td></tr>
+        <tr><td><span class="icon-normal-wine-bottle-cup"></span></td><td>icon-normal-wine-bottle-cup</td></tr>
+        <tr><td><span class="icon-normal-wifi"></span></td><td>icon-normal-wifi</td></tr>
+        <tr><td><span class="icon-normal-webcamera"></span></td><td>icon-normal-webcamera</td></tr>
+        <tr><td><span class="icon-normal-watches"></span></td><td>icon-normal-watches</td></tr>
+        <tr><td><span class="icon-normal-warning"></span></td><td>icon-normal-warning</td></tr>
+        <tr><td><span class="icon-normal-warehouse"></span></td><td>icon-normal-warehouse</td></tr>
+        <tr><td><span class="icon-normal-wallet"></span></td><td>icon-normal-wallet</td></tr>
+        <tr><td><span class="icon-normal-volume-slider"></span></td><td>icon-normal-volume-slider</td></tr>
+        <tr><td><span class="icon-normal-usb"></span></td><td>icon-normal-usb</td></tr>
+        <tr><td><span class="icon-normal-up-down-arrow"></span></td><td>icon-normal-up-down-arrow</td></tr>
+        <tr><td><span class="icon-normal-unlock"></span></td><td>icon-normal-unlock</td></tr>
+        <tr><td><span class="icon-normal-umbrella-rain"></span></td><td>icon-normal-umbrella-rain</td></tr>
+        <tr><td><span class="icon-normal-umbrella"></span></td><td>icon-normal-umbrella</td></tr>
+        <tr><td><span class="icon-normal-twitter"></span></td><td>icon-normal-twitter</td></tr>
+        <tr><td><span class="icon-normal-turn-off"></span></td><td>icon-normal-turn-off</td></tr>
+        <tr><td><span class="icon-normal-truck"></span></td><td>icon-normal-truck</td></tr>
+        <tr><td><span class="icon-normal-tree-leafy"></span></td><td>icon-normal-tree-leafy</td></tr>
+        <tr><td><span class="icon-normal-tree-conifer"></span></td><td>icon-normal-tree-conifer</td></tr>
+        <tr><td><span class="icon-normal-train"></span></td><td>icon-normal-train</td></tr>
+        <tr><td><span class="icon-normal-thumb-up"></span></td><td>icon-normal-thumb-up</td></tr>
+        <tr><td><span class="icon-normal-thumb-down"></span></td><td>icon-normal-thumb-down</td></tr>
+        <tr><td><span class="icon-normal-thermometer-low"></span></td><td>icon-normal-thermometer-low</td></tr>
+        <tr><td><span class="icon-normal-thermometer-high"></span></td><td>icon-normal-thermometer-high</td></tr>
+        <tr><td><span class="icon-normal-test-tube"></span></td><td>icon-normal-test-tube</td></tr>
+        <tr><td><span class="icon-normal-television"></span></td><td>icon-normal-television</td></tr>
+        <tr><td><span class="icon-normal-technology-screen-size"></span></td><td>icon-normal-technology-screen-size</td></tr>
+        <tr><td><span class="icon-normal-technology-screen-resolution"></span></td><td>icon-normal-technology-screen-resolution</td></tr>
+        <tr><td><span class="icon-normal-technology-processor"></span></td><td>icon-normal-technology-processor</td></tr>
+        <tr><td><span class="icon-normal-technology-memory"></span></td><td>icon-normal-technology-memory</td></tr>
+        <tr><td><span class="icon-normal-technology-internal-memory"></span></td><td>icon-normal-technology-internal-memory</td></tr>
+        <tr><td><span class="icon-normal-teapot"></span></td><td>icon-normal-teapot</td></tr>
+        <tr><td><span class="icon-normal-tag"></span></td><td>icon-normal-tag</td></tr>
+        <tr><td><span class="icon-normal-sun-thin"></span></td><td>icon-normal-sun-thin</td></tr>
+        <tr><td><span class="icon-normal-sun-cloud-thin"></span></td><td>icon-normal-sun-cloud-thin</td></tr>
+        <tr><td><span class="icon-normal-sun-cloud"></span></td><td>icon-normal-sun-cloud</td></tr>
+        <tr><td><span class="icon-normal-sun"></span></td><td>icon-normal-sun</td></tr>
+        <tr><td><span class="icon-normal-stop-watch"></span></td><td>icon-normal-stop-watch</td></tr>
+        <tr><td><span class="icon-normal-steering-wheel"></span></td><td>icon-normal-steering-wheel</td></tr>
+        <tr><td><span class="icon-normal-star-plus"></span></td><td>icon-normal-star-plus</td></tr>
+        <tr><td><span class="icon-normal-star-minus"></span></td><td>icon-normal-star-minus</td></tr>
+        <tr><td><span class="icon-normal-star"></span></td><td>icon-normal-star</td></tr>
+        <tr><td><span class="icon-normal-stamp"></span></td><td>icon-normal-stamp</td></tr>
+        <tr><td><span class="icon-normal-speaker-sound"></span></td><td>icon-normal-speaker-sound</td></tr>
+        <tr><td><span class="icon-normal-speaker-mute"></span></td><td>icon-normal-speaker-mute</td></tr>
+        <tr><td><span class="icon-normal-speaker"></span></td><td>icon-normal-speaker</td></tr>
+        <tr><td><span class="icon-normal-socket"></span></td><td>icon-normal-socket</td></tr>
+        <tr><td><span class="icon-normal-snowflake"></span></td><td>icon-normal-snowflake</td></tr>
+        <tr><td><span class="icon-normal-smile-sad"></span></td><td>icon-normal-smile-sad</td></tr>
+        <tr><td><span class="icon-normal-smile-laugh"></span></td><td>icon-normal-smile-laugh</td></tr>
+        <tr><td><span class="icon-normal-smile-happy"></span></td><td>icon-normal-smile-happy</td></tr>
+        <tr><td><span class="icon-normal-smartphone-qwerty"></span></td><td>icon-normal-smartphone-qwerty</td></tr>
+        <tr><td><span class="icon-normal-smartphone"></span></td><td>icon-normal-smartphone</td></tr>
+        <tr><td><span class="icon-normal-school-ring"></span></td><td>icon-normal-school-ring</td></tr>
+        <tr><td><span class="icon-normal-shower"></span></td><td>icon-normal-shower</td></tr>
+        <tr><td><span class="icon-normal-shirt"></span></td><td>icon-normal-shirt</td></tr>
+        <tr><td><span class="icon-normal-ship"></span></td><td>icon-normal-ship</td></tr>
+        <tr><td><span class="icon-normal-shield"></span></td><td>icon-normal-shield</td></tr>
+        <tr><td><span class="icon-normal-share"></span></td><td>icon-normal-share</td></tr>
+        <tr><td><span class="icon-normal-script"></span></td><td>icon-normal-script</td></tr>
+        <tr><td><span class="icon-normal-scissors"></span></td><td>icon-normal-scissors</td></tr>
+        <tr><td><span class="icon-normal-rss"></span></td><td>icon-normal-rss</td></tr>
+        <tr><td><span class="icon-normal-rows"></span></td><td>icon-normal-rows</td></tr>
+        <tr><td><span class="icon-normal-right-arrow-small"></span></td><td>icon-normal-right-arrow-small</td></tr>
+        <tr><td><span class="icon-normal-right-arrow-circle"></span></td><td>icon-normal-right-arrow-circle</td></tr>
+        <tr><td><span class="icon-normal-right-arrow"></span></td><td>icon-normal-right-arrow</td></tr>
+        <tr><td><span class="icon-normal-ribbon"></span></td><td>icon-normal-ribbon</td></tr>
+        <tr><td><span class="icon-normal-retina"></span></td><td>icon-normal-retina</td></tr>
+        <tr><td><span class="icon-normal-refresh"></span></td><td>icon-normal-refresh</td></tr>
+        <tr><td><span class="icon-normal-recycle-bin"></span></td><td>icon-normal-recycle-bin</td></tr>
+        <tr><td><span class="icon-normal-rectangle-up-arrow"></span></td><td>icon-normal-rectangle-up-arrow</td></tr>
+        <tr><td><span class="icon-normal-rays"></span></td><td>icon-normal-rays</td></tr>
+        <tr><td><span class="icon-normal-radio-button-unchecked"></span></td><td>icon-normal-radio-button-unchecked</td></tr>
+        <tr><td><span class="icon-normal-radio-button-checked"></span></td><td>icon-normal-radio-button-checked</td></tr>
+        <tr><td><span class="icon-normal-radio"></span></td><td>icon-normal-radio</td></tr>
+        <tr><td><span class="icon-normal-quotes"></span></td><td>icon-normal-quotes</td></tr>
+        <tr><td><span class="icon-normal-question-mark"></span></td><td>icon-normal-question-mark</td></tr>
+        <tr><td><span class="icon-normal-quatrefoil"></span></td><td>icon-normal-quatrefoil</td></tr>
+        <tr><td><span class="icon-normal-puzzle-plus"></span></td><td>icon-normal-puzzle-plus</td></tr>
+        <tr><td><span class="icon-normal-puzzle"></span></td><td>icon-normal-puzzle</td></tr>
+        <tr><td><span class="icon-normal-pushchair"></span></td><td>icon-normal-pushchair</td></tr>
+        <tr><td><span class="icon-normal-profile-tick"></span></td><td>icon-normal-profile-tick</td></tr>
+        <tr><td><span class="icon-normal-profile-rays"></span></td><td>icon-normal-profile-rays</td></tr>
+        <tr><td><span class="icon-normal-profile-plus"></span></td><td>icon-normal-profile-plus</td></tr>
+        <tr><td><span class="icon-normal-profile-minus"></span></td><td>icon-normal-profile-minus</td></tr>
+        <tr><td><span class="icon-normal-profile-male"></span></td><td>icon-normal-profile-male</td></tr>
+        <tr><td><span class="icon-normal-profile-checkbox"></span></td><td>icon-normal-profile-checkbox</td></tr>
+        <tr><td><span class="icon-normal-profile-female"></span></td><td>icon-normal-profile-female</td></tr>
+        <tr><td><span class="icon-normal-profile-cross"></span></td><td>icon-normal-profile-cross</td></tr>
+        <tr><td><span class="icon-normal-printer"></span></td><td>icon-normal-printer</td></tr>
+        <tr><td><span class="icon-normal-pointer-plus"></span></td><td>icon-normal-pointer-plus</td></tr>
+        <tr><td><span class="icon-normal-pointer-pin"></span></td><td>icon-normal-pointer-pin</td></tr>
+        <tr><td><span class="icon-normal-pointer-minus"></span></td><td>icon-normal-pointer-minus</td></tr>
+        <tr><td><span class="icon-normal-pointer"></span></td><td>icon-normal-pointer</td></tr>
+        <tr><td><span class="icon-normal-plus"></span></td><td>icon-normal-plus</td></tr>
+        <tr><td><span class="icon-normal-plug"></span></td><td>icon-normal-plug</td></tr>
+        <tr><td><span class="icon-normal-play-circle"></span></td><td>icon-normal-play-circle</td></tr>
+        <tr><td><span class="icon-normal-piggy-bank"></span></td><td>icon-normal-piggy-bank</td></tr>
+        <tr><td><span class="icon-normal-photo-camera"></span></td><td>icon-normal-photo-camera</td></tr>
+        <tr><td><span class="icon-normal-phone-circle"></span></td><td>icon-normal-phone-circle</td></tr>
+        <tr><td><span class="icon-normal-phone"></span></td><td>icon-normal-phone</td></tr>
+        <tr><td><span class="icon-normal-percent"></span></td><td>icon-normal-percent</td></tr>
+        <tr><td><span class="icon-normal-pen-tip"></span></td><td>icon-normal-pen-tip</td></tr>
+        <tr><td><span class="icon-normal-pencil-ruler"></span></td><td>icon-normal-pencil-ruler</td></tr>
+        <tr><td><span class="icon-normal-pencil"></span></td><td>icon-normal-pencil</td></tr>
+        <tr><td><span class="icon-normal-pen"></span></td><td>icon-normal-pen</td></tr>
+        <tr><td><span class="icon-normal-paperclip"></span></td><td>icon-normal-paperclip</td></tr>
+        <tr><td><span class="icon-normal-pants"></span></td><td>icon-normal-pants</td></tr>
+        <tr><td><span class="icon-normal-paint-brush"></span></td><td>icon-normal-paint-brush</td></tr>
+        <tr><td><span class="icon-normal-pacman"></span></td><td>icon-normal-pacman</td></tr>
+        <tr><td><span class="icon-normal-order"></span></td><td>icon-normal-order</td></tr>
+        <tr><td><span class="icon-normal-orange-slice"></span></td><td>icon-normal-orange-slice</td></tr>
+        <tr><td><span class="icon-normal-note-simple"></span></td><td>icon-normal-note-simple</td></tr>
+        <tr><td><span class="icon-normal-note-double"></span></td><td>icon-normal-note-double</td></tr>
+        <tr><td><span class="icon-normal-notebook"></span></td><td>icon-normal-notebook</td></tr>
+        <tr><td><span class="icon-normal-new-window"></span></td><td>icon-normal-new-window</td></tr>
+        <tr><td><span class="icon-normal-newspaper"></span></td><td>icon-normal-newspaper</td></tr>
+        <tr><td><span class="icon-normal-network"></span></td><td>icon-normal-network</td></tr>
+        <tr><td><span class="icon-normal-music-player"></span></td><td>icon-normal-music-player</td></tr>
+        <tr><td><span class="icon-normal-movie-disk"></span></td><td>icon-normal-movie-disk</td></tr>
+        <tr><td><span class="icon-normal-mouse"></span></td><td>icon-normal-mouse</td></tr>
+        <tr><td><span class="icon-normal-mountains"></span></td><td>icon-normal-mountains</td></tr>
+        <tr><td><span class="icon-normal-mobile-phone"></span></td><td>icon-normal-mobile-phone</td></tr>
+        <tr><td><span class="icon-normal-minus"></span></td><td>icon-normal-minus</td></tr>
+        <tr><td><span class="icon-normal-microphone-stand"></span></td><td>icon-normal-microphone-stand</td></tr>
+        <tr><td><span class="icon-normal-microphone"></span></td><td>icon-normal-microphone</td></tr>
+        <tr><td><span class="icon-normal-message-two-bubbles"></span></td><td>icon-normal-message-two-bubbles</td></tr>
+        <tr><td><span class="icon-normal-message-bubble-text"></span></td><td>icon-normal-message-bubble-text</td></tr>
+        <tr><td><span class="icon-normal-message-bubbles-rounded"></span></td><td>icon-normal-message-bubbles-rounded</td></tr>
+        <tr><td><span class="icon-normal-message-bubbles"></span></td><td>icon-normal-message-bubbles</td></tr>
+        <tr><td><span class="icon-normal-message-bubble-rounded"></span></td><td>icon-normal-message-bubble-rounded</td></tr>
+        <tr><td><span class="icon-normal-message-bubble-plus"></span></td><td>icon-normal-message-bubble-plus</td></tr>
+        <tr><td><span class="icon-normal-message-bubble-minus"></span></td><td>icon-normal-message-bubble-minus</td></tr>
+        <tr><td><span class="icon-normal-message-bubble-cloud"></span></td><td>icon-normal-message-bubble-cloud</td></tr>
+        <tr><td><span class="icon-normal-message-bubble"></span></td><td>icon-normal-message-bubble</td></tr>
+        <tr><td><span class="icon-normal-megaphone"></span></td><td>icon-normal-megaphone</td></tr>
+        <tr><td><span class="icon-normal-mark-tick"></span></td><td>icon-normal-mark-tick</td></tr>
+        <tr><td><span class="icon-normal-mark-male"></span></td><td>icon-normal-mark-male</td></tr>
+        <tr><td><span class="icon-normal-mark-cross"></span></td><td>icon-normal-mark-cross</td></tr>
+        <tr><td><span class="icon-normal-map-pointer"></span></td><td>icon-normal-map-pointer</td></tr>
+        <tr><td><span class="icon-normal-map"></span></td><td>icon-normal-map</td></tr>
+        <tr><td><span class="icon-normal-male-female"></span></td><td>icon-normal-male-female</td></tr>
+        <tr><td><span class="icon-normal-mail-open"></span></td><td>icon-normal-mail-open</td></tr>
+        <tr><td><span class="icon-normal-mail"></span></td><td>icon-normal-mail</td></tr>
+        <tr><td><span class="icon-normal-magnifier-plus"></span></td><td>icon-normal-magnifier-plus</td></tr>
+        <tr><td><span class="icon-normal-magnifier-minus"></span></td><td>icon-normal-magnifier-minus</td></tr>
+        <tr><td><span class="icon-normal-magnifier-circle"></span></td><td>icon-normal-magnifier-circle</td></tr>
+        <tr><td><span class="icon-normal-magnifier"></span></td><td>icon-normal-magnifier</td></tr>
+        <tr><td><span class="icon-normal-luggage"></span></td><td>icon-normal-luggage</td></tr>
+        <tr><td><span class="icon-normal-loop-tape"></span></td><td>icon-normal-loop-tape</td></tr>
+        <tr><td><span class="icon-normal-loop"></span></td><td>icon-normal-loop</td></tr>
+        <tr><td><span class="icon-normal-lock"></span></td><td>icon-normal-lock</td></tr>
+        <tr><td><span class="icon-normal-link"></span></td><td>icon-normal-link</td></tr>
+        <tr><td><span class="icon-normal-light-bulb-rays"></span></td><td>icon-normal-light-bulb-rays</td></tr>
+        <tr><td><span class="icon-normal-light-bulb"></span></td><td>icon-normal-light-bulb</td></tr>
+        <tr><td><span class="icon-normal-left-arrow-small"></span></td><td>icon-normal-left-arrow-small</td></tr>
+        <tr><td><span class="icon-normal-left-arrow-circle"></span></td><td>icon-normal-left-arrow-circle</td></tr>
+        <tr><td><span class="icon-normal-left-arrow"></span></td><td>icon-normal-left-arrow</td></tr>
+        <tr><td><span class="icon-normal-leaf"></span></td><td>icon-normal-leaf</td></tr>
+        <tr><td><span class="icon-normal-lcd"></span></td><td>icon-normal-lcd</td></tr>
+        <tr><td><span class="icon-normal-knob-volume"></span></td><td>icon-normal-knob-volume</td></tr>
+        <tr><td><span class="icon-normal-knob"></span></td><td>icon-normal-knob</td></tr>
+        <tr><td><span class="icon-normal-key-old"></span></td><td>icon-normal-key-old</td></tr>
+        <tr><td><span class="icon-normal-keyboard"></span></td><td>icon-normal-keyboard</td></tr>
+        <tr><td><span class="icon-normal-key"></span></td><td>icon-normal-key</td></tr>
+        <tr><td><span class="icon-normal-information-sign"></span></td><td>icon-normal-information-sign</td></tr>
+        <tr><td><span class="icon-normal-information"></span></td><td>icon-normal-information</td></tr>
+        <tr><td><span class="icon-normal-infinitive"></span></td><td>icon-normal-infinitive</td></tr>
+        <tr><td><span class="icon-normal-inbox"></span></td><td>icon-normal-inbox</td></tr>
+        <tr><td><span class="icon-normal-image"></span></td><td>icon-normal-image</td></tr>
+        <tr><td><span class="icon-normal-id-card"></span></td><td>icon-normal-id-card</td></tr>
+        <tr><td><span class="icon-normal-chef-hat"></span></td><td>icon-normal-chef-hat</td></tr>
+        <tr><td><span class="icon-normal-checkbox-unchecked"></span></td><td>icon-normal-checkbox-unchecked</td></tr>
+        <tr><td><span class="icon-normal-checkbox-checked"></span></td><td>icon-normal-checkbox-checked</td></tr>
+        <tr><td><span class="icon-normal-house"></span></td><td>icon-normal-house</td></tr>
+        <tr><td><span class="icon-normal-high-definition"></span></td><td>icon-normal-high-definition</td></tr>
+        <tr><td><span class="icon-normal-heart-rounded"></span></td><td>icon-normal-heart-rounded</td></tr>
+        <tr><td><span class="icon-normal-heart-plus"></span></td><td>icon-normal-heart-plus</td></tr>
+        <tr><td><span class="icon-normal-heart-minus"></span></td><td>icon-normal-heart-minus</td></tr>
+        <tr><td><span class="icon-normal-heart"></span></td><td>icon-normal-heart</td></tr>
+        <tr><td><span class="icon-normal-headphones-microphone"></span></td><td>icon-normal-headphones-microphone</td></tr>
+        <tr><td><span class="icon-normal-headphones"></span></td><td>icon-normal-headphones</td></tr>
+        <tr><td><span class="icon-normal-hat"></span></td><td>icon-normal-hat</td></tr>
+        <tr><td><span class="icon-normal-guitar"></span></td><td>icon-normal-guitar</td></tr>
+        <tr><td><span class="icon-normal-group-two"></span></td><td>icon-normal-group-two</td></tr>
+        <tr><td><span class="icon-normal-group-three"></span></td><td>icon-normal-group-three</td></tr>
+        <tr><td><span class="icon-normal-graph-uptrend"></span></td><td>icon-normal-graph-uptrend</td></tr>
+        <tr><td><span class="icon-normal-graph-random"></span></td><td>icon-normal-graph-random</td></tr>
+        <tr><td><span class="icon-normal-graph-downtrend"></span></td><td>icon-normal-graph-downtrend</td></tr>
+        <tr><td><span class="icon-normal-graph-cake-quarter"></span></td><td>icon-normal-graph-cake-quarter</td></tr>
+        <tr><td><span class="icon-normal-graph-cake"></span></td><td>icon-normal-graph-cake</td></tr>
+        <tr><td><span class="icon-normal-globe"></span></td><td>icon-normal-globe</td></tr>
+        <tr><td><span class="icon-normal-glasses-stripes"></span></td><td>icon-normal-glasses-stripes</td></tr>
+        <tr><td><span class="icon-normal-glasses-old"></span></td><td>icon-normal-glasses-old</td></tr>
+        <tr><td><span class="icon-normal-glasses"></span></td><td>icon-normal-glasses</td></tr>
+        <tr><td><span class="icon-normal-gamepad"></span></td><td>icon-normal-gamepad</td></tr>
+        <tr><td><span class="icon-normal-full-screen"></span></td><td>icon-normal-full-screen</td></tr>
+        <tr><td><span class="icon-normal-four-rectangles"></span></td><td>icon-normal-four-rectangles</td></tr>
+        <tr><td><span class="icon-normal-folder-zipp"></span></td><td>icon-normal-folder-zipp</td></tr>
+        <tr><td><span class="icon-normal-folder-up-arrow"></span></td><td>icon-normal-folder-up-arrow</td></tr>
+        <tr><td><span class="icon-normal-folder-ribbon"></span></td><td>icon-normal-folder-ribbon</td></tr>
+        <tr><td><span class="icon-normal-folder-plus"></span></td><td>icon-normal-folder-plus</td></tr>
+        <tr><td><span class="icon-normal-folder-open"></span></td><td>icon-normal-folder-open</td></tr>
+        <tr><td><span class="icon-normal-folder-minus"></span></td><td>icon-normal-folder-minus</td></tr>
+        <tr><td><span class="icon-normal-folder-locker"></span></td><td>icon-normal-folder-locker</td></tr>
+        <tr><td><span class="icon-normal-folder-down-arrow"></span></td><td>icon-normal-folder-down-arrow</td></tr>
+        <tr><td><span class="icon-normal-folder-document-arrows"></span></td><td>icon-normal-folder-document-arrows</td></tr>
+        <tr><td><span class="icon-normal-folder-document"></span></td><td>icon-normal-folder-document</td></tr>
+        <tr><td><span class="icon-normal-folder"></span></td><td>icon-normal-folder</td></tr>
+        <tr><td><span class="icon-normal-floppy-disk"></span></td><td>icon-normal-floppy-disk</td></tr>
+        <tr><td><span class="icon-normal-float-wheel"></span></td><td>icon-normal-float-wheel</td></tr>
+        <tr><td><span class="icon-normal-flash-power"></span></td><td>icon-normal-flash-power</td></tr>
+        <tr><td><span class="icon-normal-flash"></span></td><td>icon-normal-flash</td></tr>
+        <tr><td><span class="icon-normal-flame"></span></td><td>icon-normal-flame</td></tr>
+        <tr><td><span class="icon-normal-flag"></span></td><td>icon-normal-flag</td></tr>
+        <tr><td><span class="icon-normal-first-aid"></span></td><td>icon-normal-first-aid</td></tr>
+        <tr><td><span class="icon-normal-filter"></span></td><td>icon-normal-filter</td></tr>
+        <tr><td><span class="icon-normal-film"></span></td><td>icon-normal-film</td></tr>
+        <tr><td><span class="icon-normal-file-xls"></span></td><td>icon-normal-file-xls</td></tr>
+        <tr><td><span class="icon-normal-file-text"></span></td><td>icon-normal-file-text</td></tr>
+        <tr><td><span class="icon-normal-file-scrap"></span></td><td>icon-normal-file-scrap</td></tr>
+        <tr><td><span class="icon-normal-file-right-arrow"></span></td><td>icon-normal-file-right-arrow</td></tr>
+        <tr><td><span class="icon-normal-file-plus"></span></td><td>icon-normal-file-plus</td></tr>
+        <tr><td><span class="icon-normal-file-pencil"></span></td><td>icon-normal-file-pencil</td></tr>
+        <tr><td><span class="icon-normal-file-pdf"></span></td><td>icon-normal-file-pdf</td></tr>
+        <tr><td><span class="icon-normal-file-odf"></span></td><td>icon-normal-file-odf</td></tr>
+        <tr><td><span class="icon-normal-file-minus"></span></td><td>icon-normal-file-minus</td></tr>
+        <tr><td><span class="icon-normal-file-left-arrow"></span></td><td>icon-normal-file-left-arrow</td></tr>
+        <tr><td><span class="icon-normal-file-heart"></span></td><td>icon-normal-file-heart</td></tr>
+        <tr><td><span class="icon-normal-file-doc"></span></td><td>icon-normal-file-doc</td></tr>
+        <tr><td><span class="icon-normal-file-cross"></span></td><td>icon-normal-file-cross</td></tr>
+        <tr><td><span class="icon-normal-file-copy"></span></td><td>icon-normal-file-copy</td></tr>
+        <tr><td><span class="icon-normal-file"></span></td><td>icon-normal-file</td></tr>
+        <tr><td><span class="icon-normal-facebook"></span></td><td>icon-normal-facebook</td></tr>
+        <tr><td><span class="icon-normal-eye-dropper"></span></td><td>icon-normal-eye-dropper</td></tr>
+        <tr><td><span class="icon-normal-eye"></span></td><td>icon-normal-eye</td></tr>
+        <tr><td><span class="icon-normal-exclamation-mark"></span></td><td>icon-normal-exclamation-mark</td></tr>
+        <tr><td><span class="icon-normal-equalizer"></span></td><td>icon-normal-equalizer</td></tr>
+        <tr><td><span class="icon-normal-eco-light-bulb"></span></td><td>icon-normal-eco-light-bulb</td></tr>
+        <tr><td><span class="icon-normal-drums"></span></td><td>icon-normal-drums</td></tr>
+        <tr><td><span class="icon-normal-drop"></span></td><td>icon-normal-drop</td></tr>
+        <tr><td><span class="icon-normal-drink"></span></td><td>icon-normal-drink</td></tr>
+        <tr><td><span class="icon-normal-drag-area"></span></td><td>icon-normal-drag-area</td></tr>
+        <tr><td><span class="icon-normal-download"></span></td><td>icon-normal-download</td></tr>
+        <tr><td><span class="icon-normal-door-out"></span></td><td>icon-normal-door-out</td></tr>
+        <tr><td><span class="icon-normal-door-in"></span></td><td>icon-normal-door-in</td></tr>
+        <tr><td><span class="icon-normal-divider"></span></td><td>icon-normal-divider</td></tr>
+        <tr><td><span class="icon-normal-disabled"></span></td><td>icon-normal-disabled</td></tr>
+        <tr><td><span class="icon-normal-direrctor-chair"></span></td><td>icon-normal-direrctor-chair</td></tr>
+        <tr><td><span class="icon-normal-directional-board"></span></td><td>icon-normal-directional-board</td></tr>
+        <tr><td><span class="icon-normal-dashboard"></span></td><td>icon-normal-dashboard</td></tr>
+        <tr><td><span class="icon-normal-cursor-type"></span></td><td>icon-normal-cursor-type</td></tr>
+        <tr><td><span class="icon-normal-cursor-scale-vertical"></span></td><td>icon-normal-cursor-scale-vertical</td></tr>
+        <tr><td><span class="icon-normal-cursor-scale-up"></span></td><td>icon-normal-cursor-scale-up</td></tr>
+        <tr><td><span class="icon-normal-cursor-scale-horizontal"></span></td><td>icon-normal-cursor-scale-horizontal</td></tr>
+        <tr><td><span class="icon-normal-cursor-scale-down"></span></td><td>icon-normal-cursor-scale-down</td></tr>
+        <tr><td><span class="icon-normal-cursor-scale-45-right"></span></td><td>icon-normal-cursor-scale-45-right</td></tr>
+        <tr><td><span class="icon-normal-cursor-scale-45-left"></span></td><td>icon-normal-cursor-scale-45-left</td></tr>
+        <tr><td><span class="icon-normal-cursor-move"></span></td><td>icon-normal-cursor-move</td></tr>
+        <tr><td><span class="icon-normal-cursor-hand"></span></td><td>icon-normal-cursor-hand</td></tr>
+        <tr><td><span class="icon-normal-cursor"></span></td><td>icon-normal-cursor</td></tr>
+        <tr><td><span class="icon-normal-currency-euro"></span></td><td>icon-normal-currency-euro</td></tr>
+        <tr><td><span class="icon-normal-currency-dollar"></span></td><td>icon-normal-currency-dollar</td></tr>
+        <tr><td><span class="icon-normal-cup-coffee"></span></td><td>icon-normal-cup-coffee</td></tr>
+        <tr><td><span class="icon-normal-crosshair"></span></td><td>icon-normal-crosshair</td></tr>
+        <tr><td><span class="icon-normal-credit-card"></span></td><td>icon-normal-credit-card</td></tr>
+        <tr><td><span class="icon-normal-copyright"></span></td><td>icon-normal-copyright</td></tr>
+        <tr><td><span class="icon-normal-control-stop"></span></td><td>icon-normal-control-stop</td></tr>
+        <tr><td><span class="icon-normal-control-rewind"></span></td><td>icon-normal-control-rewind</td></tr>
+        <tr><td><span class="icon-normal-control-previous"></span></td><td>icon-normal-control-previous</td></tr>
+        <tr><td><span class="icon-normal-control-play"></span></td><td>icon-normal-control-play</td></tr>
+        <tr><td><span class="icon-normal-control-pause"></span></td><td>icon-normal-control-pause</td></tr>
+        <tr><td><span class="icon-normal-control-next"></span></td><td>icon-normal-control-next</td></tr>
+        <tr><td><span class="icon-normal-control-forward"></span></td><td>icon-normal-control-forward</td></tr>
+        <tr><td><span class="icon-normal-computer-case"></span></td><td>icon-normal-computer-case</td></tr>
+        <tr><td><span class="icon-normal-compass"></span></td><td>icon-normal-compass</td></tr>
+        <tr><td><span class="icon-normal-compact-disc"></span></td><td>icon-normal-compact-disc</td></tr>
+        <tr><td><span class="icon-normal-command"></span></td><td>icon-normal-command</td></tr>
+        <tr><td><span class="icon-normal-collage-hat"></span></td><td>icon-normal-collage-hat</td></tr>
+        <tr><td><span class="icon-normal-coins"></span></td><td>icon-normal-coins</td></tr>
+        <tr><td><span class="icon-normal-cog-wheel"></span></td><td>icon-normal-cog-wheel</td></tr>
+        <tr><td><span class="icon-normal-code-end"></span></td><td>icon-normal-code-end</td></tr>
+        <tr><td><span class="icon-normal-code-begin"></span></td><td>icon-normal-code-begin</td></tr>
+        <tr><td><span class="icon-normal-cloud-up-arrow"></span></td><td>icon-normal-cloud-up-arrow</td></tr>
+        <tr><td><span class="icon-normal-clouds-thin"></span></td><td>icon-normal-clouds-thin</td></tr>
+        <tr><td><span class="icon-normal-clouds-rain-thin"></span></td><td>icon-normal-clouds-rain-thin</td></tr>
+        <tr><td><span class="icon-normal-clouds-flash-thin"></span></td><td>icon-normal-clouds-flash-thin</td></tr>
+        <tr><td><span class="icon-normal-cloud-music"></span></td><td>icon-normal-cloud-music</td></tr>
+        <tr><td><span class="icon-normal-cloud-down-arrow"></span></td><td>icon-normal-cloud-down-arrow</td></tr>
+        <tr><td><span class="icon-normal-cloud"></span></td><td>icon-normal-cloud</td></tr>
+        <tr><td><span class="icon-normal-clock-sand"></span></td><td>icon-normal-clock-sand</td></tr>
+        <tr><td><span class="icon-normal-clock"></span></td><td>icon-normal-clock</td></tr>
+        <tr><td><span class="icon-normal-clipboard"></span></td><td>icon-normal-clipboard</td></tr>
+        <tr><td><span class="icon-normal-circle-tick"></span></td><td>icon-normal-circle-tick</td></tr>
+        <tr><td><span class="icon-normal-circle-plus-small"></span></td><td>icon-normal-circle-plus-small</td></tr>
+        <tr><td><span class="icon-normal-circle-plus"></span></td><td>icon-normal-circle-plus</td></tr>
+        <tr><td><span class="icon-normal-circle-minus-small"></span></td><td>icon-normal-circle-minus-small</td></tr>
+        <tr><td><span class="icon-normal-circle-minus"></span></td><td>icon-normal-circle-minus</td></tr>
+        <tr><td><span class="icon-normal-circle-information"></span></td><td>icon-normal-circle-information</td></tr>
+        <tr><td><span class="icon-normal-circle-cross-small"></span></td><td>icon-normal-circle-cross-small</td></tr>
+        <tr><td><span class="icon-normal-circle-cross"></span></td><td>icon-normal-circle-cross</td></tr>
+        <tr><td><span class="icon-normal-center-position"></span></td><td>icon-normal-center-position</td></tr>
+        <tr><td><span class="icon-normal-cart-up-arrow"></span></td><td>icon-normal-cart-up-arrow</td></tr>
+        <tr><td><span class="icon-normal-cart-plus"></span></td><td>icon-normal-cart-plus</td></tr>
+        <tr><td><span class="icon-normal-cart-minus"></span></td><td>icon-normal-cart-minus</td></tr>
+        <tr><td><span class="icon-normal-cart-down-arrow"></span></td><td>icon-normal-cart-down-arrow</td></tr>
+        <tr><td><span class="icon-normal-cart"></span></td><td>icon-normal-cart</td></tr>
+        <tr><td><span class="icon-normal-card-green"></span></td><td>icon-normal-card-green</td></tr>
+        <tr><td><span class="icon-normal-car"></span></td><td>icon-normal-car</td></tr>
+        <tr><td><span class="icon-normal-cap-winner"></span></td><td>icon-normal-cap-winner</td></tr>
+        <tr><td><span class="icon-normal-capsule"></span></td><td>icon-normal-capsule</td></tr>
+        <tr><td><span class="icon-normal-camera"></span></td><td>icon-normal-camera</td></tr>
+        <tr><td><span class="icon-normal-calendar-month"></span></td><td>icon-normal-calendar-month</td></tr>
+        <tr><td><span class="icon-normal-calendar-day"></span></td><td>icon-normal-calendar-day</td></tr>
+        <tr><td><span class="icon-normal-calculator"></span></td><td>icon-normal-calculator</td></tr>
+        <tr><td><span class="icon-normal-cake"></span></td><td>icon-normal-cake</td></tr>
+        <tr><td><span class="icon-normal-bus"></span></td><td>icon-normal-bus</td></tr>
+        <tr><td><span class="icon-normal-box-plus"></span></td><td>icon-normal-box-plus</td></tr>
+        <tr><td><span class="icon-normal-box-pin"></span></td><td>icon-normal-box-pin</td></tr>
+        <tr><td><span class="icon-normal-box-closed"></span></td><td>icon-normal-box-closed</td></tr>
+        <tr><td><span class="icon-normal-box-arrows-left-right"></span></td><td>icon-normal-box-arrows-left-right</td></tr>
+        <tr><td><span class="icon-normal-box-arrow-down"></span></td><td>icon-normal-box-arrow-down</td></tr>
+        <tr><td><span class="icon-normal-box"></span></td><td>icon-normal-box</td></tr>
+        <tr><td><span class="icon-normal-book-2"></span></td><td>icon-normal-book-2</td></tr>
+        <tr><td><span class="icon-normal-book"></span></td><td>icon-normal-book</td></tr>
+        <tr><td><span class="icon-normal-bone"></span></td><td>icon-normal-bone</td></tr>
+        <tr><td><span class="icon-normal-bluetooth"></span></td><td>icon-normal-bluetooth</td></tr>
+        <tr><td><span class="icon-normal-bird-fly"></span></td><td>icon-normal-bird-fly</td></tr>
+        <tr><td><span class="icon-normal-bird"></span></td><td>icon-normal-bird</td></tr>
+        <tr><td><span class="icon-normal-bell"></span></td><td>icon-normal-bell</td></tr>
+        <tr><td><span class="icon-normal-bed"></span></td><td>icon-normal-bed</td></tr>
+        <tr><td><span class="icon-normal-battery-half"></span></td><td>icon-normal-battery-half</td></tr>
+        <tr><td><span class="icon-normal-battery-full"></span></td><td>icon-normal-battery-full</td></tr>
+        <tr><td><span class="icon-normal-bank"></span></td><td>icon-normal-bank</td></tr>
+        <tr><td><span class="icon-normal-badge-star"></span></td><td>icon-normal-badge-star</td></tr>
+        <tr><td><span class="icon-normal-badge-sale"></span></td><td>icon-normal-badge-sale</td></tr>
+        <tr><td><span class="icon-normal-badge-ribbon"></span></td><td>icon-normal-badge-ribbon</td></tr>
+        <tr><td><span class="icon-normal-badge"></span></td><td>icon-normal-badge</td></tr>
+        <tr><td><span class="icon-normal-backspace"></span></td><td>icon-normal-backspace</td></tr>
+        <tr><td><span class="icon-normal-assembly-key-screwdriver"></span></td><td>icon-normal-assembly-key-screwdriver</td></tr>
+        <tr><td><span class="icon-normal-assembly-key"></span></td><td>icon-normal-assembly-key</td></tr>
+        <tr><td><span class="icon-normal-apple"></span></td><td>icon-normal-apple</td></tr>
+        <tr><td><span class="icon-normal-alternative"></span></td><td>icon-normal-alternative</td></tr>
+        <tr><td><span class="icon-normal-alarm-clock"></span></td><td>icon-normal-alarm-clock</td></tr>
+        <tr><td><span class="icon-normal-airplane"></span></td><td>icon-normal-airplane</td></tr>
+	</tbody>
+  </table>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?v=3&#038;sensor=true&#038;ver=3.6'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/aviators-map.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/gmap3.infobox.min.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/retina.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/gmap3.clusterer.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/jquery.ezmark.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/carousel.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/jquery.bxslider.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/properta.js'></script>
+<script type='text/javascript' src='http://localhost:8080/mobile/assets/js/jquery.bxslider.min.js'></script>
+</body>
+</html>

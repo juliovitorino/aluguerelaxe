@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="br.com.jcv.backend.uf.UFDTO" table="UF">
+		<id name="id" column="UF_CD_ESTADO" />
+		<property name="descricao" column="UF_NM_ESTADO" />
+	</class>
+</hibernate-mapping>

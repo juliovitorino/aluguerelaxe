@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+    <!--
+    *********************************************************************************
+                 S E R V L E T S  -  C H A M A D A S    R P C   G W T
+    *********************************************************************************
+     -->
+    <servlet>
+    	<servlet-name>ListaImovelUFRPC</servlet-name>
+    	<servlet-class>br.com.jcv.aluguerelaxe.server.UFRPCImpl</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>PaginacaoRPC</servlet-name>
+    	<servlet-class>br.com.jcv.aluguerelaxe.server.PaginacaoRPCImpl</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>FichaImovelRPC</servlet-name>
+    	<servlet-class>br.com.jcv.aluguerelaxe.server.FichaImovelRPCImpl</servlet-class>
+    </servlet>
+    
+    <!--
+    *********************************************************************************
+                             M A P A S    C H A M A D A S    R P C
+    *********************************************************************************
+     -->
+	<servlet-mapping>
+    	<servlet-name>ListaImovelUFRPC</servlet-name>
+    	<url-pattern>/main/ufrpc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>PaginacaoRPC</servlet-name>
+    	<url-pattern>/resultado/paginacaorpc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>FichaImovelRPC</servlet-name>
+    	<url-pattern>/ficha/fichaimovelrpc</url-pattern>
+    </servlet-mapping>
+    	
+    <!--
+    *********************************************************************************
+                      L I S T E N E R S    P A R A    S T A R T U P
+    *********************************************************************************
+     -->
+	<listener>
+	    <listener-class>br.com.jcv.aluguerelaxe.utility.HibernateListener</listener-class>
+	</listener>    
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+    
+</web-app>

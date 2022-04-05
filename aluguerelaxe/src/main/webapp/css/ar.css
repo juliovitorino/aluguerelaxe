@@ -1,0 +1,2200 @@
+/*  
+CSS para uso do AR
+Version: 1.0
+Author: Julio Cesar Vitorino
+*/
+
+/*
+Configuração para a seção de dicas
+*/
+.numero_estilo {
+	width: 70px;
+	height: 70px;
+	margin: 0;
+	padding-top: 10px;
+	float: left;
+	text-align: center;
+	font-family: Arial Blac, Arial;
+	font-size: 42px;
+	font-weight: bolder;
+	color: #CCC;
+}
+
+.titulo_item  {
+	color: #ff6600;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.texto_estilo {
+	width: 500px;
+	margin: 0;
+	float: right;
+}
+
+.gwt-Tree .gwt-TreeItem {
+  padding: 1px 0px;
+  margin: 0px;
+  white-space: nowrap;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+  background: #ebeff9;
+}
+
+/*
+Configuracao para gwt-DestinoEditPanel
+*/
+
+.gwt-DestinoEditPanel {
+}
+
+.gwt-DestinoEditPanel .gwt-DestinoFormComposite {
+}
+
+.gwt-DestinoEditPanel .gwt-DestinoFormComposite .gwt-Label {
+	line-height: 30px;
+}
+
+.gwt-DestinoEditPanel  .gwt-AbstractToolbar {
+}
+
+/*
+Configuracao base para gwt-QuadroQuantidade
+*/
+
+.gwt-QuadroQuantidade {
+	
+	}
+
+.gwt-QuadroQuantidade .gwt-Label  {
+	text-align: center;
+    font-family: Arial, Verdana;
+    text-shadow: 3px 3px 3px #ccc;
+	font-size: 10pt;
+	margin-left: 3px;
+	min-width: 90px;
+
+	}
+.gwt-QuadroQuantidade .gwt-HTML {
+	text-align: center;
+    font-family: Arial, Verdana;
+    text-shadow: 3px 3px 3px #ccc;
+	font-size: 12pt;
+	margin-left: 3px;
+	min-width: 90px;
+	}
+
+/*
+Configuracao base para gwt-GridDataEntry
+*/
+.gwt-GridDataEntry {
+	vertical-align: top;
+	}
+	
+.gwt-GridDataEntry .gwt-gde-header{
+	background-color:  #ccc;
+    font-family: Arial, Verdana;
+    text-shadow: 3px 3px 3px #ccc;
+	font-size: 10pt;
+	}
+	
+.gwt-GridDataEntry .gwt-gde-par{
+	background-color:  #d8d8d8;
+	}
+	
+.gwt-GridDataEntry .gwt-gde-impar{
+	}
+
+/*
+Configuracao para visao da tabela de precos na ficha do imovel
+*/
+.gwt-tprogde .gwt-gde-header{
+	background-color:  #ccc;
+    font-family: Arial, Verdana;
+    text-shadow: 3px 3px 3px #ccc;
+	font-size: 10pt;
+	}
+	
+.gwt-tprogde.gwt-gde-par{
+	background-color:  #d8d8d8;
+	}
+	
+.gwt-tprogde .gwt-gde-impar{
+	}
+
+.gwt-tprogde h1 {
+	text-align: center;
+ 	font-family: Arial, Verdana;
+    text-shadow: 3px 3px 3px #ccc;
+	font-size: 12pt;	
+	}
+
+/*
+Configuracao para componente gwt-TrackerCodigoFormComposite
+*/
+.gwt-TrackerCodigoFormComposite .gwt-TextBox {
+	margin-left: 5px;
+	height: 30px;
+	border: 1px solid;
+	border: 1px solid #000000;
+}
+
+.gwt-TrackerCodigoFormComposite .gwt-Button {
+	margin-left: 5px;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #000000;
+}
+/*
+Configuracao para componente ReservaViewFormComposite
+*/
+.gwt-ReservaViewFormComposite .gwt-Label {
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana, Arial;
+	padding-bottom: 2px;
+	padding-top: 5px;
+}
+	
+.gwt-ReservaViewFormComposite-view {
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Helvetica, Arial;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	color: #FF4500;
+}
+	
+/*
+Configuracao para componente Fase
+*/
+.gwt-Fase td {
+	text-align: center;
+}
+
+.gwt-Fase .gwt-Fase-nome {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+}
+
+.gwt-Fase .gwt-Fase-status {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Helvetica, Arial;
+	text-transform: uppercase;
+}
+
+.gwt-Fase .gwt-Fase-rodape {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Helvetica, Arial;
+	text-transform: uppercase;
+	height: 50px;
+}
+
+.gwt-CharterImovelUFFormComposite img {
+	border: none;
+}
+
+/*
+Configurações para Assistente Depoimento
+*/
+
+.gwt-DepoimentoFormComposite {
+}
+
+.gwt-DepoimentoFormComposite .gwt-FormComposite {
+	vertical-align:top;
+	background:#ffffff;
+	border-top:1px solid #d8d8d8;
+	padding:3px 6px 4px 6px;
+	border: 1 solid #000000;
+	line-height: 16pt;
+}
+
+
+/*
+Configurações para Assistente Fale Conosco
+*/
+
+.gwt-FaleConoscoAssistente {
+}
+
+.gwt-FaleConoscoAssistente .gwt-FormComposite {
+	vertical-align:top;
+	background:#ffffff;
+	border-top:1px solid #d8d8d8;
+	padding:3px 6px 4px 6px;
+	border: 1 solid #000000;
+	line-height: 16pt;
+}
+
+/*
+Configurações para Modal
+*/
+
+.gwt-ConfirmarDialogModal td {
+	padding-left: 5px;
+}
+
+
+.gwt-ConfirmarDialogModal .gwt-Button {
+	margin-top:10px;
+	margin-left: 5px;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #000000;
+}
+
+/*
+Configurações para toolbar da ficha do imóvel com centralização dos comandos
+*/
+.gwt-FichaImovel .gwt-AbstractToolbar {
+	border: 1px solid black;
+	margin-top: 5px;
+	padding-top: 5px;
+	width: 920px;
+	background-color: #FFEBCD;
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 0px;
+}
+
+.gwt-FichaImovel .gwt-AbstractToolbar td {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.gwt-FichaImovel .gwt-AbstractToolbar .gwt-Image {
+  vertical-align: middle;
+}
+
+.gwt-FichaImovel .gwt-AbstractToolbar .gwt-Label {
+	font-size: 8pt;
+	font-weight: bold;
+	text-transform: capitalize;
+	width: 88px;
+	line-height: 16pt;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.gwt-FichaImovel .gwt-FormComposite {
+	width: 920px;
+	background-color: #F0FFF0;
+	border-left: 1px dotted black;
+	border-right: 1px dotted black;
+	border-bottom: 1px dotted black;
+}
+
+/*
+Configurações para ficha de contato com o anunciante
+*/
+.gwt-FormComposite .gwt-dadosAnunciante span {
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.gwt-FormComposite .gwt-montaFormContatoAnunciante {
+	font-family: verdana, tahoma;
+	border: 1px solid #000000;
+	width: 450px;
+}
+
+.gwt-FormComposite .gwt-montaFormContatoAnunciante h3 {
+	font-size: 12pt;
+	font-weight: bold;
+	background-color: #000000;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+.gwt-FormComposite .gwt-montaFormContatoAnunciante td {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.gwt-FormComposite .gwt-montaFormContatoAnunciante .gwt-Label {
+	text-align: left;
+}
+
+.gwt-FormComposite .gwt-montaFormContatoAnunciante .gwt-DateBox {
+	width: 150px;
+}
+
+.gwt-FormComposite .gwt-montaAvisoAlugueRelaxe {
+	margin-left: 5px;
+	margin-top: 280px;
+	font-family: verdana, tahoma;
+	border: 1px solid #FF0000;
+	width: 250px;
+}
+
+.gwt-FormComposite .gwt-montaAvisoAlugueRelaxe h3 {
+	font-size: 14pt;
+	font-weight: bold;
+	background-color: #FF0000;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+.gwt-FormComposite .gwt-montaAvisoAlugueRelaxe span {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #2F4F4F;
+}
+
+/*
+Configurações para assistente de geo-localização
+*/
+
+.gwt-AbstractEditPanel .gwt-AssistenteGeoLocalizacao {
+	width: 715px;	
+}
+
+.gwt-AbstractEditPanel .gwt-AssistenteGeoLocalizacao .gwt-Button{
+	margin-top:10px;
+	margin-left: 5px;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #000000;
+}
+
+/*
+Configurações para apresentação dos planos de pagamento
+*/
+.gwt-FormComposite .gwt-valor-plano {
+	margin-left: 10px;
+	padding-top: 10px;
+	font-family: Arial Black, Arial;
+	font-size: 48px;
+	font-weight: bolder;
+	color: #FF0000;
+}
+
+.gwt-FormComposite .gwt-descricao-plano {
+	margin-left: 10px;
+	padding-top: 10px;
+	font-family: Arial Black, Arial;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #1E90FF;
+}
+
+
+/*
+Configurações para ficha do imovel publica
+*/
+.gwt-FichaImovel {
+	padding: 5px 5px 5px 5px;
+	border: 1px dashed #1E90FF;
+	line-height: 16pt;
+}
+
+.gwt-FichaImovel .gwt-CaracteristicaConfiguradaFormComposite {
+vertical-align:top;
+background:#ebf3ff;
+border-top:1px solid #d8d8d8;
+padding:3px 6px 4px 6px;
+border: 1 solid #000000;
+}
+
+.gwt-FichaImovel .gwt-CaracteristicaConfiguradaFormComposite .gwt-Label {
+	width: 160px;
+}
+
+.gwt-FichaImovel .gwt-QuadroQuantidade  {
+	padding-top: 5px;
+	padding-left:5px;
+	margin-top: 5px;
+	background-color: #F5F5F5;
+	width: 100px;
+	border: 1px dotted #1E90FF;
+}
+
+.gwt-FichaImovel .gwt-FotoFD td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.gwt-FichaImovel .gwt-FotoFD img {
+	border: 2px solid #000000
+}
+
+.gwt-FichaImovel td {
+	height: 20pt;
+}
+
+.gwt-ApresentaFichaImovelFormComposite td {
+	height: 12pt;
+}
+
+.gwt-ApresentaFichaImovelFormComposite h2 {
+	font-family: verdana, tahoma;
+	font-size: 14pt;
+	font-weight: bold;
+	background-color: #00BFFF;
+	width: 915px;
+	border: 2px solid #1E90FF;
+}
+.gwt-ApresentaFichaImovelFormComposite p {
+	font-family: verdana, tahoma;
+	font-size: 10pt;
+	line-height: 16pt;
+}
+.gwt-ApresentaFichaImovelFormComposite .gwt-Label {
+	font-family: verdana, tahoma;
+	font-weight: bold;
+}
+
+/*
+Configuracoes para dialog modal
+*/
+.gwt-ConfirmarDialogModal {
+	border: none;
+	font-family: verdana, tahoma;
+	font-size: 10pt;
+	width: 350px;
+
+}	
+
+.gwt-ConfirmarDialogModal  .Caption {
+	margin-top: 10px;
+	margin-left: 5px;
+	text-color: #FFFFFF;
+	font-weight: bold;
+ }
+ 
+.gwt-PopupPanelGlass {
+	background: transparent;
+	background-color: #2F4F4F;
+	filter:alpha(opacity=40, finishopacity=40, style=1);
+	opacity:.4;
+	-khtml-opacity:.4;
+}
+
+
+.gwt-ConfirmarDialogModal  .gwt-Button {
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 5px;
+  text-decoration: none;
+  font-size: small;
+  cursor: pointer;
+  cursor: hand;
+  background: url("images/hborder.png") repeat-x 0px -27px;
+  border: 1px outset #ccc;
+}
+.gwt-ConfirmarDialogModal .gwt-Button:active {
+  border: 1px inset #ccc;
+}
+.gwt-ConfirmarDialogModal .gwt-Button:hover {
+  border-color: #9cf #69e #69e #7af;
+}
+.gwt-ConfirmarDialogModal .gwt-Button[disabled] {
+  cursor: default;
+  color: #888;
+}
+.gwt-ConfirmarDialogModal .gwt-Button[disabled]:hover {
+  border: 1px outset #ccc;
+}
+ 
+.gwt-ConfirmarDialogModal  .dialogContent {
+}
+
+.gwt-ConfirmarDialogModal  .dialogTopLeft { 
+	background: url(../images/orkut-top-left.png) no-repeat;
+	padding-left: 12px;
+	height: 33px;
+	width: 17px;
+}
+.gwt-ConfirmarDialogModal  .dialogTopLeftInner { }
+.gwt-ConfirmarDialogModal  .dialogTopCenter {
+	vertical-align: top;
+	background: url(../images/orkut-top-center.png) repeat-x;
+	height: 33px;
+	width: 15px;
+}
+.gwt-ConfirmarDialogModal  .dialogTopCenterInner { }
+.gwt-ConfirmarDialogModal  .dialogTopRight {
+	background: url(../images/orkut-top-right.png) no-repeat;
+	padding-right: 18px;
+	height: 33px;
+	width: 19px;
+}
+.gwt-ConfirmarDialogModal  .dialogTopRightInner {  }
+.gwt-ConfirmarDialogModal  .dialogMiddleLeft {  
+	background: url(../images/orkut-center-left.png) repeat-y;
+	height: 26px;
+	width: 17px;
+}
+.gwt-ConfirmarDialogModal  .dialogMiddleLeftInner { }
+.gwt-ConfirmarDialogModal  .dialogMiddleCenter { 
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+.gwt-ConfirmarDialogModal  .dialogMiddleCenterInner {  }
+.gwt-ConfirmarDialogModal  .dialogMiddleRight { 
+	background: url(../images/orkut-center-right.png) repeat-y;
+	height: 26px;
+	width: 19px;
+}
+.gwt-ConfirmarDialogModal  .dialogMiddleRightInner {  }
+.gwt-ConfirmarDialogModal  .dialogBottomLeft { 
+	background: url(../images/orkut-bottom-left.png) no-repeat;
+	height: 22px;
+	width: 17px;
+}
+.gwt-ConfirmarDialogModal  .dialogBottomLeftInner {  }
+.gwt-ConfirmarDialogModal  .dialogBottomCenter {  
+	background: url(../images/orkut-bottom-center.png) repeat-x;
+	height: 22px;
+	width: 15px;
+}
+.gwt-ConfirmarDialogModal  .dialogBottomCenterInner {  }
+.gwt-ConfirmarDialogModal  .dialogBottomRight { 
+	background: url(../images/orkut-bottom-right.png) no-repeat;
+	height: 22px;
+	width: 19px;
+}
+.gwt-ConfirmarDialogModal  .dialogBottomRightInner {  }
+
+
+/*
+Configurações para gwt-AssistenteNovoImovel
+*/
+
+.gwt-AssistenteNovoImovel {
+	width: 720px;
+}
+
+.gwt-AssistenteNovoImovel .gwt-Button {
+	margin-top:10px;
+	margin-left: 5px;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #000000;
+}
+
+.gwt-AssistenteNovoImovel h3 {
+	line-height: 30pt;;
+}
+
+.gwt-AssistenteNovoImovel .gwt-TextBox{
+	max-width: 525px;
+}
+.gwt-AssistenteNovoImovel .gwt-TextArea{
+	width: 512px;
+	height: 120px;
+}
+
+.gwt-AssistenteNovoImovel .gwt-Label{
+	vertical-align: top;
+}
+
+/*
+Configurações para gwt-AbstractWizard
+*/
+.gwt-AbstractWizard .gwt-Button {
+	margin-top:10px;
+	margin-left: 5px;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #000000;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AbstractWizard .gwt-FormComposite {
+	width: 931px;
+	height: 360px;
+	}
+
+.gwt-AbstractWizard h2 {
+	font-size: 16pt;
+	font-family: verdana;
+	font-weight: bold;
+	}
+
+.gwt-AbstractWizard h3 {
+	font-size: 14pt;
+	font-family: verdana;
+	font-weight: bold;
+	}
+/*
+Configurações para composites de filtro
+*/
+.gwt-AbstractFiltro{
+	border: 1px dotted black;
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+}
+
+.gwt-AbstractFiltro-ImovelIDFiltro h3 {
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: tahoma, verdana;
+}
+
+.gwt-AbstractFiltro-ImovelIDFiltro{
+	width: 200px;
+	border-bottom: 1px dotted black;
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 3px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: tahoma, verdana;
+	text-transform: capitalize;
+}
+
+.gwt-AbstractFiltro-ImovelFiltro {
+	border-bottom: 1px dotted black;
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 3px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: tahoma, verdana;
+}
+
+.gwt-AbstractFiltro-ImovelFiltro h3 {
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: tahoma, verdana;
+}
+
+.gwt-AbstractFiltro-ImovelFiltro .gwt-Label{
+	line-height: 14pt;
+}
+
+/*
+Configurações para AnuncioGrid do Patrocinador
+*/
+.gwt-AnuncioGridPatrocinadorOficial {
+	background-color: #fff6ba;
+	border: 1px solid #e7b507;
+	margin-top: 5px;
+	padding-left: 5px;
+	}
+	
+.gwt-AnuncioGridPatrocinadorOficial img {
+	border: 2px solid black;
+	width: 200px;
+	height: 150px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGridPatrocinadorOficial .gwt-imgpo {
+	border: none;
+	width: 168px;
+	height: 49px;
+}
+
+.gwt-AnuncioGridPatrocinadorOficial .gwt-hpinfo .gwt-Label {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 10pt;
+	font-family: verdana;
+	color: #000080;
+	line-height: 10pt;
+}
+
+.gwt-AnuncioGridPatrocinadorOficial .gwt-lblAnuncio {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12pt;
+	font-family: verdana;
+	text-transform: uppercase;
+	color: #000080;
+	line-height: 12pt;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGridPatrocinadorOficial .gwt-imginfo {
+	border: none;
+	width: 48px;
+	height: 48px;
+}
+
+.gwt-AnuncioGridPatrocinadorOficial .gwt-imghome {
+	border: none;
+	width: 48px;
+	height: 48px;
+}
+
+.gwt-AnuncioGridPatrocinadorOficial .gwt-agpo-descritivo img {
+	border: none;
+	width: 287px;
+	height: 31px;
+}
+
+.gwt-AnuncioGridPatrocinadorOficial .gwt-agpo-descritivo .gwt-Label {
+	width: 510px;
+	padding-left: 5px;
+	line-height: 16pt;
+}
+/*
+Configurações para AnuncioGrid do Patrocinador
+*/
+.gwt-AnuncioGridColaboradorOficial {
+	background-color: #fff6ba;
+	border: 1px solid #e7b507;
+	margin-top: 5px;
+	padding-left: 5px;
+	}
+	
+.gwt-AnuncioGridColaboradorOficial img {
+	border: 2px solid black;
+	width: 200px;
+	height: 150px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGridColaboradorOficial .gwt-imgpo {
+	border: none;
+	width: 168px;
+	height: 49px;
+}
+
+.gwt-AnuncioGridColaboradorOficial .gwt-hpinfo .gwt-Label {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 10pt;
+	font-family: verdana;
+	color: #000080;
+	line-height: 10pt;
+}
+
+.gwt-AnuncioGridColaboradorOficial .gwt-lblAnuncio {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12pt;
+	font-family: verdana;
+	text-transform: uppercase;
+	color: #000080;
+	line-height: 12pt;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGridColaboradorOficial .gwt-imginfo {
+	border: none;
+	width: 48px;
+	height: 48px;
+}
+
+.gwt-AnuncioGridColaboradorOficial .gwt-imghome {
+	border: none;
+	width: 48px;
+	height: 48px;
+}
+
+.gwt-AnuncioGridColaboradorOficial .gwt-agpo-descritivo img {
+	border: none;
+	width: 287px;
+	height: 31px;
+}
+
+.gwt-AnuncioGridColaboradorOficial .gwt-agpo-descritivo .gwt-Label {
+	width: 510px;
+	padding-left: 5px;
+	line-height: 16pt;
+}
+
+
+/*
+Configurações para Componente Indivializado AnuncioGrid
+*/
+.gwt-AnuncioGrid {
+	border-top: 1px dotted black;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 15px;
+}
+
+.gwt-AnuncioGrid td {
+	height: 12pt;
+	padding-top: 3px;
+}
+
+.gwt-AnuncioGrid img {
+	border: 2px solid black;
+	width: 200px;
+	height: 150px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGrid-header {
+	padding-left: 3px;
+	border: 1px dashed black;
+	width: 720px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: tahoma, verdana;
+	text-transform: uppercase;
+	line-height: 36px;
+	text-align: center;
+	background-color: #F5DEB3;
+	color: #000080;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGrid-header-local {
+	font-weight: bold;
+	font-size: 8pt;
+	font-family: tahoma, verdana;
+	text-transform: Capitalize;
+	background-color: #F5DEB3;
+	width: 100%;
+	color: #000080;
+	line-height: 10pt;
+}
+
+.gwt-AnuncioGrid-maisdetalhes img {
+	width: 16px;
+	height: 16px;
+	border: none;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGrid-maisdetalhes .gwt-Label {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AnuncioGrid-rodape {
+	padding-left: 3px;
+	border: 1px dashed black;
+	width: 720px;
+	font-weight: bold;
+	font-size: 10pt;
+	line-height: 25pt;
+	vertical-align: middle;
+	font-family: tahoma, verdana;
+	text-transform: Capitalize;
+	background-color: #F5DEB3;
+}
+
+.gwt-AnuncioGrid-descritivo .gwt-Label {
+	width: 510px;
+	padding-left: 5px;
+	line-height: 16pt;
+}
+
+/*
+Configurações para gwt-AnuncioUltimoCadastrado
+*/
+
+.gwt-AnuncioUltimoCadastrado {
+	width: 570px;
+	border-bottom: 1px dashed black;
+}
+/*
+Configurações para gwt-AnuncioListaPaginadaNaoEncontrado
+*/
+.gwt-AnuncioListaPaginadaNaoEncontrado {
+	width: 680px;
+	background-color: #F5DEB3;
+	border: 1px dashed black;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-right: 3px;
+	padding-bottom: 15px;
+}
+
+.gwt-AnuncioListaPaginadaNaoEncontrado-header {
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: tahoma, verdana;
+	text-transform: Uppercase;
+	background-color: #F5DEB3;
+	width: 100%;
+	text-align: center;
+	color: #000080;
+	line-height: 20pt;
+}
+
+
+/*
+Configurações para AutoAjudaWidget
+*/
+.gwt-AutoAjudaWidget {
+}
+
+.gwt-AutoAjudaWidget .gwt-TextBox {
+font-family: Tahoma; 
+font-size: 10pt; 
+}
+
+.gwt-AutoAjudaWidget td{
+}
+
+/*
+Configurações de estilo para Amigos FormComposite
+*/
+.gwt-AbstractEditPanel .gwt-AmigosFormComposite {
+vertical-align:top;
+background:#ebf3ff;
+border-top:1px solid #d8d8d8;
+padding:3px 6px 4px 6px;
+border: 1 solid #000000;
+height: 100px;
+width: 900px;
+}
+
+.gwt-AbstractEditPanel .gwt-AmigosFormComposite .gwt-TextBox{
+font-family: Tahoma; 
+font-size: 10pt; 
+}
+
+.gwt-AbstractEditPanel .gwt-AmigosFormComposite .gwt-Label {
+font-family: Tahoma; 
+font-size: 10pt; 
+}
+
+.gwt-AbstractEditPanel .gwt-AmigosFormComposite td {
+height: 16pt;
+}
+
+/*
+Configurações de estilo para FormComposite de resposta de thread
+*/
+.gwt-trfc .gwt-TextArea:hover{
+	background: #ffffff; border:1px solid #990000;
+}
+
+.gwt-trfc .gwt-TextArea:focus{
+	background: #FAFC89;
+}
+
+.gwt-trfc   .gwt-TextArea{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 95%;
+	height: 100px;
+    color: #797979;
+	border-radius:4px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+/*
+Configurações de estilo para FormComposite de pergunta de thread
+*/
+.gwt-tfnpfc .gwt-TextArea:hover{
+	background: #ffffff; border:1px solid #990000;
+}
+
+.gwt-tfnpfc .gwt-TextArea:focus{
+	background: #FAFC89;
+}
+
+.gwt-tfnpfc   .gwt-TextArea{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 95%;
+	height: 100px;
+    color: #797979;
+	border-radius:4px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+
+/*
+Configurações de estilo para FormComposite
+*/
+.gwt-FormComposite, .gwt-tfnpfc {
+	width: 900px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    background: #f0f0f0;
+    overflow:auto;
+ 
+    /* Border style */
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+ 
+    /* Border Shadow */
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+
+}
+.gwt-FormComposite .gwt-ListBox{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    color: #797979;
+	border-radius:4px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.gwt-FormComposite .gwt-ListBox:hover{
+	background: #ffffff; border:1px solid #990000;
+}
+.gwt-FormComposite .gwt-ListBox:focus{
+	background: #FAFC89;
+}
+
+.gwt-FormComposite .gwt-TextBox{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 300px;
+    color: #797979;
+	border-radius:4px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.gwt-FormComposite .gwt-TextBox:hover{
+	background: #ffffff; border:1px solid #990000;
+}
+.gwt-FormComposite .gwt-TextBox:focus{
+	background: #FAFC89;
+}
+
+.gwt-FormComposite .gwt-DateBoxWidget{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    color: #797979;
+	border-radius:4px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.gwt-FormComposite .gwt-DateBoxWidget:hover{
+	background: #ffffff; border:1px solid #990000;
+}
+.gwt-FormComposite .gwt-DateBoxWidget:focus{
+	background: #FAFC89;
+}
+
+.gwt-FormComposite .gwt-TextArea{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 500px;
+    color: #797979;
+	border-radius:4px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.gwt-FormComposite .gwt-TextArea:hover{
+	background: #ffffff; border:1px solid #990000;
+}
+
+.gwt-FormComposite .gwt-TextArea:focus{
+	background: #FAFC89;
+}
+
+.gwt-FormComposite .gwt-Label {
+    font-family: Arial, Verdana;
+    text-shadow: 3px 3px 3px #ccc;
+	font-size: 9pt;
+	margin-left: 3px;
+	min-width: 100px;
+}
+
+.gwt-FormComposite td {
+	height: 16pt;
+}
+
+.gwt-FormComposite .gwt-Button {
+	 float: right; margin-left:15px;
+    margin:10px 55px 10px 0;
+    font-weight: bold;
+    line-height: 1;
+    padding: 6px 10px;
+    cursor:pointer;
+    color: #fff;
+ 
+    text-align: center;
+    text-shadow: 0 -1px 1px #64799e;
+ 
+    /* Background gradient */
+    background: #a5b8da;
+    background: -moz-linear-gradient
+       (top, #a5b8da 0%, #7089b3 100%);
+    background: -webkit-gradient
+       (linear, 0% 0%, 0% 100%,
+       from(#a5b8da), to(#7089b3));
+ 
+    /* Border style */
+    border: 1px solid #5c6f91;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+ 
+    /* Box shadow */
+    -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
+    -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+    box-shadow: inset 0 1px 0 0 #aec3e5;
+
+}
+
+.gwt-FormComposite .gwt-PasswordTextBox{
+	font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #b9bdc1;
+    width: 200px;
+    color: #797979;
+	border-radius:4px;
+	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+.gwt-FormComposite .gwt-PasswordTextBox:hover{
+	background: #ffffff; border:1px solid #990000;
+}
+.gwt-FormComposite .gwt-PasswordTextBox:focus{
+	background: #FAFC89;
+}
+	
+/*
+Configurações para componente AutoAjudaPopupPanel
+*/
+.gwt-AutoAjudaPopupPanel {
+}
+
+.gwt-AutoAjudaPopupPanel div {
+	padding: 2px 2px 2px 2px;
+	border: 1px black solid; 
+	background-color:#ebf3ff;
+	font-family: "tahoma", sans-serif;
+	font-size: 8pt;
+}
+
+/*
+Configurações padrões para o DateBox
+*/
+.gwt-DateBox {
+	border: 1px solid black;
+}
+.gwt-DateBox .dateBoxPopup {}
+.gwt-DateBox .dateBoxFormatError {}
+
+/*
+Configurações padrões para o DatePicker
+*/
+.gwt-DatePicker {
+   border: 1px solid #ccc;
+   border-top:1px solid #999;
+   cursor: default;
+}
+.gwt-DatePicker td,
+.datePickerMonthSelector td:focus {
+   outline: none;
+}
+.datePickerMonthSelector td:focus {
+   outline: none;
+}
+.datePickerDays {
+   width: 100%;
+   background: white;
+}
+.gwt-DatePicker .datePickerMonth {
+	width: 180px;
+	text-align: center;
+}
+
+.datePickerDay,
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+   font-size: 85%;
+   text-align: center;
+   padding: 4px;
+   outline: none;
+   font-weight:bold;
+   color:#333;
+   border-right: 1px solid #EDEDED;
+   border-bottom: 1px solid #EDEDED;
+}
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+   background: #fff;
+   padding: 0px 4px 2px;
+   cursor: default;
+   color:#666;
+   font-size:70%;
+   font-weight:normal;
+}
+.datePickerDay {
+   padding: 4px 7px;
+   cursor: hand;
+   cursor: pointer;
+}
+.datePickerDayIsWeekend {
+   background: #f7f7f7;
+}
+.datePickerDayIsFiller {
+   color: #999;
+   font-weight:normal;
+}
+.datePickerDayIsValue {
+   background: #d7dfe8;
+}
+.datePickerDayIsDisabled {
+   color: #AAAAAA;
+   font-style: italic;
+}
+.datePickerDayIsHighlighted {
+   background: #F0E68C;
+}
+.datePickerDayIsValueAndHighlighted {
+   background: #d7dfe8;
+}
+.datePickerDayIsToday {
+   padding: 3px;
+   color: #00f;
+	border:solid 1px #ff9932;
+}
+.datePickerMonthSelector {
+   width: 100%;
+   padding: 1px 0 5px 0;
+   background: #fff;
+}
+.datePickerPreviousButton,
+.datePickerNextButton {
+   font-size: 120%;
+   line-height: 1em;
+   color: #3a6aad;
+   cursor: hand;
+   cursor: pointer;
+   font-weight: bold;
+   padding: 0px 4px;
+   outline: none;
+}
+
+/************************************************************
+Configuracoes default para classes gwt
+
+Todos os primaryStyle serao definidos com estas configuracoes
+Basta fazer a sobrecarga dos comsndos CSS
+*************************************************************/
+
+.gwt-ListBox { 
+	}
+
+.gwt-CheckBox {
+	}
+	
+.gwt-PasswordTextBox {
+	}
+		
+.gwt-TextArea {
+	}
+	
+/************************************************************
+ CSS para AnuncioUltimoCadastrado
+*************************************************************/
+.gwt-AnuncioUltimoCadastrado {
+	border: 0px none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}	
+
+.gwt-AnuncioUltimoCadastrado div {
+	}	
+
+.gwt-AnuncioUltimoCadastrado .gwt-Label {
+	padding-left: 5px;
+	cursor:pointer;cursor:hand;
+	}	
+
+.gwt-AnuncioUltimoCadastrado img {
+	cursor:pointer;cursor:hand;
+	}	
+
+/************************************************************
+ CSS para Situação de pagamento
+*************************************************************/
+.gwt-FormComposite .gwt-plano {
+	font-family: "verdana", sans-serif;
+	font-size: 16px;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	
+.gwt-FormComposite .gwt-datas {
+	font-family: "verdana", sans-serif;
+	font-size: 16px;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	
+.gwt-FormComposite .gwt-status {
+	font-family: "verdana", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-color: #FF0000;
+	}
+	
+.gwt-FormComposite .gwt-valor {
+	font-family: "verdana", sans-serif;
+	font-size: 16px;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-color: #1E90FF;
+}
+
+/************************************************************
+ CSS para Chat
+*************************************************************/
+.gwt-Chat .gwt-chat-panel {
+	font-family: "verdana", sans-serif;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	margin-left: 2px;
+	}
+	
+.gwt-Chat .gwt-chat-img-panel {
+	border: none;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-right: 2px;
+	}
+	
+.gwt-Chat .gwt-chat-img {
+	border: 1px solid #000000;
+	}
+	
+.gwt-Chat .gwt-chat-html {
+	border: 1px solid #51524e;
+	background-color: #F5DEB3;
+	padding: 5px 5px 5px 5px;
+	margin-left: 15px;
+	}
+	
+.gwt-Chat .gwt-chat-imgborder {
+	position:relative;
+	top: 5px;
+	left: 17px;
+	}
+
+.gwt-Chat .gwt-chat-titulo {
+	font-family: "verdana", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	position:relative;
+	top: 5px;
+	left: 40px;
+	}
+	
+.gwt-Chat .gwt-chat-data-post {
+	font-family: "tahoma", sans-serif;
+	font-size: 9px;
+	position:relative;
+	top: 5px;
+	left: 40px;
+	}
+
+/************************************************************
+ CSS para gwt-AbstractSuperPanel 
+*************************************************************/
+.gwt-AbstractSuperPanel {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-right: 2px;
+	}
+	
+.gwt-AbstractSuperPanel .gwt-asp-fechar {
+	position:absolute;
+	left:50%;
+	cursor: pointer;
+    cursor: hand;
+	}
+	
+/************************************************************
+ CSS para AbstractFoto
+*************************************************************/
+.gwt-AbstractFoto {
+	border: 1px solid black;
+	}	
+
+.gwt-AbstractFoto div {
+	}	
+	
+/************************************************************
+ CSS para Perfil do Anunciante
+*************************************************************/
+.gwt-pcfc {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    background: #f0f0f0;
+    overflow:auto;
+ 
+    /* Border style */
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+ 
+    /* Border Shadow */
+    -moz-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+.gwt-pcfc h2 {
+    background: #f0f0f0;
+	text-align: center;
+	width: 200px;
+	border: none;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}	
+
+.gwt-pcfc .gwt-FotoPerfil img {
+	border: 1px solid black;
+	margin-top: 2px;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	}
+	
+/************************************************************
+ CSS para AbstractToolbar
+*************************************************************/
+.gwt-AbstractToolbar {
+	padding-left: 20px;
+	border: 0px none;
+	cursor: pointer;
+    cursor: hand;
+	}	
+
+.gwt-AbstractToolbar .gwt-TextBox {
+	}	
+
+.gwt-AbstractToolbar .gwt-Label {
+	font-family: "verdana", sans-serif;
+	font-size: 9px;
+	vertical-align: bottom;
+	padding-left: 10px;
+	padding-right: 10px;
+	}	
+	
+.gwt-AbstractToolbar .gwt-Image {
+	padding-left: 10px;
+	padding-right: 10px;
+	}	
+
+/************************************************************
+ CSS para Notificacao
+*************************************************************/
+.gwt-AreaNotificacao-warning {
+	border: 2px solid #FFA500;
+	background-color: #F4A460;
+	cursor: pointer;
+  cursor: hand;
+}
+
+.gwt-AreaNotificacao-warning .gwt-Label{
+	width: 764px;
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+
+.gwt-AreaNotificacao-warning img {
+	width: 16px;
+	height: 16px;
+}
+
+.gwt-AreaNotificacao-info {
+	border: 2px solid #4169E1;
+	background-color: #B0E0E6;
+}
+
+.gwt-AreaNotificacao-info .gwt-Label{
+	width: 764px;
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+
+.gwt-AreaNotificacao-info img {
+	width: 16px;
+	height: 16px;
+}
+.gwt-AreaNotificacao-erro {
+	border: 2px solid #FF0000;
+	background-color: #FFF8D9;
+}
+
+.gwt-AreaNotificacao-erro .gwt-Label{
+	width: 764px;
+	font-family: Tahoma;
+	font-size: 12pt;
+	text-color: #FF0000;
+}
+
+.gwt-AreaNotificacao-erro img {
+	width: 16px;
+	height: 16px;
+}
+
+/************************************************************
+ CSS para AbstractEditPanel
+*************************************************************/
+.gwt-AbstractEditPanel {
+	width: 100%;
+	}	
+
+.gwt-AbstractEditPanel .gwt-TextBox {
+	}	
+
+.gwt-AbstractEditPanel .gwt-Label {
+	}	
+	
+.gwt-AbstractEditPanel .gwt-Image {
+	}	
+
+.gwt-AbstractEditPanel .gwt-TextArea {
+	}	
+
+
+
+/************************************************************
+ CSS Componente LabeledCheckBox
+*************************************************************/
+.gwt-labeledCheckBox {
+	width: auto;
+	height:35px;
+	}
+	
+.gwt-labeledCheckBox .gwt-Label {
+	}
+	
+.gwt-labeledCheckBox .gwt-CheckBox {
+	vertical-align: top;
+	}
+
+
+/************************************************************
+ CSS para galeria de fotos (REFORMULANDO)
+*************************************************************/
+.galeria {
+	border: 0px none;
+	width: 500px;
+	}
+
+.galeria .carrosel {
+	min-width: 400px;
+	}
+	
+.galeria img {
+	vertical-align: middle;
+	}
+
+	
+/************************************************************
+ CSS para porta retrato (REFORMULANDO)
+*************************************************************/
+
+.porta-retrato {
+	padding: 3px;
+	border: 0px none;
+	width: 157px;
+	cursor: pointer;
+  	cursor: hand;
+	}
+	
+.porta-retrato .gwt-image {
+	border: 2px black solid;
+	height: 103px;
+	width: 155px;
+	}	
+	
+.porta-retrato .gwt-label {
+	font-size: 10px;
+	border: 0px none;
+	width:100%;
+	text-align: center;
+	
+	}	
+
+/************************************************************
+ CSS para console de administracao (REFORMULANDO)
+*************************************************************/
+.gwt-windowpanel-header {
+	border: 0px none;
+	width: 785px;
+	}
+	
+.gwt-AbstractMenu { 
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: verdana;
+	text-transform: capitalize;
+	color: #000080;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.gwt-AbstractMenu .gwt-TabBar{
+}
+	
+.gwt-AbstractMenu .gwt-TabBarFirst {
+}
+
+.gwt-AbstractMenu .gwt-TabBarRest {
+}
+  
+.gwt-AbstractMenu .gwt-TabBarItem {
+	padding-left: 5px;
+	padding-right: 5px;	
+ }
+
+.gwt-AbstractMenu .gwt-TabBarItem-wrapper {
+}
+	 
+.gwt-AbstractMenu .gwt-TabBarItem-selected { 
+	border: 1px solid #00BFFF;
+	background-color: #00BFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.gwt-AbstractMenu .gwt-TabBarItem-wrapper-selected { }
+
+/************************************************************
+ CSS para o formulario de imovel (REFORMULADO)
+*************************************************************/
+.form-imovel {
+	width: 620px;
+	}
+
+/************************************************************
+ CSS para o formulario de cliente (REFORMULADO)
+*************************************************************/
+.form-cliente {
+	width: 620px;
+	}
+
+/************************************************************
+ CSS para o painel de login administrativo
+*************************************************************/
+.gwt-LoginFormComposite {
+	padding-top: 20px;
+	padding-left: 10px;
+	}
+
+.gwt-LoginFormComposite .gwt-Label {
+	max-width: 280px;
+	cursor: pointer;
+	cursor: hand;
+}	
+	
+	
+.gwt-LoginFormComposite h2 {
+	font-size: 12pt;
+	font-family: verdana;
+	font-weight: bold;
+	line-height: 16pt;
+	}
+
+.gwt-LoginFormComposite td {
+	height: 20pt;
+	}
+	
+/************************************************************
+ CSS para logo dinamico
+*************************************************************/
+.gwt-LogoDinamicoFormComposite {
+	background-color: #FFFFFF;
+	}
+
+.gwt-LogoDinamicoFormComposite td {
+	border: none;
+	}
+
+/************************************************************
+ CSS para avaliacao do anuncio da ficha do imovel
+*************************************************************/
+
+.gwt-AvaliacaoAnuncioImovelFormComposite {
+	padding-left: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	background-color: #000000;
+	}
+	
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-windowpanel{
+	width: 300px;
+	}
+	
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-Button {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 5px;
+	width: 100%;
+	height: 30px;
+	background-color: #FFD700;
+	cursor: pointer;
+	cursor: hand;
+	}
+	
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-classificador img {
+	cursor: pointer;
+	cursor: hand;
+	}
+	
+.gwt-AvaliacaoAnuncioImovelFormComposite  .gwt-AreaNotificacao-warning {
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 2px solid #FFA500;
+	background-color: #F4A460;
+	cursor: pointer;
+  cursor: hand;
+}
+
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-warning .gwt-Label{
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-warning img {
+	width: 16px;
+	height: 16px;
+}
+
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-info {
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 2px solid #4169E1;
+	background-color: #B0E0E6;
+}
+
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-info .gwt-Label{
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-info img {
+	width: 16px;
+	height: 16px;
+}
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-erro {
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 2px solid #FF0000;
+	background-color: #FFF8D9;
+}
+
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-erro .gwt-Label{
+	font-family: Tahoma;
+	font-size: 12pt;
+	text-color: #FF0000;
+}
+
+.gwt-AvaliacaoAnuncioImovelFormComposite .gwt-AreaNotificacao-erro img {
+	width: 16px;
+	height: 16px;
+}	
+		
+/************************************************************
+ CSS para a grid de local e classificacao
+*************************************************************/
+.gwt-LocalizacaoFormComposite .gwt-Button { 
+	border: 2px #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 5px;
+	width: 100%;
+	height: 30px;
+	background-color: #FFD700;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.grid-local .gwt-labeledCheckBox .gwt-CheckBox {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.grid-local .gwt-Label {
+	width: 85px;
+	text-align: left;
+	margin-left: 3px; 
+}
+
+.grid-classificacao .gwt-Label {
+	width: 85px;
+	text-align: left;
+	margin-left: 3px;
+}
+
+.grid-classificacao  .gwt-labeledCheckBox .gwt-CheckBox {
+	cursor: pointer;
+	cursor: hand;
+}
+
+/************************************************************
+ CSS para o painel de depoimentos na pagina principal do site
+*************************************************************/
+.ar-pnl-depoimento {
+	max-width: 300px;
+	padding: 2px 2px 2px 2px;
+	border: 0px none;
+	}
+	
+.ar-pnl-depoimento .ladoEAST_WEST{
+	width: 50px;
+	vertical-align: middle;
+	}
+
+	
+.ar-pnl-depoimento .gwt-TextBox {
+	border: 1px solid;
+	border-color: #696 #696 #696 #696; 	
+	}
+
+.ar-pnl-depoimento .gwt-Button {
+	height: 25px;
+	width: 100px;
+	padding: 5px;
+	color:#050; 
+	font: bold 84%; 
+	background-color:#fed; 
+	border:1px solid; 
+	border-color: #696 #363 #363 #696; 	
+	
+	}
+	
+.ar-pnl-depoimento .gwt-TextArea {
+	height: 100px;
+	margin-bottom: 5px;
+		
+	}
+	
+.ar-pnl-depoimento .gwt-Label { 
+	height: 25px;
+	
+	}
+
+.ar-pnl-depoimento .msgretorno {
+	width: 100%;
+	height: 25px;
+	background-color: red; 
+	border:1px solid; 
+	border-color: #696 #363 #363 #696; 	
+	vertical-align: middle;
+	}
+
+.ar-pnl-depoimento .depoimentoCenter {
+	width: 100%;
+	height: 200px;
+	}
+
+.ar-pnl-depoimento .depoimentoNome {
+	width: 100%;
+	height: 30px;
+	}
+
+#ar-corpo-default {
+	width:930px;
+	margin:0px auto;
+	margin-top:0px;
+	padding:10px 5px 15px 5px;
+	font-family:verdana;
+	font-size:12px;
+	background:#fff;
+	border-left:5px solid #fff;
+	border-right:5px solid #fff;
+	}
+
+#ar-fichaimovel {
+	width:930px;
+	margin:0px auto;
+	margin-top:0px;
+	padding:10px 5px 15px 5px;
+	font-family:verdana;
+	font-size:12px;
+	background:#fff;
+	border-left:5px solid #fff;
+	border-right:5px solid #fff;
+	}
+	
+.ar-photo-gallery-tb {
+	width: 225px;
+	height: 169px;
+	padding: 5px 5px 5px 5px;
+	background: #333333;
+	border-left:5px solid #fff;
+	border-right:5px solid #fff;
+	border-bottom: 5px solid #fff;
+	border-top: 5px solid #fff;
+	}	
+
+.ar-photo-gallery-mi {
+	width: 70px;
+	height: 53px;
+	padding: 5px 5px 5px 5px;
+	background: #333333;
+	border-left:5px solid #fff;
+	border-right:5px solid #fff;
+	border-bottom: 5px solid #fff;
+	border-top: 5px solid #fff;
+	}	
+	
+.ar-menu-ficha-imovel {
+	padding: 5px 5px 5px 5px;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	}	
+
+
+.ar-container-ficha-imovel {
+	border: 0px solid #FFFFFF;
+	width: 550px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 30px;
+	line-height: 20px;
+	}	
+
+.ar-titulo-ficha-imovel {
+	width: 550px;
+	height: 32px;
+	vertical-align: top;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 30px;
+	}	
+
+.ar-grid {
+	width: 170px;
+	height: 16px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+	}	
+
+.ar-container-fi-bullet-titulo {
+	width: 640px;
+	height: 16px;
+	vertical-align: top;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	}	
+
+.ar-container-fi-bullet-titulo img {
+	width: 16px;
+	background: url(../images/bullet_ball_green.png) left no-repeat; 
+	}
+
+.ar-separador-fi {
+	height: 2px;
+	width: 550px;
+	background: url(../images/dots_content.gif) repeat-x; 
+	}
+
+.ar-separador-liuf {
+	height: 2px;
+	width: 700px;
+	background: url(../images/dots_content.gif) repeat-x; 
+	}
+
+.ar-divisa {
+	width: 3px;
+	height: auto;
+	}
+
+.ar-divisa img {
+	background: url(../images/dots_content.gif) repeat-y; 
+	}
+	
+#fca-id-container {
+	width: 400px;
+	height: auto;
+	background: #fff;
+	border: 1px solid #000000;
+	line-height: 20px;
+	padding: 5px;
+	}
+		
+#ar-fca-cabecalho {
+	width: 400px;
+	background: #3e3e3e;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	line-height: 30px;
+	}
+			
+#ar-fca-cabecalho .gwt-Label {
+	text-align: center;
+	font-weight: bold;
+	}
+
+#ar-fca-corpo {
+	width: 400px;
+	}
+
+#ar-fca-corpo .gwt-TextArea {
+	width: 385px;
+	height:100px;
+	}
+
+#ar-fca-corpo .gwt-ListBox {
+	width: 60px;
+	}
+
+#ar-fca-corpo .gwt-Label {
+	min-width: 150px;
+	text-align: right;
+	}
+
+#ar-fca-corpo .gwt-TextBox {
+	min-width: 230px;
+	}
+
+#ar-fca-corpo div {
+	padding: 5px;
+	}
+
+#ar-fca-corpo .ar-label-fca-corpo-tratar-com {
+	text-align: left;
+	}
+
+#ar-fca-corpo .ar-tbx-fca-corpo-ddd {
+	width: 50px;
+	}
+
+#ar-fca-corpo .ar-tbx-fca-corpo-fone {
+	width: 100px;
+	}
+
+#ar-fca-corpo .ar-lstbx-fca-corpo-uf {
+	width: 160px;
+	}
+#ar-fca-corpo .ar-lstbx-fca-corpo-mes {
+	width: 100px;
+	}
+	
+#ar-liuf-corpo {
+	padding: 5px 5px 5px 5px;
+	width: 700px;
+	border: 0px solid #000000;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 20px;
+	}
+
+#ar-liuf-corpo div {
+	padding: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+	}
+
+#ar-liuf-corpo .ar-liuf-pn-foto {
+    	height: 200px;
+	border: 0px solid #000000;
+	}
+	
+.ar-liuf-pn-foto img {
+	max-width: 225px;
+	max-height: 169px;
+	border: 0px solid #000000;
+	padding: 3px 3px 3px 3px;
+	margin-top: 3px;
+	margin-left: 3px;
+	}
+	
+#ar-liuf-corpo .ar-liuf-mais-detalhes {
+	}	
+
+#ar-liuf-corpo .ar-liuf-titulo {
+	width: 700px;
+	background-color: #bacded;
+	font-color: #ffffff ;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	}
+
+.ar-liuf-titulo div {
+	padding: 3px 3px 3px 3px;
+	}
+
+#ar-liuf-lado-esquerdo {
+	width: 200px;
+	max-width: 200px;
+	border: 0px solid #000000;
+	margin-left:5px;
+	}
+
+#ar-liuf-lado-esquerdo div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+
+
+
+	

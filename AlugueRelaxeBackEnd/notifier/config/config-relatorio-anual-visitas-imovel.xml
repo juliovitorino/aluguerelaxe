@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<spammer-config>
+
+	<!-- Descreva aqui o subject do e-mail -->
+	<assunto>${TSPI_TAG_IFC_NOME_1}, Imóvel Ref.#${TSPI_TAG_IFC_TEXTO_LIVRE_1} - Relatório de visitas do ano ${TSPI_TAG_IFC_TEXTO_LIVRE_16}</assunto>
+	
+	<!-- Template html para ser enviado durante o processo -->
+	<template>c:/Users/Julio/Resources/AlugueRelaxeResources/spammer/templates/template-relatorio-anual-visitas-imovel.html</template>
+
+	<!-- lista xml contendo os e-mails para contatos -->
+	<catalogo>C:/Users/Julio/Resources/AlugueRelaxeResources/spammer/mailing/mailing-relatorio-anual-visitas-imovel.xml</catalogo>
+
+	<!-- lista de publicadores da mensagem -->
+	<publicador nome="Administrador" email="aluguerelaxe@aluguerelaxe.com.br"/>
+
+	<!-- Lista de smtp mail servers local ou na VM a serem utilizados no processo -->
+	<servidorEmail nome="smtp.aluguerelaxe.com.br" porta="25" contaAutenticacao="aluguerelaxe@aluguerelaxe.com.br"/> <!-- Windows 7 -->
+	
+	<!--
+	<servidorEmail nome="smtp.saturno.com.br" porta="25">
+	<servidorEmail nome="smtp.pluto.com.br" porta="25">
+	-->
+
+	<!-- lista dos imóveis que terão suas informações enviadas durante o spammer -->
+	<fichaImovel>
+		<id>61</id>
+	</fichaImovel>
+</spammer-config>

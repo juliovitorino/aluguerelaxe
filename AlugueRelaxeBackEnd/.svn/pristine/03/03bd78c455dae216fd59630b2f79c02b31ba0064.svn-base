@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;"><p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+              Ol&aacute; ${NOME_ANUNCIANTE}, (E-mail para simples confer&ecirc;ncia e anu&ecirc;ncia)</strong></font></p>
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Seu im&oacute;vel <strong>#${ID_IMOVEL}</strong> foi visitado no AlugueRelaxe.com.br, a pessoa interessada reside em ${CIDADE_PROPOSTO} - ${UF_PROPOSTO}. Ele(a) preencheu o formul&aacute;rio de contato com o anunciante do
+            AlugueRelaxe.com.br.<br/>
+           </font>
+           </p>  
+
+ 			<p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">Em breve a Central de Apoio ao Anunciante entrar&aacute; em contato com 
+			voc&ecirc; para solicitar sua aprova&ccedil;&atilde;o para negociar os valores da temporada com o preposto.<br/></font>
+           </p>
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Segue abaixo algumas das informa&ccedil;&otilde;es que foram preenchidas no AlugueRelaxe.com.br:
+           </font>
+           </p>  
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            <strong>Nome do proposto:&nbsp;</strong> ******************* <br/>
+            <strong>Contato pelo E-mail:&nbsp;</strong>***********<br/>
+            <strong>Telefone:&nbsp;</strong> (**) ****-****<br/>
+            <strong>Cidade:&nbsp;</strong> ${CIDADE_PROPOSTO}<br/>
+            <strong>UF:&nbsp;</strong> ${UF_PROPOSTO}<br/>
+            <strong>Data de Chegada Prevista:&nbsp;</strong> ${CHEGADA_PREVISTA_PROPOSTO}<br/>
+            <strong>Data de Partida Prevista:&nbsp;</strong> ${PARTIDA_PREVISTA_PROPOSTO}<br/>
+            <strong>Quantidade de Adultos:&nbsp;</strong> ${ADULTOS_PROPOSTO}<br/>
+            <strong>Quantidade de Crian&ccedil;as:&nbsp;</strong> ${CRIANCAS_PROPOSTO}<br/><br/>
+           </font>
+           </p>  
+
+		   
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Por favor, mantenha seus dados atualizados o mais rapidamente poss&iacute;vel.<br/><br/>
+            O AlugueRelaxe.com.br ir&aacute; entrar em contato com voc&ecirc; para realizarmos este neg&oacute;cio.
+           </font>
+           </p>  
+
+			<p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Um Grande Abraço,<br/>
+			Júlio Vitorino<br/>
+			Administrador do AlugueRelaxe<br/>
+			<a href="http://www.aluguerelaxe.com.br">http://www.aluguerelaxe.com.br</a>
+           </font>
+			</p>		   
+              
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>

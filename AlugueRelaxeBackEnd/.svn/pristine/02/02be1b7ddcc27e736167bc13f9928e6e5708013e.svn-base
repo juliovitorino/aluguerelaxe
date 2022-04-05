@@ -1,0 +1,10 @@
+<Proxy balancer://cluster stickysession=JSESSIONID>
+BalancerMember ajp://192.168.0.10:8009 min=10 max=100 route=node1 loadfactor=1
+BalancerMember ajp://192.168.0.10:8019 min=20 max=200 route=node2 loadfactor=1
+BalancerMember ajp://192.168.0.10:8029 min=30 max=300 route=node3 loadfactor=1
+</Proxy>
+
+ProxyPass /m balancer://cluster/m
+ProxyPass /arweb balancer://cluster/arweb
+ProxyPass /contratos balancer://cluster/contratos
+ProxyPass /stream balancer://cluster/stream

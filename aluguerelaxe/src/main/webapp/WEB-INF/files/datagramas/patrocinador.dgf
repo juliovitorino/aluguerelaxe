@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgPatrocinador
+DESCRIPTION datagrama da pagina termo de uso
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME patrocinador.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/patrocinador.html
+HOMEPAGE DEFAULT /html/hpPatrocinador.html
+DATAGRAM TYPE SAMPLE
+

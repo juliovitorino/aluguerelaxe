@@ -1,0 +1,17 @@
+/******************************************************************/
+/* TABELA FILA DE SMS                                             */
+/******************************************************************/
+CREATE TABLE FILA_SMS
+(
+	FISM_ID INTEGER NOT NULL,
+	FISM_TX_CELULAR VARCHAR(11) NOT NULL,
+	FISM_TX_MSG VARCHAR(140) NOT NULL,
+	FISM_IN_QUEUED VARCHAR(1) DEFAULT 'N' CHECK(FISM_IN_QUEUED IN ('S','N'))  NOT NULL,
+	FISM_DT_QUEUED TIMESTAMP,
+	FISM_DT_CADASTRO TIMESTAMP DEFAULT CURRENT_TIMESTAMP  NOT NULL,
+	CONSTRAINT PK_FISM_ID
+		PRIMARY KEY(FISM_ID)
+);
+
+CREATE GENERATOR SEQ_FISM_ID;
+SET GENERATOR SEQ_FISM_ID TO 1000;

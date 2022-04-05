@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+#
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgStartAlugueRelaxe
+DESCRIPTION datagrama de carga da pagina principal
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME startAlugueRelaxe.dgf
+HTMLERROR /html/errodefault.html
+HOMEPAGE DEFAULT /html/hpPortalAlugueRelaxe.html
+CREATE SESSION
+DATAGRAM TYPE SAMPLE
+

@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;"><p>
+             <font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+              Ol&aacute;&nbsp;${CLIENTE},</strong></font></p>
+              
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+			Hoje seu im&oacute;vel foi visitado, mas infelizmente o cliente não conseguiu visualizar nenhuma imagem dele.
+			E, realmente constatamos em nossas base de dados que sua galeria de imagens para o im&oacute;vel abaixo est&aacute; vazia.<br/><br/> 
+			Propriedade #<b>${ID_IMOVEL}</b><br/>
+			T&iacute;tulo: <b>${TITULO_IMOVEL}</b></font></p>
+
+			<p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2"> 
+			Pedimos que regularize as imagens o mais rapidamente poss&iacute;vel, pois, refor&ccedil;amos afirmar que os im&oacute;veis mais
+			procurados e por consequ&ecirc;ncia os mais alugados s&atilde;o os que possuem imagens.</font></p>
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Atenciosamente,<br/>
+            Equipe do AlugueRelaxe.com.br
+           </font>
+           </p>  
+
+		   
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>

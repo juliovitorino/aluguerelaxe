@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+</head>
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="550">
+  <tbody>
+  <tr>
+    <td height="40" bgcolor="#ffffff" style="border: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;"><p align="left">
+    
+    </p><table border="0" width="173">
+        <tbody>
+            <tr>
+                  <td>
+                         <span style="padding: 5px;">
+                              <a target="_blank" href="http://www.aluguerelaxe.com.br/">
+                              <img hspace="10" height="112" border="0" width="443" vspace="10" src="http://www.aluguerelaxe.com.br/alugue_relaxe.png" alt="AlugueRelaxe!"/>
+                              </a>
+                         </span>
+                  </td>
+        </tr>
+      </tbody>
+      </table>
+      </td>
+  </tr>
+  
+  
+  <tr>
+    <td bgcolor="#ffffff" style="border-left: 1px solid rgb(179, 188, 191); border-right: 1px solid rgb(179, 188, 191); border-bottom: 1px solid rgb(179, 188, 191); padding: 5px; text-align: left;">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tbody>
+         <tr>
+        <td><a name="1276b8cd405961d7_j1"/></td><td bgcolor="#f0f0f0" style="padding: 10px;"><p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2"><strong>
+              Sr. AlugueRelaxe,</strong></font></p>
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Segue abaixo o depoimento do internauta ${NOME_PROPOSTO} enviado pelo site.<br/>
+           </font>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            <strong>Depoimento digitado:</strong><br/>
+            ${DEPOIMENTO}<br/>
+           </font>
+           </p>  
+           
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Por favor, realize a verifica&ccedil;&atilde;o do conte&uacute;do digitado pelo proposto e se n&atilde;o contiver 
+            nenhum conte&uacute;do impr&oacute;prio, clique em uma das op&ccedil;&otilde;es abaixo:
+           </font>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            <a href="${LINK_LIBERAR_DEPOIMENTO}">Sim, este depoimento pode ser liberado.</a>.
+           </font>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            <a href="${LINK_REPROVAR_DEPOIMENTO}">N&atilde;o, este depoimento cont&eacute;m conte&uacute;do impr&oacute;prio. Elimine j&aacute;!</a>
+           </font>
+           </p>  
+
+           <p><font face="Arial, Helvetica, sans-serif" color="#000000" size="2">
+            Atenciosamente,<br/>
+            Equipe do AlugueRelaxe.com.br
+           </font>
+           </p>  
+              
+        </td>
+        </tr>
+    </tbody></table></td>
+  </tr>
+  
+</tbody>
+</table>
+
+</body>
+</html>

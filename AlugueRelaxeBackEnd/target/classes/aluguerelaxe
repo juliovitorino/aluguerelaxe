@@ -1,0 +1,127 @@
+#
+# Atualizado em 03 de Agosto de 2012
+#
+# nome do arquivo de configuracao: aluguerelaxe
+# path do configurador: /var/spool/cron/crontabs
+#
+# Formato do configurador do cron
+# [minutos] [horas] [dias do mes] [mes] [dias da semana] [comando]
+#
+# A linha eh dividida em 6 campos separados por tabs ou espaco:
+# Campo Funcao
+# 1o.   Minuto (0-59)
+# 2o.   Hora (0-23)
+# 3o.   Dia do mes (1-31)
+# 4o.   Mes (1-12)
+# 5o.   Dia da semana (0-6) [ 0 - domingo, 1 - segunda, ... ]
+# 6o.   Programa para execucao - comando formato *nix para ser executado
+#
+#
+# saudacoes de aniversario no facebook
+#00 9 * * * fbcmd WALLPOST =bday "Feliz Aniversario. De coracao te desejo muita saude e felicidade. Deus te abencoe sempre. :-D"
+
+# backup do SVN
+30 1 * * 0 /home/aluguerelaxe/scriptShell/backup-svn.sh AlugueRelaxe
+30 2 * * 0 /home/aluguerelaxe/scriptShell/backup-svn.sh JCVFramework
+30 3 * * 0 /home/aluguerelaxe/scriptShell/backup-svn.sh JCVLabs
+30 4 * * 0 /home/aluguerelaxe/scriptShell/backup-svn.sh MavenAR
+30 5 * * 0 /home/aluguerelaxe/scriptShell/backup-svn.sh Particular
+30 6 * * 0 /home/aluguerelaxe/scriptShell/backup-svn.sh SmartInterfaces
+30 1 4 * * /home/aluguerelaxe/scriptShell/backup-svn.sh Sigem
+30 1 4 * * /home/aluguerelaxe/scriptShell/backup-svn.sh Metodologias
+
+# extrair telefones de sites concorrentes
+*/2 * * * * /home/aluguerelaxe/scriptShell/extract-fone.sh
+
+# recupera uma lista dos anuncios com poucas imagens e envia e-mail ao proprietario avisando
+#00 9 1 * * /home/aluguerelaxe/scriptShell/criarMailingList.sh anuncio-menos-8-fotos.sql anuncio-menos-8-fotos
+#30 9 1 * * /home/aluguerelaxe/Robots/Spammer.sh config-galeria-fotos-imcompleta
+
+# recupera uma lista dos anuncios sem atualizacao ha mais de 90 dias e envia e-mail ao proprietario avisando
+#00 9 1 * * /home/aluguerelaxe/scriptShell/criarMailingList.sh anuncios-sem-atualizar-90.sql anuncios-sem-atualizar-90
+#30 9 1 * * /home/aluguerelaxe/Robots/Spammer.sh config-anuncios-sem-atualizar-90
+
+#Processa arquivos de mailing com base nas SQLs as 2:00am nos respectivos meses
+00 2 * 1 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-jan.sql mailing-ani-jan
+00 2 * 2 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-fev.sql mailing-ani-fev
+00 2 * 3 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-mar.sql mailing-ani-mar
+00 2 * 4 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-abr.sql mailing-ani-abr
+00 2 * 5 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-mai.sql mailing-ani-mai
+00 2 * 6 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-jun.sql mailing-ani-jun
+00 2 * 7 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-jul.sql mailing-ani-jul
+00 2 * 8 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-ago.sql mailing-ani-ago
+00 2 * 9 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-set.sql mailing-ani-set
+00 2 * 10 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-out.sql mailing-ani-out
+00 2 * 11 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-nov.sql mailing-ani-nov
+00 2 * 12 * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-aniversario-dez.sql mailing-ani-dez
+
+00 2 * * * /home/aluguerelaxe/scriptShell/criarMailingList.sh clientes-ativos-ar.sql mailing-clientes-ativos-ar
+
+#Envia e-mails para aniversariantes dos meses Jan @ Dez, toda 1o. dia do mes e toda a terca-feira as 6:00am
+00 6 1  1 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-jan-venus
+00 6 1  2 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-fev-venus
+00 6 1  3 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-mar-venus
+00 6 1  4 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-abr-venus
+00 6 1  5 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-mai-venus
+00 6 1  6 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-jun-venus
+00 6 1  7 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-jul-venus
+00 6 1  8 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-ago-venus
+00 6 1  9 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-set-venus
+00 6 1 10 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-out-venus
+00 6 1 11 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-nov-venus
+00 6 1 12 2 /home/aluguerelaxe/Robots/Spammer.sh config-ani-dez-venus
+
+#Limpar a base de emails em MySQL
+00 16 * * * /home/aluguerelaxe/scriptShell/delete-pommo-subscriber.sh
+
+#Envia mailing full. Inicia em 2:35h do dia 12 todo mes (ciclo atual deste mailing = 40 dias - monitorar)
+#06 0 16 * * /home/aluguerelaxe/Robots/Spammer.sh config-mailing-full-ON-reverso-venus
+
+# executa check dos e-mails invalidos de 15 em 15 min
+#0-59/15 * * * * /home/aluguerelaxe/Robots/emails-invalidos.sh
+
+# executa a cada 55min o download dos e-mails da conta info@aluguerelaxe.com.br e sua respectiva limpeza
+#*/55 * * * * getmail --rcfile getmailrc
+
+# Envia para meu email particular a quantidade de linhas extraidas as 21:00h
+#00 21 * * * wc -l /home/aluguerelaxe/temp/ar-emails-invalidos.log | mail -s "[venus] qtde de linhas emails invalidos" julio.vitorino@ig.com.br
+59 23 * * * uptime | mail -s "[venus] tempo de uptime" julio.vitorino@ig.com.br
+
+# Execucao de jobs SQL
+00 0,12 * * * isql-fb -q -i /home/aluguerelaxe/scriptSQL/eventos_working.sql | mail -s "[venus] Eventos em estado Working (W)" julio.vitorino@ig.com.br
+
+#envia a crontab para o email para manter uma copia
+50 11 * * 6 crontab -l | mail -s "[venus] agenda cron para aluguerelaxe" julio.vitorino@ig.com.br
+
+#envia SMS com o status do servidor
+00 7,12,17,21 * * * echo "`uptime` SMS from $HOSTNAME" | gsmsendsms -d /dev/ttyUSB0 -C +553191938200 -b 19200 2492753073
+
+#rodar robots
+*/5 * * * * /home/aluguerelaxe/Robots/sms-filler.sh
+30 2 * * * /home/aluguerelaxe/Robots/pp.sh
+30 4 * * * /home/aluguerelaxe/Robots/pd.sh
+00 1 * * * /home/aluguerelaxe/Robots/negativador-anuncios.sh
+00 6 * * * /home/aluguerelaxe/Robots/verify-clientes-pendentes.sh
+00 6 * * * /home/aluguerelaxe/Robots/verify-assinantes-pendentes.sh
+00 6 * * * /home/aluguerelaxe/Robots/verify-anuncios-pagos-avencer.sh
+00 6 * * * /home/aluguerelaxe/Robots/verify-anuncios-gratis-avencer.sh
+00 2 * * * /home/aluguerelaxe/Robots/renew-pp.sh
+00 1 * * * /home/aluguerelaxe/Robots/renew-pd.sh
+00 3 * * * /home/aluguerelaxe/Robots/renew-ff.sh
+45 23 * * * /home/aluguerelaxe/Robots/purge-clientes-pendentes72h.sh
+45 23 * * * /home/aluguerelaxe/Robots/purge-assinantes-pendentes.sh
+00 4 * * * /home/aluguerelaxe/Robots/lock-anuncios-pendentes-vencidos.sh
+00 4 * * * /home/aluguerelaxe/Robots/lock-anuncios-pagos-vencidos.sh
+00 4 * * * /home/aluguerelaxe/Robots/lock-anuncios-gratis-vencidos.sh
+00 5 * * * /home/aluguerelaxe/Robots/upd-saldo-patrocinador.sh
+00 5 * * * /home/aluguerelaxe/Robots/upd-saldo-ff.sh
+00 1 * * * /home/aluguerelaxe/Robots/verify-publicidades-dentro-prazo-pa.sh
+00 1 * * * /home/aluguerelaxe/Robots/verify-publicidades-dentro-prazo-ff.sh
+30 4 * * * /home/aluguerelaxe/Robots/upd-atualizador-colaborador-inconsistente.sh
+
+#executa processos de fila
+30 */1 * * * /home/aluguerelaxe/scriptShell/validate-celular.sh >> /tmp/validate-celular-background.log
+*/15 8-19 * * * /home/aluguerelaxe/scriptShell/sms-sender.sh >> /tmp/sms-sender-background.log
+#00 1 * * * /home/aluguerelaxe/scriptShell/mail-sender.sh >> /tmp/mail-sender-background.log
+#00 */2 * * * /home/aluguerelaxe/scriptShell/crawler.sh >> /tmp/crawler-background.log
+*/15 * * * * /home/aluguerelaxe/scriptShell/cel-catcher.sh >> /tmp/cel-catcher-background.log

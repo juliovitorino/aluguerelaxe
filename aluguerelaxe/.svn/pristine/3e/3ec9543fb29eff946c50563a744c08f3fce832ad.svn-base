@@ -1,0 +1,18 @@
+#
+# Descritor do Smart Interface
+#
+# Julio Cesar Vitorino
+#
+
+SmartInterface Descriptor
+Version 2.0.0
+IDENTIFIED BY dtgSobre
+DESCRIPTION datagrama da caixa Sobre AlugueRelaxe!
+RETURN_LOGFILE logfile.log
+OPERATION TYPE row_id
+DATAGRAM FILENAME sobre.dgf
+HTMLERROR /html/errodefault.html
+TEMPLATE /html/sobre.html
+HOMEPAGE DEFAULT /html/hpinclude.html
+DATAGRAM TYPE SAMPLE
+
